@@ -2,7 +2,7 @@ export const person_en = {
   basics: {
     name: 'Erlich Bachman',
     label: 'CEO / Visionaire Extraordinaire',
-    picture: './erlich-bachman.jpg',
+    picture: 'https://avatars2.githubusercontent.com/u/17707427',
     email: 'erlich@piedpiper.com',
     phone: '1 (912) 555-4321',
     website: 'http://piedpiper.com',
@@ -61,31 +61,6 @@ export const person_en = {
       highlights: ['Started the company', 'killed it'],
     },
   ],
-  volunteer: [
-    {
-      organization: 'Bachmanity Food Drive',
-      position: 'Organizer',
-      website: 'http://organization.com/',
-      startDate: '2015-03',
-      endDate: '2015-03',
-      summary: 'Bachmanity Insanity, which has been hailed as the event of the century, was able to raise over 1,000 pounds of non-perishable canned goods to help the homeless of San Frnacisco who have been abandoned by tech companies. ',
-      highlights: ['1,000 pounds of food donations', 'Event of the Century'],
-    },
-    {
-      organization: 'Aviato - Soup Kitchen',
-      position: 'Organizer',
-      website: 'http://organization.com/',
-      startDate: '2008-05',
-      endDate: '2008-05',
-      summary: 'Aviatio (until its disbandment) was responsible for organizing a daily lunch for homeless employees',
-      highlights: [
-        'Organizer of the month (2008-05)',
-        'Volunteer of the month (2008-05)',
-        'Chef of the month (2008-05)',
-        'Customer of the month (2008-06)',
-      ],
-    },
-  ],
   education: [
     {
       institution: 'Berkeley College',
@@ -127,36 +102,6 @@ export const person_en = {
       ],
     },
   ],
-  awards: [
-    {
-      title: 'CEO of the month',
-      date: '2007-11-01',
-      awarder: 'Aviato',
-      summary: 'Awarded CEO of the month for excelling at "CEO-ly duties and outperforming all expectations"',
-    },
-    {
-      title: '3 months clean',
-      date: '2017-02',
-      awarder: 'Narcotics Anonymous',
-      summary: 'Awarded 3 months clean for quitting an opium-den habit',
-    },
-  ],
-  publications: [
-    {
-      name: 'Is Erlich Bachman the Dumbest Man in Tech',
-      publisher: 'Coderag',
-      releaseDate: '2016-06-22',
-      website: 'http://www.coderag.com/is-erlich-bachman-the-dumbest-man-in-tech/',
-      summary: 'CJ Cantwells feature of Erlich Bachman',
-    },
-    {
-      name: 'How Will Silicon Valley Kill Off Erlich Bachman',
-      publisher: 'Vulture',
-      releaseDate: '2017-05-31',
-      website: 'http://www.vulture.com/2017/05/silicon-valley-erlich-bachman-tj-miller.html',
-      summary: '',
-    },
-  ],
   skills: [
     {
       name: 'Incubating',
@@ -181,7 +126,7 @@ export const person_en = {
       level: '75',
       keywords: [
         "Garage Gardening: experienced at producing top quality 'produce'",
-      ],
+      ]
     },
     {
       name: 'Style',
@@ -189,14 +134,14 @@ export const person_en = {
       keywords: [
         "Clothes: black turtlenecks to maximize 'jobbiness'",
         'Kimonos: To assert power and relay awesomeness',
-      ],
+      ]
     },
     {
       name: 'Negotiation',
       level: '45',
       keywords: [
         'Aggressive: Aggressive negotiation is they key to getting what you want',
-      ],
+      ]
     },
     {
       name: 'Making Mistakes',
@@ -216,20 +161,6 @@ export const person_en = {
       keywords: ['Kickball: I lost a kickball game once in elementary school'],
     },
   ],
-  languages: [
-    {
-      name: 'English',
-      level: 'Native speaker',
-    },
-    {
-      name: 'Hexadecimal',
-      level: 'Veteran',
-    },
-    {
-      name: 'Spanish',
-      level: 'Intermediate',
-    },
-  ],
   interests: [
     {
       name: 'Wildlife',
@@ -246,22 +177,14 @@ export const person_en = {
       ],
     },
   ],
-  references: [
+  languages: [
     {
-      name: 'Jian Yang',
-      reference: "I do not respect you. You're not any kind of investor, you own nothing",
+      name: 'English',
+      level: 'Native speaker',
     },
     {
-      name: 'Jian Yang',
-      reference: "Erlich Bachman...This is you as an old man. I'm ugly and I'm dead. Alone",
+      name: 'Spanish',
+      level: 'Intermediate',
     },
-    {
-      name: 'CJ Cantwell',
-      reference: 'Bachman recently founded venture capital firm Bachmanity Capital with tech icon (soon to be legend, I’m sure) Nelson “Big Head” Bighetti, and the pair hosted a lavish launch event, aptly titled “Bachmanity Insanity.” The party, like Bachman, was loud, extravagant and a bit of a farce. It was a luau. At Alcatraz. One for which Bachman chose to pay for all liquor at retail cost, and one where he lost a giant fiberglass Tiki head at the bottom of the bay. The expenses for fire dancers, flair bartenders and exotic caterers totaled over $1 million. Bachman maintains these were “practical costs for any groundbreaking business.”',
-    },
-    {
-      name: 'CJ Cantwell',
-      reference: 'Bachmanity burned too bright, like the custom lighting at its luau and, like that lighting, the bulb burned out.',
-    },
-  ],
+  ]
 };

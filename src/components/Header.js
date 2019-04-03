@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const Header = ({categories}) => (
   <p>
     {categories.map(category => (
-      <NavLink to={"/" + (category !== "basics" ? category : "")} activeStyle={{color: 'blue'}}>{category} || </NavLink>
+      <NavLink key={"head-" + category} to={"/" + (category !== "basics" ? category : "")} activeStyle={{color: 'blue'}}>{category} || </NavLink>
     ))}
   </p>
 )
