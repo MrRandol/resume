@@ -1,4 +1,4 @@
-export const person = {
+export const person_en = {
   basics: {
     name: 'Erlich Bachman',
     label: 'CEO / Visionaire Extraordinaire',

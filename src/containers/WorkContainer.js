@@ -1,9 +1,9 @@
 import { connect } from 'react-redux'
-import Home from '../components/Home'
+import Work from '../components/Work'
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    basics: state.person.basics
+    work: state.person.work
   }
 }
 
@@ -14,4 +14,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Home)
+)(Work)

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Footer = () => (
+const Home = ({basics}) => (
   <p>
-    HOME
+    {JSON.stringify(basics)}
   </p>
 )
 
-export default Footer
+export default Home
