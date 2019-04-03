@@ -1,6 +1,6 @@
 import { Row, Card, Badge } from 'react-materialize';
 import React from 'react'
-import PropTypes from 'prop-types'
+import { educationPropType } from '../common/PropTypes'
 
 const Formation = ({formation}) => (
     <Card title={formation.institution} reveal="competences ?">
@@ -29,15 +29,7 @@ const Education = ({education}) => (
 )
 
 Education.propTypes = {
-  education: PropTypes.arrayOf(PropTypes.shape({
-    institution: PropTypes.string,
-    area: PropTypes.string,
-    studyType: PropTypes.string,
-    startDate: PropTypes.string,
-    endDate: PropTypes.string,
-    gpa: PropTypes.string,
-    courses: PropTypes.arrayOf(PropTypes.string),
-  })).isRequired
+  education: educationPropType
 }
 
 export default Education

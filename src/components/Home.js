@@ -1,6 +1,6 @@
 import { Row, Col, Button } from 'react-materialize';
 import React from 'react';
-import PropTypes from 'prop-types'
+import { basicsPropType } from '../common/PropTypes'
 
 const Home = ({basics}) => {
   const {
@@ -53,27 +53,7 @@ const Home = ({basics}) => {
 };
 
 Home.defaultProps = {
-  basics: PropTypes.shape({
-    name: PropTypes.string,
-    label: PropTypes.string,
-    picture: PropTypes.string,
-    email: PropTypes.string,
-    phone: PropTypes.string,
-    website: PropTypes.string,
-    summary: PropTypes.string,
-    location: PropTypes.shape({
-      address: PropTypes.string,
-      postalCode: PropTypes.string,
-      city: PropTypes.string,
-      countryCode: PropTypes.string,
-      region: PropTypes.string,
-    }),
-    profiles: PropTypes.arrayOf({
-      network: PropTypes.string,
-      username: PropTypes.string,
-      url: PropTypes.string,
-    })
-  })
+  basics: basicsPropType
 };
 
 export default Home;

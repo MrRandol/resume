@@ -1,6 +1,6 @@
 import { Row, Col, ProgressBar } from 'react-materialize';
-import PropTypes from 'prop-types';
 import React from 'react';
+import { skillsPropType } from '../common/PropTypes'
 
 const Skill = ({ name, level, keywords }) => {
   return (
@@ -13,16 +13,6 @@ const Skill = ({ name, level, keywords }) => {
           </div>
     </Col>
   );
-};
-
-Skill.defaultProps = {
-  keywords: [],
-};
-
-Skill.propTypes = {
-  name: PropTypes.string.isRequired,
-  level: PropTypes.string.isRequired,
-  keywords: PropTypes.arrayOf(PropTypes.string),
 };
 
 const Skills = ({ skills }) => {
@@ -44,10 +34,8 @@ Skills.defaultProps = {
   skills: [],
 };
 
-Skills.propTypes = PropTypes.arrayOf(PropTypes.shape({
-  name: PropTypes.string,
-  level: PropTypes.string,
-  keywords: PropTypes.arrayOf(PropTypes.string),
-})).isRequired;
+Skills.propTypes = {
+  skills: skillsPropType
+}
 
 export default Skills;

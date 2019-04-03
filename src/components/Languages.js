@@ -1,6 +1,6 @@
 import { Row, Card } from 'react-materialize';
 import React from 'react'
-import PropTypes from 'prop-types'
+import { languagesPropType } from '../common/PropTypes'
 
 const Language = ({language}) => (
     <Card title={language.name}>
@@ -21,10 +21,7 @@ const Languages = ({languages}) => (
 )
 
 Languages.propTypes = {
-  languages: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string,
-    level: PropTypes.string,
-  })).isRequired
+  languages: languagesPropType
 }
 
 export default Languages

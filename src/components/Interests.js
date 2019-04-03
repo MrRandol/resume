@@ -1,6 +1,6 @@
 import { Row, Card } from 'react-materialize';
-import PropTypes from 'prop-types';
 import React from 'react';
+import { interestsPropType } from '../common/PropTypes'
 
 const Interest = ({ interest }) => {
   return (
@@ -32,10 +32,7 @@ Interests.defaultProps = {
 };
 
 Interests.propTypes = {
-  interests: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string,
-    keywords: PropTypes.arrayOf(PropTypes.string),
-  })).isRequired
+  interests: interestsPropType
 }
 
 export default Interests;

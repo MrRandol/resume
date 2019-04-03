@@ -1,6 +1,6 @@
 import { Row, Card } from 'react-materialize';
 import React from 'react'
-import PropTypes from 'prop-types'
+import { workPropType } from '../common/PropTypes'
 
 const Experience = ({experience}) => (
     <Card title={experience.company} reveal="competences ?">
@@ -24,15 +24,7 @@ const Work = ({work}) => (
 )
 
 Work.propTypes = {
-  work: PropTypes.arrayOf(PropTypes.shape({
-    company: PropTypes.string,
-    position: PropTypes.string,
-    website: PropTypes.string,
-    startDate: PropTypes.string,
-    endDate: PropTypes.string,
-    summary: PropTypes.string,
-    highlights: PropTypes.arrayOf(PropTypes.string),
-  })).isRequired
+  work: workPropType
 }
 
 export default Work
