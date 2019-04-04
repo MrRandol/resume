@@ -15,7 +15,17 @@ const Home = ({basics}) => {
   } = basics
   return (
     <div className="profile row">
-      <div className="infos col s8">
+      <div className="picture col s12 m6 l6">
+        <img src={picture} alt="avatar" className="avatar circle responsive-img" />
+        <div className="social">
+          {profiles.map(profile => (
+            <i key={"social-" + profile.network}
+              className={"light-color social-icon fab fa-" + profile.network.toLowerCase()}>
+            </i>
+          ))}
+        </div>
+      </div>
+      <div className="infos col s12 m6 l6">
         <h4 className="name">
           {name}
         </h4>
@@ -35,17 +45,6 @@ const Home = ({basics}) => {
                     href={`mailto:${email}`}>
               <i className="far fa-envelope" /> {email}
             </Button>}
-        </div>
-      </div>
-
-      <div className="picture col s4">
-        <img src={picture} alt="avatar" className="avatar circle responsive-img" />
-        <div className="social">
-          {profiles.map(profile => (
-            <i key={"social-" + profile.network}
-              className={"light-color social-icon fab fa-" + profile.network.toLowerCase()}>
-            </i>
-          ))}
         </div>
       </div>
     </div>
