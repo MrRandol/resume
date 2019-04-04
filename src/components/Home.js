@@ -14,40 +14,40 @@ const Home = ({basics}) => {
     profiles
   } = basics
   return (
-    <div>
-      <Row>
-        <Col s={3}>
-          <img src={picture} alt="avatar" className="circle responsive-img" style={{ border: '10px solid rgba(0,0,0,.05)' }} />
-        </Col>
-        <Col s={9}>
-          <h4 style={{ fontSize: '50px' }}>
-            {name}
-          </h4>
-          {/*<Profiles profiles={profiles} />*/}
-          <h4 color="grey" size="large">{label}</h4>
-          <h4 color="grey" style={{ marginTop: '0px' }}>
-            {summary}
-          </h4>
-          <div>
-            {phone &&
-              <Button
-                style={{ margin: '10px' }}
-                size="tiny"
-                icon="phone"
-                content={phone}
-              />}
-            {email &&
-              <Button waves="light" style={{ margin: '10px' }} color="#333333" node="a" href={`mailto:${email}`}>
-                {email}
-              </Button>}
-            {website &&
-              <Button waves="light" style={{ margin: '10px' }} color="#333333" node="a" href={website}>
-                {website}
-              </Button>
-              }
-          </div>
-        </Col>
-      </Row>
+    <div className="profile row">
+      <div className="infos col s8">
+        <h4 className="name">
+          {name}
+        </h4>
+        <h3 className="light-color label">{label}</h3>
+        <p className="summary">{summary}</p>
+
+        <div>
+          {phone &&
+            <Button className="light-blue lighten-4" >
+              <i className="fas fa-phone" /> {phone}
+            </Button>
+          }
+          {email &&
+            <Button className="light-blue lighten-4"
+                    waves="light"
+                    node="a"
+                    href={`mailto:${email}`}>
+              <i className="far fa-envelope" /> {email}
+            </Button>}
+        </div>
+      </div>
+
+      <div className="picture col s4">
+        <img src={picture} alt="avatar" className="avatar circle responsive-img" />
+        <div className="social">
+          {profiles.map(profile => (
+            <i key={"social-" + profile.network}
+              className={"light-color social-icon fab fa-" + profile.network.toLowerCase()}>
+            </i>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

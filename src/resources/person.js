@@ -1,18 +1,18 @@
 export const person_en = {
   basics: {
-    name: 'Erlich Bachman',
-    label: 'CEO / Visionaire Extraordinaire',
+    name: 'Maxime Choffat',
+    label: 'Software Engineer',
     picture: 'https://avatars2.githubusercontent.com/u/17707427',
-    email: 'erlich@piedpiper.com',
-    phone: '1 (912) 555-4321',
+    email: 'maxime.choffat@gmail.com',
+    phone: '+336 33 56 3 25',
     website: 'http://piedpiper.com',
-    summary: '"Our whole corporate culture is that we don\'t have a corporate culture."',
+    summary: 'Loving GIS 🌍\n DevOps & Agile enthusiast 🚀\n GameDev Wannabe 🎮',
     location: {
-      address: '2712 Broadway St',
-      postalCode: '94115',
-      city: 'San Francisco',
-      countryCode: 'USA',
-      region: 'California',
+      address: '5128 rue Saint Andre',
+      postalCode: 'H2J 3A7',
+      city: 'Montreal',
+      countryCode: 'CANADA',
+      region: 'Quebec',
     },
     profiles: [
       {

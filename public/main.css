@@ -1,0 +1,59 @@
+/***********************
+    COMMON
+***********************/
+body {
+  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+  color: #333333;
+}
+
+.btn, .waves-effect {
+  margin: 10px;
+  color: #333333;
+  background: rgba(200, 200, 200, 0.7);
+  text-transform: none;
+}
+
+.btn:over, .waves-effect:over {
+  background: rgba(180, 180, 180, 0.7);
+}
+
+.light-color {
+  color: #888888
+}
+
+/***********************
+    PROFILE
+***********************/
+.profile .col {
+  text-align: right;
+  padding: 2em;
+}
+
+.profile .name {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.profile .label {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.profile .summary {
+  font-size: 2em;
+  line-height: 1.3em;
+  white-space: pre-wrap;
+}
+
+.profile .avatar {
+  border: 10px solid #b3e5fc;
+}
+
+.profile .social {
+  text-align: center;
+}
+
+.profile .social .social-icon {
+  font-size: 3.5em;
+  padding: 0.2em;
+}

@@ -1,13 +1,19 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import PropTypes from 'prop-types'
+import { Trans } from 'react-i18next';
+import { Navbar, NavItem } from 'react-materialize';
 
-const Header = ({categories}) => (
-  <p>
+
+const Header = ({t, categories}) => (
+  <Navbar className="light-blue lighten-4">
     {categories.map(category => (
-      <NavLink key={"head-" + category} to={"/" + (category !== "basics" ? category : "")} activeStyle={{color: 'blue'}}>{category} || </NavLink>
+      <NavItem
+        key={"head-" + category}
+        href={"/" + (category !== "basics" ? category : "")}>
+        <Trans>{category}</Trans>
+      </NavItem>
     ))}
-  </p>
+  </Navbar>
 )
 
 Header.propTypes = {
