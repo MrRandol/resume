@@ -2,6 +2,7 @@ import React from 'react'
 import { educationPropType } from '../common/PropTypes'
 import { Trans } from 'react-i18next';
 import CustomCard from './Utils'
+const uuidv4 = require('uuid/v4');
 
 const Formation = ({formation, color}) => (
   <CustomCard
@@ -16,10 +17,9 @@ const Formation = ({formation, color}) => (
 
 const Education = ({education, color}) => (
   <div className="education">
-    <h3 class="category-title"><Trans>education</Trans></h3>
-
+    <h3 className="category-title"><Trans>education</Trans></h3>
     {education.map(formation => (
-      <Formation formation={formation} color={color} />
+      <Formation key={"formation-"+uuidv4()} formation={formation} color={color} />
     ))}
   </div>
 )

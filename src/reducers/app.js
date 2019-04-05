@@ -1,8 +1,8 @@
 import * as colors from '../common/colors'
 
 export const defaultState = {
-  locale: "en",
-  color: colors["indigo"]
+  locale: "fr",
+  color: colors["blue_accent"]
 }
 
 const app = (state = defaultState, action) => {

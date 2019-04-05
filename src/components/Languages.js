@@ -2,6 +2,7 @@ import React from 'react'
 import { languagesPropType } from '../common/PropTypes'
 import { Trans } from 'react-i18next';
 import CustomCard from './Utils'
+const uuidv4 = require('uuid/v4');
 
 const Language = ({language, color}) => (
     <CustomCard
@@ -13,9 +14,9 @@ const Language = ({language, color}) => (
 
 const Languages = ({languages, color}) => (
   <div className="languages">
-    <h3 class="category-title"><Trans>languages</Trans></h3>
+    <h3 className="category-title"><Trans>languages</Trans></h3>
     {languages.map(language => (
-      <Language language={language} color={color} />
+      <Language key={"language-" + uuidv4()} language={language} color={color} />
     ))}
   </div>
 )

@@ -8,6 +8,8 @@ export const en = {
     "skills": "Skills",
 
     "powered_by_react" : "This page is generated using ReactJs",
-    "inspired_by_awesome_resume": "Style has been inspired by « react-awesome-resume »"
+    "inspired_by_awesome_resume": "Style has been inspired by « react-awesome-resume »",
+    "based_on_jsonresume": "Respecting schema from jsonresume"
+
   }
 }

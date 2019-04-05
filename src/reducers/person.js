@@ -1,4 +1,4 @@
-import { person_en as defaultState } from '../resources/person'
+import { person as defaultState } from '../resources/person'
 
 const person = (state = defaultState, action) => {
   switch (action.type) {

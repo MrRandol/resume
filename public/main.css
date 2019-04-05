@@ -4,6 +4,7 @@
 body {
   font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
   color: #333333;
+  background: #fbfbfb;
 }
 
 hr {
@@ -30,13 +31,24 @@ hr {
   padding-top: 2em;
 }
 
-.card {
+.custom-card {
   margin: 2em;
+  text-align: center;
+}
+
+.custom-card .summary {
+  padding: 0.5em;
+  text-align: justify;
 }
 
 .chips {
   padding-top: 0.5em;
   border: none;
+}
+
+.hightlight-chip {
+  color: #eeeeee;
+  font-weight: 550;
 }
 
 /***********************
@@ -53,6 +65,10 @@ hr {
 .profile .col {
   text-align: center;
   padding: 2em;
+}
+
+.profile .valign-wrapper {
+  flex-direction: column;
 }
 
 .profile .name {
@@ -87,10 +103,15 @@ hr {
 .skill svg {
   max-width: 3em;
 }
-/***********************
-    WORK
-***********************/
 
-.work-card .summary {
-  padding: 0.5em;
+/***********************
+    SKILLS
+***********************/
+.skills .col {
+    margin: 0.7em auto;
+}
+
+.skill p {
+  margin: 0;
+  font-weight: bold;
 }

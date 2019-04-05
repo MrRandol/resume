@@ -15,21 +15,27 @@ const Home = ({ basics, color }) => {
   } = basics
   return (
     <Row className="profile">
-      <Col className="picture" s="12" m="6" l="6">
-        <img src={picture}
-          alt="avatar"
-          className="circle responsive-img"
-          style={{border: "10px solid " + color.hex}}
-        />
-        <div className="social">
-          {profiles.map(profile => (
-            <i key={"social-" + profile.network}
-              className={"light-color social-icon fab fa-" + profile.network.toLowerCase()}>
-            </i>
-          ))}
+      <Col s={12} m={6} l={6}>
+        <div className="valign-wrapper">
+          <img src={picture}
+            alt="avatar"
+            className="circle responsive-img"
+            style={{border: "0.5em solid " + color.hex}}
+          />
+          <div className="social">
+            {profiles.map(profile => (
+              <a key={"social-" + profile.network}
+                href={profile.url} target="_blank"
+                rel="noopener noreferrer">
+                <i className={"light-color social-icon fab fa-" + profile.network.toLowerCase()}>
+                </i>
+              </a>
+            ))}
+          </div>
         </div>
       </Col>
-      <Col className="picture" s="12" m="6" l="6">
+      <Col s={12} m={6} l={6}>
+      <div className="valign-wrapper">
         <h4 className="name">
           {name}
         </h4>
@@ -56,6 +62,7 @@ const Home = ({ basics, color }) => {
                     href={`mailto:${email}`}>
               <i className="far fa-envelope" /> {email}
             </Button>}
+        </div>
         </div>
       </Col>
     </Row>

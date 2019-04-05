@@ -3,6 +3,7 @@ import React from 'react';
 import { interestsPropType } from '../common/PropTypes'
 import { Trans } from 'react-i18next';
 import CustomCard from './Utils'
+const uuidv4 = require('uuid/v4');
 
 const Interest = ({ interest, color }) => (
     <CustomCard
@@ -13,7 +14,7 @@ const Interest = ({ interest, color }) => (
           var split = keyword.split(':')
           var title = split[0]
           var summary = split[1]
-          return <Card title={title}>
+          return <Card key={"interest-" + uuidv4()} style={{background: "rgba("+color.r+","+color.g+","+color.b+", 0.1)"}} title={title}>
             {summary}
           </Card>
         })}
@@ -23,9 +24,9 @@ const Interest = ({ interest, color }) => (
 const Interests = ({ interests, color }) => {
   return (
     <div className="interets">
-      <h3 class="category-title"><Trans>interests</Trans></h3>
+      <h3 className="category-title"><Trans>interests</Trans></h3>
       {interests.map((interest, i) => (
-        <Interest interest={interest} color={color} />
+        <Interest key={"interest-" + uuidv4()} interest={interest} color={color} />
       ))}
     </div>
   );
