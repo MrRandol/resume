@@ -3,7 +3,8 @@ import Interests from '../components/Interests'
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    interests: state.person.interests
+    interests: state.person.interests,
+    color: state.app.color
   }
 }
 

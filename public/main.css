@@ -32,7 +32,6 @@ hr {
 
 .card {
   margin: 2em;
-  background: rgba(255, 219,79, 0.1);
 }
 
 .chips {
@@ -45,7 +44,7 @@ hr {
 ***********************/
 .navbar-avatar {
   max-width: 3em;
-  height: 100%;
+  max-height: 3em;
 }
 
 /***********************
@@ -70,10 +69,6 @@ hr {
   font-size: 2em;
   line-height: 1.3em;
   white-space: pre-wrap;
-}
-
-.profile .avatar {
-  border: 10px solid #ffd54f;
 }
 
 .profile .social {

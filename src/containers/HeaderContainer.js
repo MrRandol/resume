@@ -6,7 +6,8 @@ const mapStateToProps = (state, ownProps) => {
   var categories = object.keys(state.person)
   return {
     categories: categories,
-    basicsLogo: state.person.basics.picture
+    basicsLogo: state.person.basics.picture,
+    color: state.app.color
   }
 }
 

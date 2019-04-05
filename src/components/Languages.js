@@ -1,23 +1,23 @@
-import { Row, Card } from 'react-materialize';
 import React from 'react'
 import { languagesPropType } from '../common/PropTypes'
+import { Trans } from 'react-i18next';
+import CustomCard from './Utils'
 
-const Language = ({language}) => (
-    <Card title={language.name}>
-      <p>
+const Language = ({language, color}) => (
+    <CustomCard
+          title={language.name}
+          color={color}>
         {language.level}
-      </p>
-    </Card>
+    </CustomCard>
 )
 
-const Languages = ({languages}) => (
-  <p>
+const Languages = ({languages, color}) => (
+  <div className="languages">
+    <h3 class="category-title"><Trans>languages</Trans></h3>
     {languages.map(language => (
-      <Row>
-        <Language language={language} />
-      </Row>
+      <Language language={language} color={color} />
     ))}
-  </p>
+  </div>
 )
 
 Languages.propTypes = {

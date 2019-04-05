@@ -5,15 +5,15 @@ import { Navbar, NavItem } from 'react-materialize';
 
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-const Header = ({t, categories, basicsLogo}) => (
-  <Navbar className="amber lighten-2" fixed="true" options={{"edge":"left"}}>
+const Header = ({t, color, categories, basicsLogo}) => (
+  <Navbar className={color.className} fixed="true" options={{"edge":"left"}}>
     {categories.map(category => {
 
       var content = <Trans>{category}</Trans>
       if(category === "basics")
         content = <img src={basicsLogo} alt="navbar-avatar" className="navbar-avatar circle" />
 
-      return <NavItem><AnchorLink 
+      return <NavItem><AnchorLink
         key={"head-" + category}
         href={"/" + (category !== "basics" ? category : "")}>
           {content}

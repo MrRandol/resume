@@ -3,7 +3,8 @@ import Education from '../components/Education'
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    education: state.person.education
+    education: state.person.education,
+    color: state.app.color
   }
 }
 

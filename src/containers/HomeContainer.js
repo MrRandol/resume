@@ -3,7 +3,8 @@ import Home from '../components/Home'
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    basics: state.person.basics
+    basics: state.person.basics,
+    color: state.app.color
   }
 }
 

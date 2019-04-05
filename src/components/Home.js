@@ -2,7 +2,7 @@ import { Row, Col, Button } from 'react-materialize';
 import React from 'react';
 import { basicsPropType } from '../common/PropTypes'
 
-const Home = ({basics}) => {
+const Home = ({ basics, color }) => {
   const {
     name,
     label,
@@ -16,7 +16,11 @@ const Home = ({basics}) => {
   return (
     <Row className="profile">
       <Col className="picture" s="12" m="6" l="6">
-        <img src={picture} alt="avatar" className="avatar circle responsive-img" />
+        <img src={picture}
+          alt="avatar"
+          className="circle responsive-img"
+          style={{border: "10px solid " + color.hex}}
+        />
         <div className="social">
           {profiles.map(profile => (
             <i key={"social-" + profile.network}
@@ -34,12 +38,19 @@ const Home = ({basics}) => {
 
         <div>
           {phone &&
-            <Button className="amber lighten-2" >
+            <Button className={color.ClassName} >
               <i className="fas fa-phone" /> {phone}
             </Button>
           }
+          {website &&
+            <Button className={color.ClassName}
+                    waves="light"
+                    node="a"
+                    href={website}>
+              <i className="fas fa-globe" /> {website}
+            </Button>}
           {email &&
-            <Button className="amber lighten-2"
+            <Button className={color.ClassName}
                     waves="light"
                     node="a"
                     href={`mailto:${email}`}>

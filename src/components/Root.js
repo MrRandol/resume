@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Provider } from 'react-redux'
 
 import HeaderContainer from '../containers/HeaderContainer'
-import Footer from '../components/Footer'
+import FooterContainer from '../containers/FooterContainer'
 import HomeContainer from '../containers/HomeContainer'
 import WorkContainer from '../containers/WorkContainer'
 import EducationContainer from '../containers/EducationContainer'
@@ -20,7 +20,7 @@ const Root = ({ store }) => (
     <section id="education"> <EducationContainer /></section>
     <section id="interests"> <InterestsContainer /></section>
     <section id="languages"> <LanguagesContainer /></section>
-    <Footer />
+    <FooterContainer />
   </Provider>
 )
 
