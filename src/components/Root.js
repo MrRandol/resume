@@ -1,14 +1,26 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Provider } from 'react-redux'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import App from './App'
+
+import HeaderContainer from '../containers/HeaderContainer'
+import Footer from '../components/Footer'
+import HomeContainer from '../containers/HomeContainer'
+import WorkContainer from '../containers/WorkContainer'
+import EducationContainer from '../containers/EducationContainer'
+import SkillsContainer from '../containers/SkillsContainer'
+import InterestsContainer from '../containers/InterestsContainer'
+import LanguagesContainer from '../containers/LanguagesContainer'
 
 const Root = ({ store }) => (
   <Provider store={store}>
-    <Router>
-      <Route path="/:category?" component={App} />
-    </Router>
+    <HeaderContainer />
+    <section id="basics"> <HomeContainer /></section>
+    <section id="skills"> <SkillsContainer /></section>
+    <section id="work"> <WorkContainer /></section>
+    <section id="education"> <EducationContainer /></section>
+    <section id="interests"> <InterestsContainer /></section>
+    <section id="languages"> <LanguagesContainer /></section>
+    <Footer />
   </Provider>
 )
 

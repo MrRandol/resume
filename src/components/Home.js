@@ -14,8 +14,8 @@ const Home = ({basics}) => {
     profiles
   } = basics
   return (
-    <div className="profile row">
-      <div className="picture col s12 m6 l6">
+    <Row className="profile">
+      <Col className="picture" s="12" m="6" l="6">
         <img src={picture} alt="avatar" className="avatar circle responsive-img" />
         <div className="social">
           {profiles.map(profile => (
@@ -24,8 +24,8 @@ const Home = ({basics}) => {
             </i>
           ))}
         </div>
-      </div>
-      <div className="infos col s12 m6 l6">
+      </Col>
+      <Col className="picture" s="12" m="6" l="6">
         <h4 className="name">
           {name}
         </h4>
@@ -34,20 +34,20 @@ const Home = ({basics}) => {
 
         <div>
           {phone &&
-            <Button className="light-blue lighten-4" >
+            <Button className="amber lighten-2" >
               <i className="fas fa-phone" /> {phone}
             </Button>
           }
           {email &&
-            <Button className="light-blue lighten-4"
+            <Button className="amber lighten-2"
                     waves="light"
                     node="a"
                     href={`mailto:${email}`}>
               <i className="far fa-envelope" /> {email}
             </Button>}
         </div>
-      </div>
-    </div>
+      </Col>
+    </Row>
   );
 };
 

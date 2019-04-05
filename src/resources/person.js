@@ -32,6 +32,65 @@ export const person_en = {
       },
     ],
   },
+  skills: [
+    {
+      name: 'Incubating',
+      level: '95',
+      keywords: [
+        'Managing Subordinates: At [pied](./) piper we strived to meet all of our incubator needs',
+        'Evicting Jian Yang',
+      ],
+    },
+    {
+      name: 'Hex Arithmetic',
+      level: '90',
+      keywords: ['9 * F = fleventy-five'],
+    },
+    {
+      name: 'Web Development',
+      level: '37',
+      keywords: ['HTML', 'CSS', 'Javascript'],
+    },
+    {
+      name: 'Hydroponic Horticulture',
+      level: '75',
+      keywords: [
+        "Garage Gardening: experienced at producing top quality 'produce'",
+      ]
+    },
+    {
+      name: 'Style',
+      level: '60',
+      keywords: [
+        "Clothes: black turtlenecks to maximize 'jobbiness'",
+        'Kimonos: To assert power and relay awesomeness',
+      ]
+    },
+    {
+      name: 'Negotiation',
+      level: '45',
+      keywords: [
+        'Aggressive: Aggressive negotiation is they key to getting what you want',
+      ]
+    },
+    {
+      name: 'Making Mistakes',
+      level: '30',
+      keywords: ['1993: I made a mistake by thinking that I made a mistake'],
+    },
+    {
+      name: 'Being Lame',
+      level: '15',
+      keywords: [
+        'Jian Yang: This only happens when listening to his recipe for octupu',
+      ],
+    },
+    {
+      name: 'Losing',
+      level: '5',
+      keywords: ['Kickball: I lost a kickball game once in elementary school'],
+    },
+  ],
   work: [
     {
       company: 'Pied Piper',
@@ -100,65 +159,6 @@ export const person_en = {
         'ANTH 42 - Primates in a Human-Dominated World',
         'ANTH 2 - Human Origins',
       ],
-    },
-  ],
-  skills: [
-    {
-      name: 'Incubating',
-      level: '95',
-      keywords: [
-        'Managing Subordinates: At [pied](./) piper we strived to meet all of our incubator needs',
-        'Evicting Jian Yang',
-      ],
-    },
-    {
-      name: 'Hex Arithmetic',
-      level: '90',
-      keywords: ['9 * F = fleventy-five'],
-    },
-    {
-      name: 'Web Development',
-      level: '37',
-      keywords: ['HTML', 'CSS', 'Javascript'],
-    },
-    {
-      name: 'Hydroponic Horticulture',
-      level: '75',
-      keywords: [
-        "Garage Gardening: experienced at producing top quality 'produce'",
-      ]
-    },
-    {
-      name: 'Style',
-      level: '60',
-      keywords: [
-        "Clothes: black turtlenecks to maximize 'jobbiness'",
-        'Kimonos: To assert power and relay awesomeness',
-      ]
-    },
-    {
-      name: 'Negotiation',
-      level: '45',
-      keywords: [
-        'Aggressive: Aggressive negotiation is they key to getting what you want',
-      ]
-    },
-    {
-      name: 'Making Mistakes',
-      level: '30',
-      keywords: ['1993: I made a mistake by thinking that I made a mistake'],
-    },
-    {
-      name: 'Being Lame',
-      level: '15',
-      keywords: [
-        'Jian Yang: This only happens when listening to his recipe for octupu',
-      ],
-    },
-    {
-      name: 'Losing',
-      level: '5',
-      keywords: ['Kickball: I lost a kickball game once in elementary school'],
     },
   ],
   interests: [

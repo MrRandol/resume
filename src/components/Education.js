@@ -1,31 +1,36 @@
-import { Row, Card, Badge } from 'react-materialize';
+import { Row, Card, Chip } from 'react-materialize';
 import React from 'react'
 import { educationPropType } from '../common/PropTypes'
+import { Trans } from 'react-i18next';
+import CardTitle from './CardTitle'
 
 const Formation = ({formation}) => (
-    <Card title={formation.institution} reveal="competences ?">
+    <Card title={<CardTitle label={formation.institution}/>} reveal="competences ?">
       <p>
         <hr/>
         {formation.area} : {formation.studyType} <br />
         {formation.startDate} - {formation.endDate}
-        <hr/>
       </p>
-      {formation.courses.map(course => (
-        <Badge className="red">
-          {course}
-        </Badge>
-      ))}
+      <div className="chips">
+        {formation.courses.map(course => (
+          <Chip>
+            {course}
+          </Chip>
+        ))}
+      </div>
     </Card>
 )
 
 const Education = ({education}) => (
-  <p>
+  <div className="education">
+    <h3 class="category-title"><Trans>education</Trans></h3>
+
     {education.map(formation => (
       <Row>
         <Formation formation={formation} />
       </Row>
     ))}
-  </p>
+  </div>
 )
 
 Education.propTypes = {

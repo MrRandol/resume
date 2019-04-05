@@ -5,7 +5,8 @@ var object = require('lodash/fp/object');
 const mapStateToProps = (state, ownProps) => {
   var categories = object.keys(state.person)
   return {
-    categories: categories
+    categories: categories,
+    basicsLogo: state.person.basics.picture
   }
 }
 
