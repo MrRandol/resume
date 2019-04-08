@@ -14,7 +14,7 @@ export const indigo = {
   b: 203
 }
 
-export const blue_accent = {
+export const blue = {
   className: "light-blue accent-1",
   hex: "#80d8ff",
   r: 128,

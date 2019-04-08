@@ -2,7 +2,7 @@ import * as colors from '../common/colors'
 
 export const defaultState = {
   locale: "fr",
-  color: colors["blue_accent"]
+  color: colors["blue"]
 }
 
 const app = (state = defaultState, action) => {

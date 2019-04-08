@@ -10,8 +10,8 @@ const Formation = ({formation, color}) => (
         highlights={formation.courses}
         color={color}>
       <hr/>
-      {formation.area} : {formation.studyType} <br />
-      {formation.startDate} - {formation.endDate}
+      <Trans>{formation.area}</Trans> : <Trans>{formation.studyType}</Trans> <br />
+      {formation.startDate} - <Trans>{formation.endDate}</Trans>
   </CustomCard>
 )
 

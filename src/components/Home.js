@@ -1,6 +1,7 @@
 import { Row, Col, Button } from 'react-materialize';
 import React from 'react';
 import { basicsPropType } from '../common/PropTypes'
+import { Trans } from 'react-i18next';
 
 const Home = ({ basics, color }) => {
   const {
@@ -39,24 +40,24 @@ const Home = ({ basics, color }) => {
         <h4 className="name">
           {name}
         </h4>
-        <h3 className="light-color label">{label}</h3>
-        <p className="summary">{summary}</p>
+        <h3 className="light-color label"><Trans>{label}</Trans></h3>
+        <p className="summary"><Trans>{summary}</Trans></p>
 
         <div>
           {phone &&
-            <Button className={color.ClassName} >
+            <Button className={color.className} >
               <i className="fas fa-phone" /> {phone}
             </Button>
           }
           {website &&
-            <Button className={color.ClassName}
+            <Button className={color.className}
                     waves="light"
                     node="a"
                     href={website}>
               <i className="fas fa-globe" /> {website}
             </Button>}
           {email &&
-            <Button className={color.ClassName}
+            <Button className={color.className}
                     waves="light"
                     node="a"
                     href={`mailto:${email}`}>

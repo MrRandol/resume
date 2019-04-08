@@ -4,8 +4,8 @@ export const person = {
     label: 'software_engineer',
     picture: 'https://avatars2.githubusercontent.com/u/17707427',
     email: 'maxime.choffat@gmail.com',
-    phone: '+336 33 56 3 25',
-    website: 'http://piedpiper.com',
+    phone: '+33 6 33 56 3 25',
+    website: 'http://TOOO.com',
     summary: 'my_summary',
     location: {
       address: '5128 rue Saint Andre',
@@ -154,11 +154,6 @@ export const person = {
       keywords: []
     },
     {
-      name: "Linux",
-      level: "42",
-      keywords: []
-    },
-    {
       name: "webServer_ElasticSearch",
       level: "42",
       keywords: []
@@ -192,7 +187,12 @@ export const person = {
       name: "devTool_Git",
       level: "42",
       keywords: []
-    }
+    },
+    {
+      name: "Linux",
+      level: "42",
+      keywords: []
+    },
   ],
   work: [
     {
@@ -207,11 +207,11 @@ export const person = {
         'tool_SonarQube',
         'tool_Nexus',
         'tool_Atlassian (Jira, Bitbucket, Confluence)',
-        'framework_Nginx',
-        'framework_Ansible',
-        'framework_Git',
-        'framework_Maven',
-        'framework_Gradle',
+        'webServer_Nginx',
+        'devTool_Ansible',
+        'devTool_Git',
+        'devTool_Maven',
+        'devTool_Gradle',
         'softSkill_Agile',
         'softSkill_DevOps',
         'softSkill_Analysis',
@@ -221,80 +221,154 @@ export const person = {
       ],
     },
     {
-      company: 'ING (Nalys)',
-      position: 'software_engineer',
-      website: 'http://piedpiper.com',
-      startDate: '2017-01',
+      company: 'Nalys',
+      position: 'internal_cluster_build',
+      website: 'https://www.nalys-group.com/en/home',
+      startDate: '2018-06',
       endDate: '2018-08',
-      summary: 'ing_nalys_summary',
+      summary: 'nalys_internal_summary',
       highlights: [
-
-      ],
+        'tool_Jenkins',
+        'tool_SonarQube',
+        'tool_Nexus',
+        'tool_Gitlab',
+        'tool_Jira',
+        'tool_Kubernetes',
+        'devTool_Docker',
+        'devTool_Git',
+        'devTool_Maven',
+        'devTool_Gradle',
+        'softSkill_Agile',
+        'softSkill_Devops'
+      ]
     },
     {
-      company: 'Pied Piper',
-      position: 'CEO',
+      company: 'ING (Nalys)',
+      position: 'release_engineer',
       website: 'http://piedpiper.com',
-      startDate: '2013-01-01',
-      endDate: '2014-01-01',
-      summary: 'Lorem ipsum dolor sit amet, meliore minimum percipitur ne per, eos lobortorquatos contentiones cu. Vero assum viris ne ius, ne mollis disputando mel. Ex senserit iracundia nec. Tale oblique mea id, exerci delenit no usu. Id vix cetero verear. Cu eum paulo platonem.Eum quem prodesset no, sit id tollit tamquam veritus. At vis novum dolorum. An usudolor habemus conclusionemque, mei ei mazim sententiae, diam commodo assentior melid. Et commune efficiendi ullamcorper eos, ad his atqui commodo.',
-      highlights: ['Started the company', 'killed it'],
+      startDate: '2017-06',
+      endDate: '2018-06',
+      summary: 'nalys_ing_summary',
+      highlights: [
+        'tool_Jenkins',
+        'tool_SonarQube',
+        'tool_Artifactory',
+        'tool_Gitlab',
+        'tool_Jira',
+        'tool_Conluence',
+        'tool_TFS',
+        'devTool_Git',
+        'devTool_Maven',
+        'devTool_Gradle',
+        'softSkill_Agile',
+        'softSkill_Devops'
+      ]
     },
+    {
+      company: 'GIM (Nalys)',
+      position: 'developer_devops_coach',
+      website: 'https://www.gim.be/en',
+      startDate: '2017-02',
+      endDate: '2017-05',
+      summary: 'nalys_ing_summary',
+      highlights: [
+        'language_JavaScript',
+        'language_Java',
+        'framework_OpenLayers',
+        'tool_Jenkins',
+        'tool_Nexus',
+        'tool_Gitlab',
+        'devTool_Git',
+        'devTool_Maven',
+        'devTool_Docker',
+        'webServer_Nginx',
+        'webServer_Geoserver',
+        'webServer_Wildfly',
+        'softSkill_Agile',
+        'softSkill_Devops',
+        'softSkill_SIG',
+        'softSkill_Training',
+      ]
+    },
+    {
+      company: 'Worldline',
+      position: 'project_manager',
+      website: 'https://worldline.com/',
+      startDate: '2016-12',
+      endDate: '2015-07',
+      summary: 'worldline_project_manager_summary',
+      highlights: [
+      ]
+    },
+    {
+      company: 'Worldline',
+      position: 'application_manager',
+      website: 'https://worldline.com/',
+      startDate: '2012-09',
+      endDate: '2015-06',
+      summary: 'worldline_application_manager_summary',
+      highlights: [
+      ]
+    },
+    {
+      company: 'Worldline',
+      position: 'flex_developper',
+      website: 'https://worldline.com/',
+      startDate: '2012-02',
+      endDate: '2012-08',
+      summary: 'worldline_flex_summary',
+      highlights: [
+      ]
+    },
+    {
+      company: 'Captive Studio',
+      position: 'web_developper',
+      website: 'https://www.captive.fr/',
+      startDate: '2010-08',
+      endDate: '2011-02',
+      summary: 'captive_studio_summary',
+      highlights: [
+      ]
+    }
   ],
   education: [
     {
-      institution: 'Berkeley College',
-      area: 'Software Development',
-      studyType: 'B.S. in Computer Science (incompleted)',
-      startDate: '2005-08',
-      endDate: '2006-01',
-      gpa: '4.0 (presumed)',
+      institution: 'UTBM (Université de Technologie de Belfort Montbéliard), France',
+      area: 'utbm_area',
+      studyType: 'utbm_studytype',
+      startDate: '2007-09',
+      endDate: '2012-06',
+      gpa: '0.0',
       courses: [
-        'CS289A - Intro to Machine Learning',
-        'EECS 126 - Probability and Random Processes',
-        'CS C100 - Principles & Techniques of Data Science.',
+        'education_english_course'
       ],
     },
     {
-      institution: 'Reed College',
-      area: 'Software Development',
-      studyType: 'Bachelor (incomplete)',
+      institution: 'Lycée Saint André - Colmar, France',
+      area: 'st_andre_area',
+      studyType: 'st_andre_studytype',
       startDate: '2003-08',
       endDate: '2004-05',
-      gpa: '2.7',
+      gpa: '0.0',
       courses: [
-        'DB1101 - Basic SQL',
-        'JS 087 - Javascript Fundamentals',
-        'CS 095 - Advanced HTML',
+        'education_mention_bac',
+        'education_spe_math'
       ],
-    },
-    {
-      institution: 'Hampshire College',
-      area: 'Anthropology',
-      studyType: 'Bachelor (incomplete)',
-      startDate: '2003-05',
-      endDate: '2002-08',
-      gpa: '2.5',
-      courses: [
-        'ANTH 87 - Freshman Seminar',
-        'ANTH 42 - Primates in a Human-Dominated World',
-        'ANTH 2 - Human Origins',
-      ],
-    },
+    }
   ],
   interests: [
     {
-      name: 'Wildlife',
+      name: 'Hobbies',
       keywords: [
-        'Ferrets: More of a hatred than an interest, ferrets are  detrimental to society and any neighbors who would dare to keep them among people are evil',
-        'California Varmint Laws: California penal code says that is is illegal to keep ferrets',
+        'hobby_high_tech',
+        'hobby_travel',
       ],
     },
     {
-      name: 'Japanese Culture',
+      name: 'Sport',
       keywords: [
-        '切腹: the act of falling on ones sword in shame',
-        'おみやげ: giving of gifts to incubees and other people who have earned my respect',
+        'sport_fencing',
+        'sport_judo',
       ],
     },
   ],
