@@ -8,6 +8,7 @@ const Formation = ({formation, color}) => (
   <CustomCard
         title={formation.institution}
         highlights={formation.courses}
+        logo={formation.logo}
         color={color}>
       <hr/>
       <Trans>{formation.area}</Trans> : <Trans>{formation.studyType}</Trans> <br />

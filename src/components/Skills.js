@@ -43,7 +43,6 @@ const Skills = ({ skills }) => {
       <Collapsible>
         {_.keys(groupedSkills).map((groupName) => {
           var groupSkills = groupedSkills[groupName]
-          console.log(JSON.stringify(categoriesStyle[groupName]))
           return <CollapsibleItem key={"skills-group-" + uuidv4()}
                   header={collapsibleHeader(categoriesStyle[groupName], groupName)}>
             <Row>

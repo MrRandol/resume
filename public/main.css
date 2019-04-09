@@ -34,6 +34,20 @@ hr {
 .custom-card {
   margin: 2em;
   text-align: center;
+  position: relative;
+}
+
+.custom-card-logo {
+  position: absolute;
+  max-height: 50px;
+  max-width: 150px;
+  top: 24px;
+  left: 24px;
+}
+@media only screen and (max-width: 1026px) {
+    #.custom-card-logo {
+        display: none;
+    }
 }
 
 .custom-card .summary {

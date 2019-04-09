@@ -7,6 +7,7 @@ const uuidv4 = require('uuid/v4');
 const Language = ({language, color}) => (
     <CustomCard
           title={language.name}
+          logo={language.logo}
           color={color}>
         {language.level}
     </CustomCard>

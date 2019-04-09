@@ -9,6 +9,7 @@ const Experience = ({experience, color}) => (
     title={experience.company}
     extraTitle=<Trans>{experience.position}</Trans>
     highlights={experience.highlights}
+    logo={experience.logo}
     color={color}>
       <span className="light-color">
         <i className="far fa-calendar-alt" /> {experience.startDate} / <Trans>{experience.endDate}</Trans>

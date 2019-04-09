@@ -9,6 +9,7 @@ const uuidv4 = require('uuid/v4');
 const Interest = ({ interest, color }) => (
     <CustomCard
           title=<Trans>{interest.name}</Trans>
+          logo={interest.logo}
           color={color}>
         <hr/>
 
