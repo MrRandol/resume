@@ -1,5 +1,5 @@
-export const en = {
-  translation: {
+{
+  "translation": {
     "basics": "Home",
     "work": "Work",
     "education": "Education",

@@ -7,7 +7,8 @@ const mapStateToProps = (state, ownProps) => {
   return {
     categories: categories,
     basicsLogo: state.person.basics.picture,
-    color: state.app.color
+    color: state.app.color,
+    changeLocaleCallback: ownProps.changeLocaleCallback
   }
 }
 

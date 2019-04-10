@@ -89,6 +89,39 @@ hr {
   max-height: 3em;
 }
 
+.nav-wrapper .language-button,
+.sidenav .language-button {
+  width: 2.5em;
+  height: 2.5em;
+  background-size: 2.5em 2.5em;
+  border: none;
+  color: transparent;
+  cursor: pointer;
+}
+
+.nav-wrapper .language-button {
+  position: absolute;
+  right: 24px;
+  bottom: -20px;
+  margin-top: -2px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.sidenav .language-button {
+  padding: 0;
+  margin-left: 2em;
+}
+
+.language-button.french {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png);
+}
+
+.language-button.english {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1920px-Flag_of_the_United_Kingdom.svg.png);
+}
+
+
 /***********************
     FOOTER
 ***********************/

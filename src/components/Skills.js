@@ -44,7 +44,8 @@ const Skills = ({ skills }) => {
         {_.keys(groupedSkills).map((groupName) => {
           var groupSkills = groupedSkills[groupName]
           return <CollapsibleItem key={"skills-group-" + uuidv4()}
-                  header={collapsibleHeader(categoriesStyle[groupName], groupName)}>
+                  header={collapsibleHeader(categoriesStyle[groupName], groupName)}
+                  className="hoverable">
             <Row>
               {groupSkills.map((j, i) => (
                 <Skill

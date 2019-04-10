@@ -1,6 +1,5 @@
-export const fr = {
-  translation: {
-    // Categories
+{
+  "translation": {
     "basics": "Accueil",
     "work": "Expérience",
     "education": "Formation",
@@ -8,16 +7,12 @@ export const fr = {
     "languages": "Langues",
     "skills": "Compétences",
 
-    // Footer
     "powered_by" : "Cette page a été réalisée avec ",
     "inspired_by": "Inspiré par ",
     "based_on": "Respecte la norme ",
 
-    // Common
     "Today": "Aujourd'hui",
     "Training": "Formation",
-
-    // Skills
 
     "language": "<i class='fas fa-code'></i>Languages",
     "softSkill": "Soft Skills",
@@ -26,7 +21,6 @@ export const fr = {
     "other": "Autres",
     "devTool": "Outils de développement",
 
-    // PROPER RESUME translation
     "software_engineer": "Ingénieur d'étude et développement",
     "devops_cata_inte": "Catalyste / Integrateur Devops",
     "internal_cluster_build": "Architecte et développeur - forge de développement interne",
@@ -52,7 +46,6 @@ export const fr = {
 
     "captive_studio_summary": "Au sein de l’équipe de développement d’une agence de communication, j’ai pu réaliser divers projets web en Ruby on Rails, et participer à leur conception dans le cas de nouveaux projets.",
 
-    // FORMATION
     "utbm_area": "Ingénieur en Informatique",
     "utbm_studytype": "I2RV : Imagerie, Interaction et Réalité Virtuelle",
     "english_course" : "Cursus Anglophone",
@@ -61,7 +54,6 @@ export const fr = {
     "mention_bac": "Mention assez bien",
     "spe_math": "Spécialisation Mathématiques",
 
-    // INTERESTS
     "hobby_high_tech": "Loisirs : Technologies, Gaming, Cinéma, lecture",
     "hobby_travel": "Voyages : Road trip au travers du Canada et des Etats-Unis durant 3 mois.",
     "sport_fencing": "Escrime : En club et compétition durant 10 ans",

@@ -14,7 +14,8 @@ const Interest = ({ interest, color }) => (
         <hr/>
 
         {interest.keywords.map(keyword => {
-          var split =   i18next.t(keyword).split(':')
+          var keyworkText = i18next.t(keyword) || ""
+          var split = keyworkText.split(':')
           var title = split[0]
           var summary = split[1]
           return <Card key={"interest-" + uuidv4()} style={{background: "rgba("+color.r+","+color.g+","+color.b+", 0.1)"}} title={title}>
