@@ -11,7 +11,7 @@ const Interest = ({ interest, color }) => (
           title=<Trans>{interest.name}</Trans>
           logo={interest.logo}
           color={color}>
-        <hr/>
+        <hr style={{color: color.hex}}/>
 
         {interest.keywords.map(keyword => {
           var keyworkText = i18next.t(keyword) || ""

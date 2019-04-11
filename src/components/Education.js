@@ -13,8 +13,8 @@ const Formation = ({formation, color}) => (
       <span className="light-color">
         <i className="far fa-calendar-alt" /> {formation.startDate} / <Trans>{formation.endDate}</Trans>
       </span>
-      <hr/>
-      <Trans>{formation.area}</Trans> : <Trans>{formation.studyType}</Trans> <br />
+      <hr style={{color: color.hex}}/>
+      <Trans>{formation.area}</Trans> / <Trans>{formation.studyType}</Trans> <br />
   </CustomCard>
 )
 

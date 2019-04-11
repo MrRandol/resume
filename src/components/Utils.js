@@ -32,7 +32,7 @@ const CardTitle = ({label, extra}) => (
 )
 
 const Highlights = ({highlights, color}) => (
-    <Card className="highlights" style={{background: "rgba("+color.r+","+color.g+","+color.b+", 0.1)"}}>
+    <Card className="highlights" style={{background: "transparent"}}>
       {highlights.map(highlight => {
         var split = highlightParse(highlight)
         var highlightText = split.name
@@ -56,7 +56,8 @@ const generateLogo = (logo) => {
 }
 
 const CustomCard = ({children, logo, title, extraTitle, highlights, color}) => (
-  <div className="card custom-card" style={{background: "rgba("+color.r+","+color.g+","+color.b+", 0.1)"}}>
+  <div className="card custom-card"
+  style={{borderLeft:"5px solid " + color.hex,background: "rgba("+color.r+","+color.g+","+color.b+", 0.05)"}}>
      <div className="card-content">
       {generateLogo(logo)}
        <span className="card-title"><CardTitle label={title} extra={extraTitle}/></span>

@@ -11,10 +11,10 @@ const Experience = ({experience, color}) => (
     highlights={experience.highlights}
     logo={experience.logo}
     color={color}>
-      <span className="light-color">
+      <div className="card-dates light-color">
         <i className="far fa-calendar-alt" /> {experience.startDate} / <Trans>{experience.endDate}</Trans>
-      </span>
-      <hr/>
+      </div>
+      <hr style={{color: color.hex}}/>
       <p className="summary"><Trans>{experience.summary}</Trans></p>
   </CustomCard>
 )

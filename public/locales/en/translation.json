@@ -3,11 +3,11 @@
   "work": "Experience",
   "education": "Education",
   "interests": "Interests",
-  "languages": "Langues",
+  "languages": "Languages",
   "skills": "Skills",
 
   "powered_by" : "This page was made using ",
-  "inspired_by": "Style inspired by ",
+  "inspired_by": "Inspired by ",
   "based_on": "Implementing ",
 
   "Today": "Today",
@@ -20,6 +20,7 @@
   "other": "Others",
   "devTool": "Development tools",
   "framework": "Framework",
+  "SIG": "GIS",
 
   "software_engineer": "Software Engineer",
   "devops_cata_inte": "Devops Catalyst/Integrator",
@@ -48,7 +49,7 @@
   "worldline_application_manager_summary": "When the Géoportail project went live, I gained a position in the maintenance team in charge of the project run, but also to continue develop features delayed from the initial scope.\nAs a team we all started implementing Agile and DevOps processes and concept (Kanban, release normalisation, automation...) to improve little by little the quality of the project and the speed of delivery.\nWith time I took a lead in the team on subjects like architecture and issues around GIS, allowing me to work more actively on the conception of feature closely with the client.",
   "worldline_project_manager_summary": "As I built leadership in the Géoportail project, I decided to take the role of project manager for the evolutions scope. At Worldine, a project manager was half way between the traditional project manager and the developer, allowing me to continue working very closely with the team on the same tasks, but also to take a step back and work on planning, priorities and costs. This role gave me the opportunity to work closer with the client and consolidate the partnership relation we already had, giving me more responsibility over the project direction.\nI then work with teammates to improve the organization and continue transforming the way we were working to further improve the project quality.",
 
-  "captive_studio_summary": "Au sein de l’équipe de développement d’une agence de communication, j’ai pu réaliser divers projets web en Ruby on Rails, et participer à leur conception dans le cas de nouveaux projets.",
+  "captive_studio_summary": "In this development team of a communication agency, I realized several Ruby On Rails projects, either from the beginning or to continue developing existing ones.",
 
   "utbm_area": "IT engineer",
   "utbm_studytype": "I2VR : Images, Interaction and Virtual Reality",
