@@ -302,12 +302,12 @@ export const person = {
   ],
   languages: [
     {
-      name: 'English',
-      level: 'Native speaker',
+      name: 'french',
+      level: 'native_speaker',
     },
     {
-      name: 'Spanish',
-      level: 'Intermediate',
+      name: 'english',
+      level: 'fluent',
     },
   ]
 };

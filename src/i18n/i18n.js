@@ -20,6 +20,9 @@ i18n
     useSuspense: false,
     whitelist: ["en", "fr"],
     preload: ["en", "fr"],
+    backend: {
+       loadPath: './locales/{{lng}}/{{ns}}.json'
+    },
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },

@@ -30,6 +30,11 @@
   "project_manager": "Chef de projet",
   "web_developper": "Développeur web",
 
+  "french": "Français",
+  "english": "Anglais", 
+  "native_speaker": "Langue maternelle",
+  "fluent": "Courant",
+
   "my_summary": "Passionné de SIG 🌍\n Adepte DevOps & Agile 🚀\n Développeur de jeux vidéos en herbe 🎮",
 
   "sii_summary": "SII Canada est la nouvelle branche canadienne d’une société de services française qui m’a offert la possibilité d’un premier emploi au Canada. \n J’ai pu dans un premier temps débuter la création d’une forge de développement en interne avant de rejoindre les équipes de la DevOps Squad au sein de la BNC. Mon rôle est un hybride de 2 postes existants : le catalyse, sorte de coach, dont le but est d’apporter la culture et la philosophie DevOps au sein des équipes, tout en les accompagnant sur les choix à faire et les technologies les plus adaptées à leur besoin. L’intégrateur de son côté vient implémenter les pipelines, les configurations, et les processus pour soulager l’équipe de développement et amener son expertise quant à l’utilisation des outils. J’ai pu renforcer mes connaissances sur les outils DevOps, tout en découvrant des aspects plus humains par le coaching et l’accompagnement.",
