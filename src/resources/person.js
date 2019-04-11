@@ -33,38 +33,40 @@ export const person = {
     ]
   },
   skills: [
-    { name: "language_JavaScript", level: "42" },
-    { name: "language_Java", level: "42" },
-    { name: "language_Ruby On Rails", level: "42" },
-    { name: "language_Bash", level: "42" },
-    { name: "language_HTML / CSS", level: "42" },
-    { name: "softSkill_Agile", level: "42" },
-    { name: "softSkill_DevOps", level: "42" },
-    { name: "softSkill_Continuous Improvement", level: "42" },
-    { name: "softSkill_Continuous Integration", level: "42" },
-    { name: "softSkill_Continuous Delivery", level: "42" },
-    { name: "softSkill_Gestion de Projet", level: "42" },
-    { name: "tool_Docker", level: "42" },
-    { name: "tool_Vagrant", level: "42" },
-    { name: "tool_Jira", level: "42" },
-    { name: "tool_Bitbucket", level: "42" },
-    { name: "tool_Confluence", level: "42" },
-    { name: "tool_Gitlab", level: "42" },
-    { name: "tool_Jenkins", level: "42" },
-    { name: "tool_Nexus", level: "42" },
-    { name: "webServer_Nginx", level: "42" },
-    { name: "webServer_Tomcat", level: "42" },
-    { name: "webServer_NodeJs", level: "42" },
-    { name: "webServer_MySQL", level: "42" },
-    { name: "webServer_PostgreSQL", level: "42" },
-    { name: "webServer_ElasticSearch", level: "42" },
-    { name: "webServer_MongoDB", level: "42" },
-    { name: "webServer_WildFly", level: "42" },
-    { name: "devTool_Maven", level: "42" },
-    { name: "devTool_Gradle", level: "42" },
-    { name: "devTool_Mercurial", level: "42" },
-    { name: "devTool_Git", level: "42" },
-    { name: "Linux", level: "42" }
+    { name: "language_JavaScript", level: "75" },
+    { name: "language_Java", level: "60" },
+    { name: "language_Bash", level: "70" },
+    { name: "language_HTML / CSS", level: "75" },
+    { name: "language_Ruby On Rails", level: "40" },
+    { name: "tool_Jenkins", level: "95" },
+    { name: "tool_Nexus", level: "95" },
+    { name: "tool_Docker", level: "85" },
+    { name: "tool_Gitlab", level: "95" },
+    { name: "tool_Bitbucket", level: "95" },
+    { name: "tool_Jira", level: "90" },
+    { name: "tool_Confluence", level: "90" },
+    { name: "tool_SonarQube", level: "85" },
+    { name: "tool_Kubernetes", level: "75" },
+    { name: "webServer_Nginx", level: "95" },
+    { name: "webServer_Tomcat", level: "90" },
+    { name: "webServer_WildFly", level: "70" },
+    { name: "webServer_NodeJs", level: "90" },
+    { name: "webServer_Geoserver", level: "75" },
+    { name: "webServer_MySQL", level: "85" },
+    { name: "webServer_PostgreSQL", level: "80" },
+    { name: "webServer_ElasticSearch", level: "75" },
+    { name: "framework_OpenScales", level: "95" },
+    { name: "framework_OpenLayers", level: "85" },
+    { name: "devTool_Maven", level: "90" },
+    { name: "devTool_Gradle", level: "70" },
+    { name: "devTool_Git", level: "95" },
+    { name: "devTool_Mercurial", level: "95" },
+    { name: "devTool_Ansible", level: "75" },
+    { name: "softSkill_Agile", level: "90" },
+    { name: "softSkill_DevOps", level: "95" },
+    { name: "softSkill_Gestion de Projet", level: "50" },
+    { name: "softSkill_SIG", level: "95" },
+    { name: "Linux", level: "80" }
   ],
   work: [
     {
@@ -90,7 +92,7 @@ export const person = {
         'softSkill_Analysis',
         'softSkill_Architecture',
         'softSkill_Continuous Integration',
-        'softSkill_Formation'
+        'softSkill_Training'
       ],
     },
     {
@@ -178,7 +180,8 @@ export const person = {
         "softSkill_Agile",
         "softSkill_DevOps",
         "softSkill_Project Management",
-        "softSkill_Architecture"
+        "softSkill_Architecture",
+        'softSkill_SIG'
       ]
     },
     {
@@ -212,7 +215,8 @@ export const person = {
         "tool_Nexus",
         "tool_Jira",
         "softSkill_Agile",
-        "softSkill_DevOps"
+        "softSkill_DevOps",
+        'softSkill_SIG'
       ]
     },
     {
@@ -231,11 +235,12 @@ export const person = {
         "webServer_Nginx",
         "webServer_Tomcat",
         "framework_OpenScales",
-        "devTool_mercurial",
+        "devTool_Mercurial",
         "devTool_Maven",
         "tool_Jenkins",
         "tool_Jira",
-        "tool_Nexus"
+        "tool_Nexus",
+        'softSkill_SIG'
       ]
     },
     {
