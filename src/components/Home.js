@@ -43,7 +43,7 @@ const Home = ({ basics, color }) => {
         <h3 className="light-color label"><Trans>{label}</Trans></h3>
         <p className="summary"><Trans>{summary}</Trans></p>
 
-        <div>
+        <div className="contact-info">
           {phone &&
             <Button className={color.className} >
               <i className="fas fa-phone" /> {phone}

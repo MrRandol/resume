@@ -11,6 +11,10 @@ hr {
   color: #bbbbbb;
 }
 
+nav ul a, .contact-info .btn {
+  color: #eeeeee
+}
+
 .btn, .waves-effect {
   margin: 10px;
   color: #333333;
