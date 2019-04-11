@@ -4,6 +4,12 @@ export const webServer = {
   icon: "fas fa-server"
 }
 
+export const bdd = {
+  className: "teal darken-3",
+  hex: "#00695c",
+  icon: "fas fa-database"
+}
+
 export const tool = {
   className: "green darken-3",
   hex: "#2e7d32",

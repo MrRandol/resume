@@ -13,12 +13,13 @@
   "Today": "Aujourd'hui",
   "Training": "Formation",
 
-  "language": "<i class='fas fa-code'></i>Languages",
+  "language": "Languages",
   "softSkill": "Soft Skills",
   "tool": "Outils",
   "webServer": "Serveurs Web",
   "other": "Autres",
   "devTool": "Outils de développement",
+  "Project Management": "Gestion de projet",
 
   "software_engineer": "Ingénieur d'étude et développement",
   "devops_cata_inte": "Catalyste / Integrateur Devops",

@@ -161,7 +161,7 @@ export const person = {
         'webServer_Geoserver',
         'webServer_Wildfly',
         'softSkill_Agile',
-        'softSkill_Devops',
+        'softSkill_DevOps',
         'softSkill_SIG',
         'softSkill_Training',
       ]
@@ -175,6 +175,10 @@ export const person = {
       endDate: '2015-07',
       summary: 'worldline_project_manager_summary',
       highlights: [
+        "softSkill_Agile",
+        "softSkill_DevOps",
+        "softSkill_Project Management",
+        "softSkill_Architecture"
       ]
     },
     {
@@ -186,6 +190,29 @@ export const person = {
       endDate: '2015-06',
       summary: 'worldline_application_manager_summary',
       highlights: [
+        "language_Flex",
+        "language_JavaScript",
+        "language_Java",
+        "language_Bash",
+        "webServer_Nginx",
+        "webServer_Tomcat",
+        "webServer_NodeJs",
+        "webServer_Geoserver",
+        "webServer_Rok4",
+        "framework_OpenScales",
+        "bdd_PostgreSQL (PostGIS)",
+        "bdd_MySQL",
+        "bdd_ElasticSearch",
+        "bdd_Redis",
+        "devTool_Maven",
+        "devTool_Git",
+        "devTool_Vagrant",
+        "devTool_Docker",
+        "tool_Jenkins",
+        "tool_Nexus",
+        "tool_Jira",
+        "softSkill_Agile",
+        "softSkill_DevOps"
       ]
     },
     {
@@ -197,6 +224,18 @@ export const person = {
       endDate: '2012-08',
       summary: 'worldline_flex_summary',
       highlights: [
+        "language_Flex",
+        "language_JavaScript",
+        "language_Java",
+        "language_Bash",
+        "webServer_Nginx",
+        "webServer_Tomcat",
+        "framework_OpenScales",
+        "devTool_mercurial",
+        "devTool_Maven",
+        "tool_Jenkins",
+        "tool_Jira",
+        "tool_Nexus"
       ]
     },
     {
@@ -208,6 +247,10 @@ export const person = {
       endDate: '2011-02',
       summary: 'captive_studio_summary',
       highlights: [
+        "language_Ruby On Rails",
+        "bdd_MySQL",
+        "softSkill_Agile",
+        "softSkill_Extreme Programming"
       ]
     }
   ],

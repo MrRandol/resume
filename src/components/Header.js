@@ -22,11 +22,17 @@ const Header = ({t, color, categories, basicsLogo, changeLanguage, locale}) => (
     })}
 
       {locale!=="fr" &&
-        <NavItem className="halfway-fab waves-effect waves-light circle language-button french" onClick={() => changeLanguage('fr')}>fr
+        <NavItem
+          className="hoverable halfway-fab waves-effect waves-light circle language-button french"
+          onClick={() => changeLanguage('fr')} >
+            fr
         </NavItem>
       }
       {locale!=="en" &&
-        <NavItem className="halfway-fab waves-effect waves-light circle language-button english" onClick={() => changeLanguage('en')} >en
+        <NavItem
+          className="hoverable halfway-fab waves-effect waves-light circle language-button english"
+          onClick={() => changeLanguage('en')} >
+            en
         </NavItem>
       }
   </Navbar>

@@ -8,13 +8,16 @@ const _ = require('lodash');
 
 export const highlightParse = (highlight) => {
   var split = highlight.split("_");
+  console.log(JSON.stringify(highlight))
   if (split.length === 1) {
+    console.log("other || " + JSON.stringify(highlight))
     return {
       "category": "other",
       "name": highlight
     }
   } else {
     var cat = split.shift()
+    console.log(cat + " || " + split.join("_"))
     return {
       "category": cat,
       "name": split.join("_")
