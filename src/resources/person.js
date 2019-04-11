@@ -2,10 +2,9 @@ export const person = {
   basics: {
     name: 'Maxime Choffat',
     label: 'software_engineer',
-    picture: 'https://avatars2.githubusercontent.com/u/17707427',
+    picture: './img/profile.png',
     email: 'maxime.choffat@gmail.com',
     phone: '+33 6 33 56 3 25',
-    website: 'https://mrrandol.github.io/resume/',
     summary: 'my_summary',
     location: {
       address: '5128 rue Saint Andre',

@@ -2,7 +2,7 @@
     COMMON
 ***********************/
 body {
-  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+  font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
   color: #333333;
   background: #fbfbfb;
 }
@@ -147,6 +147,12 @@ nav ul a, .contact-info .btn {
 /***********************
     PROFILE
 ***********************/
+#basics {
+  min-height: 80vh;
+  max-height: 100vh;
+  vertical-align: middle;
+}
+
 .profile .col {
   text-align: center;
   padding: 2em;
