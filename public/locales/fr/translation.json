@@ -20,6 +20,7 @@
   "other": "Autres",
   "devTool": "Outils de développement",
   "Project Management": "Gestion de projet",
+  "framework": "Framework",
 
   "software_engineer": "Ingénieur d'étude et développement",
   "devops_cata_inte": "Catalyste / Integrateur Devops",
@@ -31,7 +32,7 @@
   "web_developper": "Développeur web",
 
   "french": "Français",
-  "english": "Anglais", 
+  "english": "Anglais",
   "native_speaker": "Langue maternelle",
   "fluent": "Courant",
 

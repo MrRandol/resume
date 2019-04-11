@@ -5,7 +5,7 @@ export const person = {
     picture: 'https://avatars2.githubusercontent.com/u/17707427',
     email: 'maxime.choffat@gmail.com',
     phone: '+33 6 33 56 3 25',
-    website: 'http://TOOO.com',
+    website: 'https://mrrandol.github.io/resume/',
     summary: 'my_summary',
     location: {
       address: '5128 rue Saint Andre',
