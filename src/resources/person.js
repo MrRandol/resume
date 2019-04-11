@@ -262,6 +262,8 @@ export const person = {
   education: [
     {
       institution: 'UTBM (Université de Technologie de Belfort Montbéliard), France',
+      logo: 'img:https://pbs.twimg.com/profile_images/673805187400749056/18OZaqMO_400x400.png',
+      website: 'https://www.utbm.fr/',
       area: 'utbm_area',
       studyType: 'utbm_studytype',
       startDate: '2007-09',
