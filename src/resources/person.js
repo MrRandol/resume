@@ -293,7 +293,7 @@ export const person = {
       ],
     },
     {
-      name: 'Sport',
+      name: 'Sports',
       keywords: [
         'sport_fencing',
         'sport_judo',
