@@ -64,7 +64,7 @@ export const person = {
     { name: "devTool_Ansible", level: "75" },
     { name: "softSkill_Agile", level: "90" },
     { name: "softSkill_DevOps", level: "95" },
-    { name: "softSkill_Gestion de Projet", level: "50" },
+    { name: "softSkill_Gestion de Projet", level: "60" },
     { name: "softSkill_SIG", level: "95" },
     { name: "Linux", level: "80" }
   ],
@@ -93,7 +93,6 @@ export const person = {
         'softSkill_DevOps',
         'softSkill_Analysis',
         'softSkill_Architecture',
-        'softSkill_Continuous Integration',
         'softSkill_Training'
       ],
     },
@@ -115,7 +114,6 @@ export const person = {
         'devTool_Docker',
         'devTool_Git',
         'devTool_Maven',
-        'devTool_Gradle',
         'softSkill_Agile',
         'softSkill_Devops'
       ]
@@ -150,7 +148,7 @@ export const person = {
       website: 'https://www.gim.be/en',
       startDate: '2017-02',
       endDate: '2017-05',
-      summary: 'nalys_ing_summary',
+      summary: 'nalys_gim_summary',
       highlights: [
         'language_JavaScript',
         'language_Java',
@@ -214,14 +212,16 @@ export const person = {
         "bdd_Redis",
         "devTool_Maven",
         "devTool_Git",
-        "devTool_Vagrant",
         "devTool_Docker",
+        "devTool_Vagrant",
         "tool_Jenkins",
         "tool_Nexus",
         "tool_Jira",
         "softSkill_Agile",
         "softSkill_DevOps",
-        'softSkill_SIG'
+        "softSkill_SIG",
+        "softSkill_Architecture"
+
       ]
     },
     {
