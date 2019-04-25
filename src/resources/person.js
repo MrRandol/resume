@@ -36,6 +36,7 @@ export const person = {
     { name: "language_Java", level: "60" },
     { name: "language_Bash", level: "70" },
     { name: "language_HTML / CSS", level: "75" },
+    { name: "language_Python", level: "40" },
     { name: "language_Ruby On Rails", level: "40" },
     { name: "tool_Jenkins", level: "95" },
     { name: "tool_Nexus", level: "95" },
@@ -116,6 +117,19 @@ export const person = {
         'devTool_Maven',
         'softSkill_Agile',
         'softSkill_Devops'
+      ]
+    },
+    {
+      company: 'Nalys',
+      logo: 'img:https://www.nalys-group.com/theme/default-2017/img/logo.png',
+      position: 'Nalys Graduate Program',
+      website: 'https://www.nalys-group.com/en/home',
+      startDate: '2018-09',
+      summary: 'nalys_graduate_program_summary',
+      highlights: [
+        'softSkill_Agile',
+        'softSkill_Devops',
+        'softSkill_Training'
       ]
     },
     {
