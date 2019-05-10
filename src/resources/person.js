@@ -4,7 +4,7 @@ export const person = {
     label: 'software_engineer',
     picture: './img/profile.png',
     email: 'maxime.choffat@gmail.com',
-    phone: '+33 6 33 56 3 25',
+    phone: '+33 6 33 56 36 25',
     summary: 'my_summary',
     location: {
       address: '5128 rue Saint Andre',
