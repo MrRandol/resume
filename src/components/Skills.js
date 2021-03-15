@@ -18,7 +18,7 @@ const Skill = ({ skill, level, keywords }) => {
       <div className="skill">
         <Circle percent={level} strokeWidth="8" strokeColor={skillColor} />
         <p>
-          {skillName}
+          <Trans>{skillName}</Trans>
         </p>
       </div>
     </Col>

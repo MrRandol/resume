@@ -24,6 +24,7 @@
   "Analysis": "Analyse",
   "Continuous Integration": "Intégration Continue",
   "SIG": "SIG",
+  "GestionDeProjet": "Gestion de projet",
 
   "software_engineer": "Ingénieur d'étude et développement",
   "devops_cata_inte": "Catalyste / Integrateur Devops",
@@ -34,6 +35,7 @@
   "project_manager": "Chef de projet",
   "release_engineer": "Ingénieur build & release",
   "web_developper": "Développeur web",
+  "online_sysops": "Spécialiste système et opérations online",
 
   "french": "Français",
   "english": "Anglais",
@@ -41,6 +43,8 @@
   "fluent": "Courant",
 
   "my_summary": "Passionné de SIG 🌍\n Adepte DevOps & Agile 🚀\n Développeur de jeux vidéos en herbe 🎮",
+
+  "ubisoft_summary": "Au sein du projet Hyperscape, j'ai participé a la construction du backoffice d'administration des systèmes online du jeu. Mon rôle a comporté un focus sur la gestion du contenu des saisons du jeu, principalement afin de permettre aux équipes de construire du contenu le plus facilement possible tout en garantissant la cohérence des données. \n\nJ'ai participé aussi bien au développement des features du backoffice (full stack), du déploiement de data en python, de la gestion du CI (gitlabci, docker, openapi...), ou encore du déploiement du service avec kubernetes.",
 
   "sii_summary": "SII Canada est la nouvelle branche canadienne d’une société de services française. Avant de rejoindre les équipes de la DevOps Squad au sein de la BNC, j’ai travaillé à l’architecture et la mise en place de bases d’une forge de développement interne.\nMon rôle à la BNC est un hybride de 2 postes existants : en tant que catalyste, j’apporte la culture et la philosophie DevOps au sein des équipes, tout en les accompagnant sur les choix et les technologies les plus adaptées à leur besoin.\nEn tant qu’intégrateur j’implémente les pipelines, les configurations, et les processus pour soulager l’équipe de développement et amener mon expertise sur l’utilisation des outils.\nJ’ai pu renforcer mes connaissances sur les outils DevOps, tout en découvrant des aspects plus humains du coaching et de l’accompagnement.",
 
@@ -60,7 +64,6 @@
   "english_course" : "Cursus Anglophone",
   "st_andre_area": "Bac Scientifique",
   "st_andre_studytype": "Sciences de l'Ingénieur",
-  "mention_bac": "Mention assez bien",
   "spe_math": "Spécialisation Mathématiques",
 
   "hobby_high_tech": "Loisirs : Technologies, Gaming, Cinéma, lecture",

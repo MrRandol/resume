@@ -21,6 +21,7 @@
   "devTool": "Development tools",
   "framework": "Framework",
   "SIG": "GIS",
+  "GestionDeProjet": "Project management",
 
   "software_engineer": "Software Engineer",
   "devops_cata_inte": "Devops Catalyst/Integrator",
@@ -31,6 +32,7 @@
   "project_manager": "Project Manager",
   "web_developer": "Web developer",
   "release_engineer": "Build & release engineer",
+  "online_sysops": "System and online specialist",
 
   "french": "French",
   "english": "English",
@@ -38,6 +40,8 @@
   "fluent": "Fluent",
 
   "my_summary": "Loving GIS 🌍\n DevOps & Agile enthousiast 🚀\n Gamedev wannabe 🎮",
+
+  "ubisoft_summary": "Within the Hyperscape team, I worked on the game admin backoffice web tools. I had a big focus on season data management, mostly to offer the team members an easy and fast way to build season content while preserving data coherence. \n\nI worked on features development for the backoffice (full stack), data deployment with python, the CI system (gitlabci, docker, openapi...), or the service deployment on the infrastructure with kubernetes.",
 
   "sii_summary": "SII Canada is a new branch of the French company SII. Before joining the DevOps Squad at the BNC, I had the opportunity to build a new development forge internally. Entering the BNC, I took a hybrid role, mix of the catalyst and the integrator. As a Catalyst, I coach and advise teams regarding their processes, technologies or priorities regarding the development and release process. As an integrator, I actively help them implementing those changes and bring an expertise on technologies helping them transform into the DevOps mindset.",
 
@@ -57,7 +61,6 @@
   "english_course" : "English branch",
   "st_andre_area": "Scientifique Bachelor",
   "st_andre_studytype": "Engineering branch",
-  "mention_bac": "\"Mention assez bien\"",
   "spe_math": "Mathematics specialty",
 
   "hobby_high_tech": "Hobbies : Technologies, Gaming, Movies, Reading",
