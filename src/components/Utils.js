@@ -1,5 +1,4 @@
 import React from 'react'
-import { Card, Chip } from 'react-materialize';
 import { Trans } from 'react-i18next';
 import * as colors from '../common/categoriesColors'
 
@@ -32,17 +31,17 @@ const CardTitle = ({label, extra}) => (
 )
 
 const Highlights = ({highlights, color}) => (
-    <Card className="highlights" style={{background: "transparent"}}>
+    <div className="highlights" style={{background: "transparent"}}>
       {highlights.map(highlight => {
         var split = highlightParse(highlight)
         var highlightText = split.name
         var colorClass = colors[split.category].className
-        return <Chip className={"highlight-chip " + colorClass}
+        return <span className={"highlight-chip " + colorClass}
                 key={"highlight-" + uuidv4()}>
                   <Trans>{highlightText}</Trans>
-               </Chip>
+               </span>
       })}
-    </Card>
+    </div>
 )
 
 const generateLogo = (logo) => {

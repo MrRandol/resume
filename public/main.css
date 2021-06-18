@@ -4,7 +4,8 @@
 body {
   font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
   color: #333333;
-  background: #fbfbfb;
+  background: red;
+  background-image: url('./img/still.png') !important;
 }
 
 hr {

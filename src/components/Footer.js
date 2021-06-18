@@ -1,9 +1,8 @@
 import React from 'react'
-import { Footer as MaterialFooter } from 'react-materialize';
 import { Trans } from 'react-i18next';
 
 const Footer = ({color}) => (
-    <MaterialFooter className={color.className} links={
+    <div className={color.className}>
       <ul className="footer-links">
         <li>
           <Trans>powered_by</Trans>
@@ -20,8 +19,8 @@ const Footer = ({color}) => (
           <a href="https://jsonresume.org/">JSON Resume</a>
           &nbsp; <i className="fas fa-code"></i>
         </li>
-      </ul>}
-    />
+      </ul>
+    </div>
 )
 
 export default Footer

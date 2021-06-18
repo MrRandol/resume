@@ -1,4 +1,3 @@
-import { Collapsible, CollapsibleItem, Row, Col } from 'react-materialize'
 import React from 'react'
 import { skillsPropType } from '../common/PropTypes'
 import { Trans } from 'react-i18next'
@@ -14,14 +13,14 @@ const Skill = ({ skill, level, keywords }) => {
   var skillName = split.length === 2 ? split[1] : split[0]
   var skillColor = (split.length === 2 && categoriesStyle[split[0]]) ? categoriesStyle[split[0]].hex : categoriesStyle.other.hex
   return (
-    <Col s={4} m={3} l={3} xl={2}>
+    <div s={4} m={3} l={3} xl={2}>
       <div className="skill">
         <Circle percent={level} strokeWidth="8" strokeColor={skillColor} />
         <p>
           <Trans>{skillName}</Trans>
         </p>
       </div>
-    </Col>
+    </div>
   );
 };
 
@@ -40,13 +39,13 @@ const Skills = ({ skills }) => {
   return (
     <div className="skills">
       <h3 className="category-title"><Trans>skills</Trans></h3>
-      <Collapsible>
+      <ul>
         {_.keys(groupedSkills).map((groupName) => {
           var groupSkills = groupedSkills[groupName]
-          return <CollapsibleItem key={"skills-group-" + uuidv4()}
+          return <li key={"skills-group-" + uuidv4()}
                   header={collapsibleHeader(categoriesStyle[groupName], groupName)}
                   className="hoverable">
-            <Row>
+            <div>
               {groupSkills.map((j, i) => (
                 <Skill
                   key={"skill-"+i}
@@ -55,10 +54,10 @@ const Skills = ({ skills }) => {
                   keywords={j.keywords}
                 />
               ))}
-            </Row>
-          </CollapsibleItem>
+            </div>
+          </li>
         })}
-      </Collapsible>
+      </ul>
     </div>
   );
 };

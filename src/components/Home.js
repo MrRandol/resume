@@ -1,9 +1,9 @@
-import { Row, Col, Button } from 'react-materialize';
 import React from 'react';
 import { basicsPropType } from '../common/PropTypes'
-import { Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 const Home = ({ basics, color }) => {
+  const { t, i18n } = useTranslation();
   const {
     name,
     label,
@@ -14,9 +14,11 @@ const Home = ({ basics, color }) => {
     summary,
     profiles
   } = basics
+
+
   return (
-    <Row className="profile">
-      <Col s={12} m={6} l={6}>
+    <div className="profile">
+      <div s={12} m={6} l={6}>
         <div className="valign-wrapper">
           <img src={picture}
             alt="avatar"
@@ -34,39 +36,39 @@ const Home = ({ basics, color }) => {
             ))}
           </div>
         </div>
-      </Col>
-      <Col s={12} m={6} l={6}>
+      </div>
+      <div s={12} m={6} l={6}>
       <div className="valign-wrapper">
         <h4 className="name">
           {name}
         </h4>
-        <h3 className="light-color label"><Trans>{label}</Trans></h3>
-        <p className="summary"><Trans>{summary}</Trans></p>
+        <h3 className="light-color label">{t(label)}</h3>
+        <p className="summary">{t(summary)}</p>
 
         <div className="contact-info">
           {phone &&
-            <Button className={color.className} >
+            <button className={color.className} >
               <i className="fas fa-phone" /> {phone}
-            </Button>
+            </button>
           }
           {website &&
-            <Button className={color.className}
+            <button className={color.className}
                     waves="light"
                     node="a"
                     href={website}>
               <i className="fas fa-globe" /> {website}
-            </Button>}
+            </button>}
           {email &&
-            <Button className={color.className}
+            <button className={color.className}
                     waves="light"
                     node="a"
                     href={`mailto:${email}`}>
               <i className="far fa-envelope" /> {email}
-            </Button>}
+            </button>}
         </div>
         </div>
-      </Col>
-    </Row>
+      </div>
+    </div>
   );
 };
 
