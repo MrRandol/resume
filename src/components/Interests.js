@@ -1,8 +1,6 @@
 import React from 'react';
-import { interestsPropType } from '../common/PropTypes'
 import { Trans } from 'react-i18next';
 import i18next from 'i18next';
-import CustomCard from './Utils'
 const uuidv4 = require('uuid/v4');
 
 const Interest = ({ interest, color }) => (
@@ -34,9 +32,5 @@ const Interests = ({ interests, color }) => {
     </div>
   );
 };
-
-Interests.propTypes = {
-  interests: interestsPropType
-}
 
 export default Interests;

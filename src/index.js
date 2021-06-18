@@ -4,6 +4,8 @@ import { createStore } from 'redux'
 import reducers from './reducers'
 import Root from './components/Root'
 
+import './styles/main.scss'
+
 import './i18n'
 
 const store = createStore(reducers)

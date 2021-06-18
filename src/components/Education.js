@@ -1,34 +1,30 @@
 import React from 'react'
-import { educationPropType } from '../common/PropTypes'
-import { Trans } from 'react-i18next';
-import CustomCard from './Utils'
-const uuidv4 = require('uuid/v4');
+import { useTranslation } from 'react-i18next';
 
-const Formation = ({formation, color}) => (
-  <CustomCard
-        title={formation.institution}
-        highlights={formation.courses}
-        logo={formation.logo}
-        color={color}>
-      <span className="light-color">
-        <i className="far fa-calendar-alt" /> {formation.startDate} / <Trans>{formation.endDate}</Trans>
-      </span>
-      <hr style={{color: color.hex}}/>
-      <Trans>{formation.area}</Trans> / <Trans>{formation.studyType}</Trans> <br />
-  </CustomCard>
-)
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Image from 'react-bootstrap/Image';
+import moment from 'moment';  
+import Experience from './Experience'
 
-const Education = ({education, color}) => (
-  <div className="education">
-    <h3 className="category-title"><Trans>education</Trans></h3>
-    {education.map(formation => (
-      <Formation key={"formation-"+uuidv4()} formation={formation} color={color} />
-    ))}
-  </div>
-)
 
-Education.propTypes = {
-  education: educationPropType
+const Education = ({color, education}) => {
+  const { t } = useTranslation();
+
+  return (
+    <Container>
+      <h2 className="category">{t('education')}</h2>
+      {education.map((educationExperience, index) => {
+        const experience = Object.assign({}, educationExperience);
+        experience.place = educationExperience.institution;
+        experience.title = "";
+        experience.summary = educationExperience.studyType;
+        return <Experience key={"education-experience-" + index} experience={experience} color={color}/>;
+      })}
+    </Container>
+  );
 }
+
 
 export default Education

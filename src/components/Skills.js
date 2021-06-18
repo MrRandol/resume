@@ -1,73 +1,48 @@
 import React from 'react'
-import { skillsPropType } from '../common/PropTypes'
-import { Trans } from 'react-i18next'
-import { Circle } from 'rc-progress'
-import * as categoriesStyle from '../common/categoriesColors'
-import { highlightParse } from './Utils'
-const uuidv4 = require('uuid/v4');
+
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import ProgressBar from 'react-bootstrap/ProgressBar';
+import { useTranslation } from 'react-i18next';
 
 var _ = require('lodash');
 
-const Skill = ({ skill, level, keywords }) => {
-  var split = skill ? skill.split("_", 2) : "---"
-  var skillName = split.length === 2 ? split[1] : split[0]
-  var skillColor = (split.length === 2 && categoriesStyle[split[0]]) ? categoriesStyle[split[0]].hex : categoriesStyle.other.hex
-  return (
-    <div s={4} m={3} l={3} xl={2}>
-      <div className="skill">
-        <Circle percent={level} strokeWidth="8" strokeColor={skillColor} />
-        <p>
-          <Trans>{skillName}</Trans>
-        </p>
-      </div>
-    </div>
-  );
-};
-
-const collapsibleHeader = ( category, titleRef ) => (
-  <span>
-    <i className={category.icon} style={{"color": category.hex}} ></i>
-    <Trans>{titleRef}</Trans>
-  </span>
-)
-
 const Skills = ({ skills }) => {
-  var groupedSkills = _.groupBy(skills, (skill) => (
-    highlightParse(skill.name).category
-  ))
+  const { t } = useTranslation();
+  var methodologySkills = _.filter(skills, { 'type': 'methodology' });
+  var toolsSkills = _.filter(skills, { 'type': 'tools' });
 
   return (
-    <div className="skills">
-      <h3 className="category-title"><Trans>skills</Trans></h3>
-      <ul>
-        {_.keys(groupedSkills).map((groupName) => {
-          var groupSkills = groupedSkills[groupName]
-          return <li key={"skills-group-" + uuidv4()}
-                  header={collapsibleHeader(categoriesStyle[groupName], groupName)}
-                  className="hoverable">
-            <div>
-              {groupSkills.map((j, i) => (
-                <Skill
-                  key={"skill-"+i}
-                  skill={j.name}
-                  level={j.level}
-                  keywords={j.keywords}
-                />
+    <Container>
+      <h2 className="category">{t('skills')}</h2>
+        <Row>
+          <Col md={8}><h3 className="category secondary">{t('methodology')}</h3></Col>
+          <Col md={1} className="vertical-separator"></Col>
+          <Col md={3}><h3 className="category secondary">{t('tools')}</h3></Col>
+        </Row>
+        <Row>
+          <Col md={8} className="d-flex flex-column align-items-start justify-content-center">
+              {methodologySkills.map((skill, index) => (
+                <div className="skill" key={"m-skill-"+index}>
+                  <span className="skill-name">{t(skill.name)}</span>
+                  <ProgressBar className="skill-progress" now={skill.level} label={`${skill.level}%`}/>
+                </div>
               ))}
-            </div>
-          </li>
-        })}
-      </ul>
-    </div>
+          </Col>
+          <Col md={1} className="vertical-separator"></Col>
+          <Col md={3} className="d-flex flex-column align-items-start justify-content-center">
+              {toolsSkills.map((skill, index) => (
+                <p key={"t-skill-"+index}>
+                  <i className="me-3 fa fa-check"></i>
+                  {t(skill.name)}
+                </p>
+              ))}
+          </Col>
+        </Row>
+    </Container>
+    //TODO : Add other skills as simple progress circle grid
   );
 };
-
-Skills.defaultProps = {
-  skills: [],
-};
-
-Skills.propTypes = {
-  skills: skillsPropType
-}
 
 export default Skills;

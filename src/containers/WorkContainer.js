@@ -3,8 +3,7 @@ import Work from '../components/Work'
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    work: state.person.work,
-    color: state.app.color
+    work: state.person.work
   }
 }
 

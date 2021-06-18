@@ -1,29 +1,32 @@
 import React from 'react'
-import { languagesPropType } from '../common/PropTypes'
-import { Trans } from 'react-i18next';
-import CustomCard from './Utils'
-const uuidv4 = require('uuid/v4');
 
-const Language = ({language, color}) => (
-    <CustomCard
-          title={<Trans>{language.name}</Trans>}
-          logo={language.logo}
-          color={color}>
-        <Trans>{language.level}</Trans>
-    </CustomCard>
-)
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import { useTranslation } from 'react-i18next';
+import { Circle } from 'rc-progress';
 
-const Languages = ({languages, color}) => (
-  <div className="languages">
-    <h3 className="category-title"><Trans>languages</Trans></h3>
-    {languages.map(language => (
-      <Language key={"language-" + uuidv4()} language={language} color={color} />
-    ))}
-  </div>
-)
+const Languages = ({ languages }) => {
+  const { t } = useTranslation();
 
-Languages.propTypes = {
-  languages: languagesPropType
-}
+  return (
+    <Container>
+      <h2 className="category">{t('languages')}</h2>
+        <Row>
+          {languages.map((language, index) => 
+            <Col className="flex-centered" key={"language-"+index}>
+              <div className="language">
+                <Circle className="language-progress" percent={language.percent} strokeWidth="4"/> 
+                <div className="flex-centered language-label">
+                  <b>{t(language.name)}</b>
+                  <i>{t(language.level)}</i>
+                </div>
+              </div>
+            </Col>
+          )} 
+        </Row>
+    </Container>
+  );
+};
 
-export default Languages
+export default Languages;

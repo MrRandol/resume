@@ -1,8 +1,6 @@
-import * as colors from '../common/colors'
 
 export const defaultState = {
-  locale: "en",
-  color: colors["blue"]
+  locale: "en"
 }
 
 const app = (state = defaultState, action) => {

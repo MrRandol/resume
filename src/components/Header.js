@@ -1,10 +1,19 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, { useState } from 'react'
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import { useTranslation } from 'react-i18next';
-const uuidv4 = require('uuid/v4');
 
-const Header = ({color, categories, basicsLogo}) => {
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import Tooltip from 'react-bootstrap/Tooltip';
+import Dropdown from 'react-bootstrap/Dropdown';
+import Button from 'react-bootstrap/Button';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Scrollspy from 'react-scrollspy';
+import { downloadJson } from '../common/downloadJson'
 
+const Header = ({person, basicsLogo}) => {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
@@ -12,43 +21,35 @@ const Header = ({color, categories, basicsLogo}) => {
   };
 
   return (
-    <div className={"right " + color.className} fixed={true} alignLinks="left">
-      {categories.map(category => {
-        var content = t(category)
-        if(category === "basics") {
-          content = <img src={basicsLogo} alt="navbar-avatar" className="navbar-avatar circle" />
-        }
-        return (
-          <div key={"head-" + uuidv4()}
-            href={"#" + (category !== "basics" ? category : "")}
-            className="valign-wrapper">
-              {content}
-          </div>
-        )
-      })}
+    <Navbar bg="primary" sticky="top" className="mb-4 d-flex flex-row align-items-center justify-content-between">
+      <div></div>
 
-        {i18n.language!=="fr" &&
-          <div
-            className="hoverable halfway-fab waves-effect waves-light circle language-button french"
-            onClick={() => changeLanguage('fr')} >
-              fr
-          </div>
-        }
-        {i18n.language!=="en" &&
-          <div
-            className="hoverable halfway-fab waves-effect waves-light circle language-button english"
-            onClick={() => changeLanguage('en')} >
-              en
-          </div>
-        }
+      <Nav>
+        <Scrollspy items={ ['profile', 'work', 'education', 'skills', 'languages'] } className="m-0 p-0 d-flex flex-row" currentClassName="current">
+          <Nav.Link href="#profile">{t('profile')}</Nav.Link>
+          <Nav.Link href="#work">{t('work')}</Nav.Link>
+          <Nav.Link href="#education">{t('education')}</Nav.Link>
+          <Nav.Link href="#skills">{t('skills')}</Nav.Link>
+          <Nav.Link href="#languages">{t('languages')}</Nav.Link>
+        </Scrollspy>
+      </Nav>
+
+      <div className="d-flex flex-row align-items-center justify-content-center">
+        <OverlayTrigger placement="auto" overlay={<Tooltip>{t('download_json')}</Tooltip>}>
+          <a className="me-4 download-icon" onClick={() => downloadJson(person, t, i18n)}><i className="fas fa-download"></i></a>
+        </OverlayTrigger>
+        <Dropdown>
+          <Dropdown.Toggle variant="secondary">
+            {t('i18n_' + i18n.language)}
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.Item  as="button" onClick={() => changeLanguage('fr')}>{t('i18n_fr')}</Dropdown.Item>
+            <Dropdown.Item  as="button" onClick={() => changeLanguage('en')}>{t('i18n_en')}</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
       </div>
-    );
-}
-
-Header.propTypes = {
-  categories: PropTypes.arrayOf(PropTypes.string).isRequired,
-  basicsLogo: PropTypes.string,
-
+    </Navbar>
+  );
 }
 
 export default Header
