@@ -1,5 +1,8 @@
 {
-  "basics": "Accueil",
+  "dateMonth": "{{date, MMMM}}",
+  "dateYear": "{{date, YYYY}}",
+  "basics": "Profil",
+  "contact": "Contact",
   "work": "Expérience",
   "education": "Formation",
   "interests": "Centres d'interêt",
@@ -9,10 +12,14 @@
   "powered_by" : "Cette page a été réalisée avec ",
   "inspired_by": "Inspiré par ",
   "based_on": "Respecte la norme ",
+  
+  "download_json": "Télécharger le JSON",
+  "contact_me": "Contact",
 
   "Today": "Aujourd'hui",
   "Training": "Formation",
 
+  "profile": "Profil",
   "language": "Languages",
   "softSkill": "Soft Skills",
   "tool": "Outils",
@@ -35,29 +42,18 @@
   "project_manager": "Chef de projet",
   "release_engineer": "Ingénieur build & release",
   "web_developper": "Développeur web",
-  "online_sysops": "Spécialiste système et opérations online",
+  "online_sysops": "Spécialiste Système et Opération en ligne",
+  "nalys_title": "Ingénieur logiciel & Coach DevOps",
+  "worldline_title": "Responsable d'application",
 
   "french": "Français",
   "english": "Anglais",
-  "native_speaker": "Langue maternelle",
+  "fr": "Français",
+  "en": "Anglais",
+  "i18n_fr": "Français",
+  "i18n_en": "English",
+  "native_speaker": "Natif",
   "fluent": "Courant",
-
-  "my_summary": "Passionné de SIG 🌍\n Adepte DevOps & Agile 🚀\n Développeur de jeux vidéos en herbe 🎮",
-
-  "ubisoft_summary": "Au sein du projet Hyperscape, j'ai participé a la construction du backoffice d'administration des systèmes online du jeu. Mon rôle a comporté un focus sur la gestion du contenu des saisons du jeu, principalement afin de permettre aux équipes de construire du contenu le plus facilement possible tout en garantissant la cohérence des données. \n\nJ'ai participé aussi bien au développement des features du backoffice (full stack), du déploiement de data en python, de la gestion du CI (gitlabci, docker, openapi...), ou encore du déploiement du service avec kubernetes.",
-
-  "sii_summary": "SII Canada est la nouvelle branche canadienne d’une société de services française. Avant de rejoindre les équipes de la DevOps Squad au sein de la BNC, j’ai travaillé à l’architecture et la mise en place de bases d’une forge de développement interne.\nMon rôle à la BNC est un hybride de 2 postes existants : en tant que catalyste, j’apporte la culture et la philosophie DevOps au sein des équipes, tout en les accompagnant sur les choix et les technologies les plus adaptées à leur besoin.\nEn tant qu’intégrateur j’implémente les pipelines, les configurations, et les processus pour soulager l’équipe de développement et amener mon expertise sur l’utilisation des outils.\nJ’ai pu renforcer mes connaissances sur les outils DevOps, tout en découvrant des aspects plus humains du coaching et de l’accompagnement.",
-
-  "nalys_internal_summary": "Ma dernière mission chez Nalys a été de concevoir une « Proof of Concept » autour d’un cluster kubernetes hébergé on premise. L’objectif du cluster était de faciliter l’hébergement des applications réalisées en interne tout en améliorant la vélocité de déploiement, le monitoring, la stabilité, etc… La première version du cluster a servi à héberger la refonte de la forge de développement que j’ai implémenté.",
-  "nalys_graduate_program_summary": "En parallèle de ma mission chez ING, j’ai effectué une journée de formation autour de l’Agile et du DevOps lors du Graduate Program, une formation de 3 mois proposée à de nouveaux arrivants en sortie d’école.\nJ’ai conçu et transmis un cours théorique et pratique sous forme d’ateliers pour transmettre les valeurs et les processus de l’Agile et du DevOps.",
-  "nalys_ing_summary" : "Mon rôle chez ING était de supporter 2 équipes dans leurs processus et leurs outils pour le déploiement et la release de leurs applications. J’étais en charge du support aux développeurs pour leur fournir le meilleur environnement de développement possible, mais aussi améliorer les processus de compilation et de feedback (tests unitaires et d’intégration, livraison sur les environnements de développement …).\nUne de mes tâches a également été de migrer la solution de CI en place vers un SaaS global afin de rationaliser les pipelines de CI/CD.\n\nJ’ai également aidé à revoir les formats et processus de release pour améliorer la stabilité des livraisons, consolider les changelogs et éviter les incidents, tout en responsabilisant les développeurs et favorisant le partage de connaissances.",
-  "nalys_gim_summary": "En tant que développeur SIG et coach DevOps chez GIM, ma mission a comporté 2 axes principaux :\n\nJe suis tout d’abord intervenu sur un projet pour aider aux développements d’une application front end Javascript cartographique du fait de mon expérience sur ce métier.\nL’équipe ayant des difficultés à stabiliser son cycle de build et de déploiement, j’ai également activement participé à la refonte du processus de build et de livraison pour permettre un gain de temps notable, l’équipe a ainsi pu se concentrer sur la qualité des développements.",
-
-  "worldline_project_manager_summary": "Afin de compléter l’expérience acquise au sein de Worldline et du projet Géoportail, j’ai validé ma position de référent du projet en acquérant le rôle de chef de projet sur les sujets d’évolutions. Chez Worldline, le chef de projet est à mi-chemin entre la gestion de projet traditionnelle et l’équipe de développement. J’ai donc continué les mêmes activités que précédemment à hauteur de 50%, tout en découvrant les bases de la gestion de projet, temps, budget et priorités. J’ai profité de ce rôle pour revoir avec l’équipe l’organisation et les processus de gestion des tâches, tout en profitant de la proximité avec le client pour consolider la position de partenaire que nous avions.",
-  "worldline_application_manager_summary": "Lors du passage en production du projet, j’ai intégré l’équipe d’exploitation en charge de corriger les bugs et incidents, mais également de terminer le développement de fonctionnalités reportées.\nLors de cette période, nous avons peu à peu appliqué des items tirés des méthodes Agiles ou des pratiques DevOps tels que du Kanban, des itérations ou de la normalisation des releases visant à automatiser les livraisons.\nAu fil des mois, j’ai pu prendre un rôle de référant sur l’architecture et les aspects métiers du projet, me permettant de participer plus activement à la conception des nouvelles fonctionnalités lors des phases d’avant-vente.",
-  "worldline_flex_summary": "J’ai débuté mon expérience sur le Géoportail en tant que développeur Flex pour le composant de visualisation cartographique. Lors de cette période j’ai découvert les bases des normes de la géographie en informatique, tout en participant au développement de nouvelles fonctionnalités pour le composant de visualisation cartographique.\nEn parallèle, j’ai réalisé 2 applications supplémentaires en flash pour la boutique de l’IGN, utilisant les données du Géoportail pour consulter les emprises cartographiques des cartes papier ou créer sa propre carte personnalisée.",
-
-  "captive_studio_summary": "Au sein de l’équipe de développement d’une agence de communication, j’ai pu réaliser divers projets web en Ruby on Rails, et participer à leur conception dans le cas de nouveaux projets.",
 
   "utbm_area": "Ingénieur en Informatique",
   "utbm_studytype": "I2RV : Imagerie, Interaction et Réalité Virtuelle",
@@ -69,6 +65,70 @@
   "hobby_high_tech": "Loisirs : Technologies, Gaming, Cinéma, lecture",
   "hobby_travel": "Voyages : Road trip au travers du Canada et des Etats-Unis durant 3 mois.",
   "sport_fencing": "Escrime : En club et compétition durant 10 ans",
-  "sport_judo": "Judo : En club durant 8 ans"
+  "sport_judo": "Judo : En club durant 8 ans",
+
+  "my_summary": "![PSPO](/resume/img/pspoi.png) PSPO  \n🌍 Passionné de SIG  \n🚀 Adepte DevOps & Agile  \n🎮 Développeur de jeux vidéos",
+
+  "ubisoft_summary": [
+    "### *Projet non annoncé*  \n",  
+    "Dans le cadre de ce développement, j'ai participé a la construction d'une solution générique de gerstion de contenu live en tant que développeur fullstack.",
+    "J'ai également pu participer a l'établissement de bonnes pratiques pour la maintenance de la solution.",
+    "### *Hyperscape*",
+    "Au sein du projet Hyperscape, j'ai participé a la construction du backoffice d'administration des systèmes online du jeu. Mon rôle a comporté un focus sur la gestion du contenu saisonnier du jeu (battlepass, challenges, items, etc..), principalement afin de permettre aux équipes de construire du contenu le plus facilement possible tout en garantissant la cohérence des données. \n\nJ'ai participé aussi bien au développement des features du backoffice (full stack), du déploiement de data en python, de la gestion du CI (gitlabci, docker, openapi...), ou encore du déploiement du service avec kubernetes. Ma position m'a permis de construire une relation proche avec les équipes de contenu, tout en m'intégrant au sein de l'infrastructure online."
+  ],
+
+  "sii_summary": [
+    "SII Canada est la nouvelle branche canadienne d’une société de services française.",
+    "### BNC  \n",
+    "Mon rôle à la BNC a été un hybride de 2 postes existants : ",
+    "* En tant que catalyste, j’ai apporté la culture et la philosophie DevOps au sein des équipes, tout en les accompagnant sur les choix et les technologies les plus adaptées à leur besoin.",
+    "* En tant qu’intégrateur j’ai implémenté les pipelines, les configurations, et les processus pour soulager l’équipe de développement et amener mon expertise sur l’utilisation des outils.",
+    "J’ai pu renforcer mes connaissances sur les outils DevOps, tout en découvrant des aspects plus humains du coaching et de l’accompagnement.",
+    "### *Forge Interne*",
+    "Avant de rejoindre les équipes de la DevOps Squad au sein de la BNC, j’ai travaillé à l’architecture et la mise en place de bases d’une forge de développement interne."
+  ],
+
+  "nalys_summary": [
+    "### Infrastructure cloud interne (Juin 2018 - Aout 2018)",
+    "Ma dernière mission chez Nalys a été de concevoir une « Proof of Concept » autour d’un cluster kubernetes hébergé on premise.",
+    "L’objectif du cluster était de faciliter l’hébergement des applications réalisées en interne tout en améliorant la vélocité de déploiement, le monitoring, la stabilité, etc… La première version du cluster a servi à héberger la refonte de la forge de développement que j’ai implémenté.",
+
+    "### Nalys Graduate Program (Septembre 2017)",
+    "En parallèle de ma mission chez ING, j’ai effectué une journée de formation autour de l’Agile et du DevOps lors du Graduate Program, une formation de 3 mois proposée à de nouveaux arrivants en sortie d’école.",
+    "J’ai conçu et transmis un cours théorique et pratique sous forme d’ateliers pour transmettre les valeurs et les processus de l’Agile et du DevOps.",
+
+    "### ING (Juin 2017 - Juin 2018)",
+    "Mon rôle chez ING était de supporter 2 équipes dans leurs processus et leurs outils pour le déploiement et la release de leurs applications.",
+    "J’étais en charge du support aux développeurs pour leur fournir le meilleur environnement de développement possible, mais aussi améliorer les processus de compilation et de feedback (tests unitaires et d’intégration, livraison sur les environnements de développement …).",
+    "Une de mes tâches a également été de migrer la solution de CI en place vers un SaaS global afin de rationaliser les pipelines de CI/CD.",
+    "J’ai également aidé à revoir les formats et processus de release pour améliorer la stabilité des livraisons, consolider les changelogs et éviter les incidents, tout en responsabilisant les développeurs et favorisant le partage de connaissances.",
+
+    "### GIM (Février 2017 - Mai 2017)",
+    "En tant que développeur SIG et coach DevOps chez GIM, ma mission a comporté 2 axes principaux :",
+    "* Je suis tout d’abord intervenu sur un projet pour aider aux développements d’une application front end Javascript cartographique du fait de mon expérience sur ce métier.",
+    "* L’équipe ayant des difficultés à stabiliser son cycle de build et de déploiement, j’ai également activement participé à la refonte du processus de build et de livraison pour permettre un gain de temps notable, l’équipe a ainsi pu se concentrer sur la qualité des développements."
+  ],
+
+  "worldline_summary": [
+    "### Chef de projet (Juillet 2015 - Décembre 2016)",
+    "Afin de compléter l’expérience acquise au sein de Worldline et du projet Géoportail, j’ai validé ma position de référent du projet en acquérant le rôle de chef de projet sur les sujets d’évolutions.",
+    "Chez Worldline, le chef de projet est à mi-chemin entre la gestion de projet traditionnelle et l’équipe de développement.",
+    "J’ai donc continué les mêmes activités que précédemment à hauteur de 50%, tout en découvrant les bases de la gestion de projet, temps, budget et priorités.",
+    "J’ai profité de ce rôle pour revoir avec l’équipe l’organisation et les processus de gestion des tâches, tout en profitant de la proximité avec le client pour consolider la position de partenaire que nous avions.",
+
+    "### Responsable d'application (Septembre 2012 - Juin 2015)",
+    "Lors du passage en production du projet, j’ai intégré l’équipe d’exploitation en charge de corriger les bugs et incidents, mais également de terminer le développement de fonctionnalités reportées.",
+    "Lors de cette période, nous avons peu à peu appliqué des items tirés des méthodes Agiles ou des pratiques DevOps tels que du Kanban, des itérations ou de la normalisation des releases visant à automatiser les livraisons.",
+    "Au fil des mois, j’ai pu prendre un rôle de référant sur l’architecture et les aspects métiers du projet, me permettant de participer plus activement à la conception des nouvelles fonctionnalités lors des phases d’avant-vente.",
+
+    "### Stagiaire en développement SIG (Février 2012 - Août 2012)",
+    "J’ai débuté mon expérience sur le Géoportail en tant que développeur Flex pour le composant de visualisation cartographique.",
+    "Lors de cette période j’ai découvert les bases des normes de la géographie en informatique, tout en participant au développement de nouvelles fonctionnalités pour le composant de visualisation cartographique.",
+    "En parallèle, j’ai réalisé 2 applications supplémentaires en flash pour la boutique de l’IGN, utilisant les données du Géoportail pour consulter les emprises cartographiques des cartes papier ou créer sa propre carte personnalisée."
+  ],
+
+  "captive_studio_summary": "Au sein de l’équipe de développement d’une agence de communication, j’ai pu réaliser divers projets web en Ruby on Rails, et participer à leur conception dans le cas de nouveaux projets."
+
+
 
 }

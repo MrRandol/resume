@@ -5,7 +5,6 @@ import { changeLocale } from '../actions'
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    locale: state.app.locale
   }
 }
 

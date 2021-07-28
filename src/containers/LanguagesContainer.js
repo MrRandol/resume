@@ -3,8 +3,7 @@ import Languages from '../components/Languages'
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    languages: state.person.languages,
-    color: state.app.color
+    languages: state.person.languages
   }
 }
 
