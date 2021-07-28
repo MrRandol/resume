@@ -40,11 +40,11 @@ const Header = ({person, basicsLogo}) => {
         </OverlayTrigger>
         <Dropdown>
           <Dropdown.Toggle variant="secondary">
-            {t('i18n_' + i18n.language)}
+            {i18n.language === 'fr' ? t('i18n_fr') : t('i18n_en')}
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item  as="button" onClick={() => changeLanguage('fr')}>{t('i18n_fr')}</Dropdown.Item>
-            <Dropdown.Item  as="button" onClick={() => changeLanguage('en')}>{t('i18n_en')}</Dropdown.Item>
+            <Dropdown.Item as="button" onClick={() => changeLanguage('fr')}>{t('i18n_fr')}</Dropdown.Item>
+            <Dropdown.Item as="button" onClick={() => changeLanguage('en')}>{t('i18n_en')}</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </div>
