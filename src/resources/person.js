@@ -198,6 +198,15 @@ export const person = {
   ],
   education: [
     {
+      institution: 'scrum.org',
+      website: 'https://www.scrum.org/',
+      studyType: 'pspo_studytype',
+      startDate: '2021-07-01',
+      endDate: '2021-07-01',
+      gpa: '0.0',
+      courses: [],
+    },
+    {
       institution: 'UTBM (Université de Technologie de Belfort Montbéliard), France',
       logo: utbm,
       website: 'https://www.utbm.fr/',

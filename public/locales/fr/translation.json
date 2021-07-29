@@ -55,12 +55,9 @@
   "native_speaker": "Natif",
   "fluent": "Courant",
 
-  "utbm_area": "Ingénieur en Informatique",
-  "utbm_studytype": "I2RV : Imagerie, Interaction et Réalité Virtuelle",
-  "english_course" : "Cursus Anglophone",
-  "st_andre_area": "Bac Scientifique",
-  "st_andre_studytype": "Sciences de l'Ingénieur",
-  "spe_math": "Spécialisation Mathématiques",
+  "utbm_studytype": "Diplôme d'ingénieur informatique  \nBranche I2RV : Images, Interaction et Réalité Virtuelle  \nCours préparatoires réalisés en cursus anglophone",
+  "st_andre_studytype": "Baccalauréat Scientifique  \nOption Sciences de l'Ingénieur  \nSpécialité Mathématiques",
+  "pspo_studytype": "Certification PSPO 1 (Professional Scrum Product Owner).  \n [Lien de vérification](https://www.scrum.org/certificates/683202) (entrer maxime.choffat@gmail.com comme compte a vérifier)",
 
   "hobby_high_tech": "Loisirs : Technologies, Gaming, Cinéma, lecture",
   "hobby_travel": "Voyages : Road trip au travers du Canada et des Etats-Unis durant 3 mois.",
