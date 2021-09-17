@@ -146,7 +146,7 @@ export const person = {
       position: 'worldline_title',
       website: 'https://worldline.com/',
       startDate: '2012-02-01',
-      endDate: '2015-07-01',
+      endDate: '2016-12-01',
       summary: 'worldline_summary',
       highlights: [
         "Project Management",
