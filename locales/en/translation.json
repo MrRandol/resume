@@ -30,6 +30,7 @@
   "SIG": "GIS",
   "GestionDeProjet": "Project management",
 
+  "product_owner": "Product Owner",
   "software_engineer": "Software Engineer",
   "devops_cata_inte": "Devops Catalyst/Integrator",
   "internal_cluster_build": "Internal development forge : Architect and developer",
@@ -63,12 +64,20 @@
   "sport_fencing": "Fencing : Club and competition during 10 years",
   "sport_judo": "Judo : Club during 8 years",
 
-  "my_summary": "![PSPO](/resume/img/pspoi.png) PSPO  \n🌍 Passionné de SIG  \n🚀 Adepte DevOps & Agile  \n🎮 Développeur de jeux vidéos",
+  "my_summary": "![PSPO](/img/pspoi.png) PSPO  \n🌍 Passionné de SIG  \n🚀 Adepte DevOps & Agile  \n🎮 Développeur de jeux vidéos",
+
+  "sem_summary": [
+    "### *Armory*  \n",  
+    "Our product main goal was to offer game teams an easy to use solution to operate live games. The main solutions were providing delivery systems to offer a quick, safe and clear way for LiveOps manager to propose their content to the players,",
+    "while providing feedback to help guide the game teams on the best choices to make.",
+    "As a PO, I was in charge of guiding the product through its predetermined MVP phase, while building the vision of the product for the future, through UX research and stakeholders conversations. My focus with the squad was to ensure the needs were understood,",
+    "while understanding the technical possibilities or liimitations, ensuring the best vision possible both for end user and developers."
+  ],
 
   "ubisoft_summary": [
-    "### *Unannounced project*  \n",  
-    "Within the development team of this project, I helped build a generic solution to prodive live content and configuration to games as a fullstack developer.",
-    "I also helped prodide and share best practice for project long term maintenance.",
+    "### *Rainbow six mobile*  \n",  
+    "Within the development team of this project, I helped build a generic solution to provide live content and configurations to the game as a fullstack developer.",
+    "I also helped the set up and share of best practices around long term maintenance.",
     "### *Hyperscape*",
     "Within the Hyperscape team, I worked on the game admin backoffice web tools. I had a big focus on season data management, mostly to offer the team members an easy and fast way to build season content while preserving data coherence.",
     "I worked on features development for the backoffice (full stack), data deployment with python, the CI system (gitlabci, docker, openapi...), or the service deployment on the infrastructure with kubernetes."
