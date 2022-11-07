@@ -1,7 +1,6 @@
 import React from 'react';
 import { Trans } from 'react-i18next';
 import i18next from 'i18next';
-const uuidv4 = require('uuid/v4');
 
 const Interest = ({ interest, color }) => (
     <div
@@ -15,7 +14,7 @@ const Interest = ({ interest, color }) => (
           var split = keyworkText.split(':')
           var title = split[0]
           var summary = split[1]
-          return <div key={"interest-" + uuidv4()} style={{background: "rgba("+color.r+","+color.g+","+color.b+", 0.1)"}} title={title}>
+          return <div key={interest.name + "-" + interest.keywork} style={{background: "rgba("+color.r+","+color.g+","+color.b+", 0.1)"}} title={title}>
             {summary}
           </div>
         })}
@@ -27,7 +26,7 @@ const Interests = ({ interests, color }) => {
     <div className="interets">
       <h3 className="category-title"><Trans>interests</Trans></h3>
       {interests.map((interest, i) => (
-        <Interest key={"interest-" + uuidv4()} interest={interest} color={color} />
+        <Interest key={interest.name + "-interest-" + interest.keywork} interest={interest} color={color} />
       ))}
     </div>
   );

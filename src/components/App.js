@@ -18,9 +18,9 @@ const App = ({ locale, changeLocale, store }) => {
         <Container fluid className="p-0 m-0">
           <HeaderContainer changeLanguage={null} />
           <section id="profile"> <ProfileContainer /></section>
+          <section id="skills"> <SkillsContainer /></section>
           <section id="work"> <WorkContainer /></section>
           <section id="education"> <EducationContainer /></section>
-          <section id="skills"> <SkillsContainer /></section>
           <section id="languages"> <LanguagesContainer /></section>
 
           {/* <section id="interests"> <InterestsContainer /></section> */}

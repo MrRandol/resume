@@ -1,4 +1,7 @@
-@import "custom";
+@import "theme";
+
+@import "~bootstrap/scss/bootstrap";
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
 
 /**********************
@@ -78,6 +81,10 @@ a {
 /**********************
   HEADER
 **********************/
+.navbar {
+  padding: .5rem 1rem;
+}
+
 .navbar-nav {
   height: 100%;
 }
@@ -313,3 +320,4 @@ img[alt=PSPO] {
 .footer-contact-icon {
   font-size: 8em;
 }
+

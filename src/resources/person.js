@@ -6,6 +6,7 @@ import nalys from './img/nalys.png';
 import utbm from './img/utbm.png';
 import captive from './img/captive.png';
 import sii from './img/sii.png';
+import sem from './img/sem.png';
 
 export const person = {
   basics: {
@@ -44,23 +45,35 @@ export const person = {
     { type: "methodology", name: "DevOps", level: "95" },
     { type: "methodology", name: "Agile", level: "90" },
     { type: "methodology", name: "Scrum", level: "90" },
-    { type: "methodology", name: "GestionDeProjet", level: "50" },
+    { type: "methodology", name: "GestionDeProjet", level: "75" },
 
-    { type: "tools", name: "Gitlab", level: "95" },
     { type: "tools", name: "Jira", level: "90" },
     { type: "tools", name: "Confluence", level: "90" },
     { type: "tools", name: "Jenkins", level: "95" },
     { type: "tools", name: "Git", level: "95" },
+    { type: "tools", name: "Gitlab", level: "95" },
 
   ],
   work: [
+    {
+      company: 'Square Enix Montreal / Studio Onoma',
+      logo: sem,
+      position: 'product_owner',
+      website: 'https://www.studio-onoma.com/fr/',
+      startDate: '2022-01-01',
+      endDate: null,
+      summary: "sem_summary",
+      highlights: [
+        'Scrum', 'Kanban', 'ServantLeader', 
+      ],
+    },
     {
       company: 'Ubisoft Montréal',
       logo: ubisoft,
       position: 'online_sysops',
       website: 'https://montreal.ubisoft.com/',
       startDate: '2019-06-01',
-      endDate: null,
+      endDate: '2022-01-01',
       summary: "ubisoft_summary",
       highlights: [
         'JavaScript',
