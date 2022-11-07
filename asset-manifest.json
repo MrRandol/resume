@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.62b246d3.css",
-    "main.js": "/resume/static/js/main.df7cc22f.js",
+    "main.js": "/resume/static/js/main.fcfd2777.js",
     "static/js/4624.3b0689bf.chunk.js": "/resume/static/js/4624.3b0689bf.chunk.js",
     "static/js/6184.3cf2eb3f.chunk.js": "/resume/static/js/6184.3cf2eb3f.chunk.js",
     "static/js/1879.0fcdc152.chunk.js": "/resume/static/js/1879.0fcdc152.chunk.js",
@@ -140,12 +140,13 @@
     "static/media/profile.jpg": "/resume/static/media/profile.e92161f764e891515f40.jpg",
     "static/media/utbm.png": "/resume/static/media/utbm.dd8d7287d0c5b64e08d7.png",
     "static/media/nalys.png": "/resume/static/media/nalys.305dcf0ca597bf9a8056.png",
+    "static/media/sem.png": "/resume/static/media/sem.27d4f9e0ed0f59dee01a.png",
     "static/media/ubisoft.png": "/resume/static/media/ubisoft.51be88af5487466ddb70.png",
     "static/media/captive.png": "/resume/static/media/captive.d2747ef39e47c59a6e9c.png",
     "index.html": "/resume/index.html",
     "static/media/getFetch.cjs": "/resume/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.62b246d3.css.map": "/resume/static/css/main.62b246d3.css.map",
-    "main.df7cc22f.js.map": "/resume/static/js/main.df7cc22f.js.map",
+    "main.fcfd2777.js.map": "/resume/static/js/main.fcfd2777.js.map",
     "4624.3b0689bf.chunk.js.map": "/resume/static/js/4624.3b0689bf.chunk.js.map",
     "6184.3cf2eb3f.chunk.js.map": "/resume/static/js/6184.3cf2eb3f.chunk.js.map",
     "1879.0fcdc152.chunk.js.map": "/resume/static/js/1879.0fcdc152.chunk.js.map",
@@ -284,6 +285,6 @@
   },
   "entrypoints": [
     "static/css/main.62b246d3.css",
-    "static/js/main.df7cc22f.js"
+    "static/js/main.fcfd2777.js"
   ]
 }
