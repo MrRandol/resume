@@ -2,6 +2,7 @@
   "name": "randol-resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mrrandol.github.io/resume/",
   "dependencies": {
     "bootstrap": "^5.2.2",
     "file-saver": "^2.0.5",
@@ -20,11 +21,16 @@
     "redux": "^4.2.0",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,4 +50,5 @@
       "last 1 safari version"
     ]
   }
+
 }
