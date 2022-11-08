@@ -199,7 +199,6 @@ background: linear-gradient(to right, #002395 calc(100% / 3), white calc(100% / 
 $border-offset: -17px;
 
 h1.intro-title {
-  color: $secondary;
   border-bottom: .1em solid $primary;
   font-size: 3.5em;
   font-weight: 600;
@@ -260,7 +259,8 @@ img[alt=PSPO] {
 
   .skill-badge {
     font-size: .85em;
-    padding: .5em .7em
+    padding: .5em .7em;
+    margin: 0.3em 0;
   }
 
   .skill-name {
@@ -300,15 +300,6 @@ img[alt=PSPO] {
   FOOTER
 **********************/
 
-.footer {
-  position: relative;
-  padding: 10em 0;
-}
-
-.footer-content {
-  padding-top: 3em;
-}
-
 .footer:before {
   content: '';
   -webkit-clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0% 100%);
@@ -320,6 +311,19 @@ img[alt=PSPO] {
   right: 0;
   left: 0;
   bottom: 0;
+}
+
+.footer {
+  position: relative;
+  padding: 10em 0;
+
+   > * {
+      position: relative;
+  }
+}
+
+.footer-content {
+  padding-top: 3em;
 }
 
 .footer-contact-icon {

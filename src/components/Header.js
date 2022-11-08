@@ -1,14 +1,10 @@
-import React, { useState } from 'react'
-import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
+import React  from 'react'
 import { useTranslation } from 'react-i18next';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Offcanvas from 'react-bootstrap/Offcanvas';
 import Tooltip from 'react-bootstrap/Tooltip';
 import Dropdown from 'react-bootstrap/Dropdown';
-import Button from 'react-bootstrap/Button';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Scrollspy from 'react-scrollspy';
 import { downloadJson } from '../common/downloadJson'
@@ -30,7 +26,6 @@ const Header = ({person, basicsLogo}) => {
           <Nav.Link href="#skills">{t('skills')}</Nav.Link>
           <Nav.Link href="#work">{t('work')}</Nav.Link>
           <Nav.Link href="#education">{t('education')}</Nav.Link>
-          <Nav.Link href="#languages">{t('languages')}</Nav.Link>
         </Scrollspy>
       </Nav>
 
@@ -43,8 +38,8 @@ const Header = ({person, basicsLogo}) => {
             {i18n.language === 'fr' ? t('i18n_fr') : t('i18n_en')}
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item as="button" onClick={() => changeLanguage('fr')}>{t('i18n_fr')}</Dropdown.Item>
-            <Dropdown.Item as="button" onClick={() => changeLanguage('en')}>{t('i18n_en')}</Dropdown.Item>
+            <Dropdown.Item as="button" onClick={() => changeLanguage('fr')}><img src="img/fr.png"></img>{t('i18n_fr')}</Dropdown.Item>
+            <Dropdown.Item as="button" onClick={() => changeLanguage('en')}><img src="img/fr.png"></img>{t('i18n_en')}</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </div>

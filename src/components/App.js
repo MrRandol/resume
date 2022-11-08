@@ -21,7 +21,6 @@ const App = ({ locale, changeLocale, store }) => {
           <section id="skills"> <SkillsContainer /></section>
           <section id="work"> <WorkContainer /></section>
           <section id="education"> <EducationContainer /></section>
-          <section id="languages"> <LanguagesContainer /></section>
 
           {/* <section id="interests"> <InterestsContainer /></section> */}
 
