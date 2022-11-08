@@ -23,7 +23,7 @@ h3.category, h2.category {
 
 h2.category {
   font-size: 4em;
-  margin-top: 1em;
+  margin-top: .7em;
 }
 
 .flex-centered {
@@ -257,6 +257,11 @@ img[alt=PSPO] {
 .skill {
   margin: 1em .25em;
   width: 100%;
+
+  .skill-badge {
+    font-size: .85em;
+    padding: .5em .7em
+  }
 
   .skill-name {
     font-style: italic;

@@ -29,6 +29,9 @@
   "framework": "Framework",
   "SIG": "GIS",
   "GestionDeProjet": "Project management",
+  "ci_cd": "Continuous integration / deployement",
+  "continuous_improvement": "Continuous improvement",
+  "team_spirit": "Team spirit",
 
   "product_owner": "Product Owner",
   "software_engineer": "Software Engineer",
@@ -64,14 +67,13 @@
   "sport_fencing": "Fencing : Club and competition during 10 years",
   "sport_judo": "Judo : Club during 8 years",
 
-  "my_summary": "![PSPO](/img/pspoi.png) PSPO  \n🌍 Passionné de SIG  \n🚀 Adepte DevOps & Agile  \n🎮 Développeur de jeux vidéos",
+  "my_summary": "![PSPO](https://raw.githubusercontent.com/MrRandol/resume/master/public/img/pspoi.png) PSPO  \n🌍 Passionné de SIG  \n🚀 Adepte DevOps & Agile  \n🎮 Développeur de jeux vidéos",
 
   "sem_summary": [
     "### *Armory*  \n",  
-    "Our product main goal was to offer game teams an easy to use solution to operate live games. The main solutions were providing delivery systems to offer a quick, safe and clear way for LiveOps manager to propose their content to the players,",
-    "while providing feedback to help guide the game teams on the best choices to make.",
-    "As a PO, I was in charge of guiding the product through its predetermined MVP phase, while building the vision of the product for the future, through UX research and stakeholders conversations. My focus with the squad was to ensure the needs were understood,",
-    "while understanding the technical possibilities or liimitations, ensuring the best vision possible both for end user and developers."
+    "Our product main goal was to offer game teams an easy to use solution to operate live games. The main solutions were providing delivery systems to offer a quick, safe and clear way for LiveOps manager to propose their content to the players, while providing feedback to help guide the game teams on the best choices to make.",
+    "As a PO, I was in charge of guiding the product through its predetermined MVP phase, while building the vision of the product for the future, through UX research and stakeholders conversations.",
+    "My focus with the squad was to ensure the needs were understood, while understanding the technical possibilities or liimitations, ensuring the best vision possible both for end user and developers."
   ],
 
   "ubisoft_summary": [
@@ -84,7 +86,6 @@
   ],
 
   "sii_summary": [
-    "SII Canada is a new branch of the French company SII.",
     "### BNC  \n",
     "Entering the BNC, I took a hybrid role, mix of the catalyst and the integrator. ",
     "* As a Catalyst, I coach and advise teams regarding their processes, technologies or priorities regarding the development and release process.",

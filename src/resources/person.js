@@ -42,17 +42,8 @@ export const person = {
     ]
   },
   skills: [
-    { type: "methodology", name: "DevOps", level: "95" },
-    { type: "methodology", name: "Agile", level: "90" },
-    { type: "methodology", name: "Scrum", level: "90" },
-    { type: "methodology", name: "GestionDeProjet", level: "75" },
-
-    { type: "tools", name: "Jira", level: "90" },
-    { type: "tools", name: "Confluence", level: "90" },
-    { type: "tools", name: "Jenkins", level: "95" },
-    { type: "tools", name: "Git", level: "95" },
-    { type: "tools", name: "Gitlab", level: "95" },
-
+    { name: "competences", keywords: ["Scrum", "Kanban", "leadership", "team_spirit", "DevOps", "ci_cd", "continuous_improvement"]},
+    { name: "tools", keywords: ["Jira", "Confluence", "Jenkins", "Miro", "Git"]}
   ],
   work: [
     {

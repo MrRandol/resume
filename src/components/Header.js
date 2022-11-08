@@ -27,9 +27,9 @@ const Header = ({person, basicsLogo}) => {
       <Nav>
         <Scrollspy items={ ['profile', 'work', 'education', 'skills', 'languages'] } className="m-0 p-0 d-flex flex-row" currentClassName="current">
           <Nav.Link href="#profile">{t('profile')}</Nav.Link>
+          <Nav.Link href="#skills">{t('skills')}</Nav.Link>
           <Nav.Link href="#work">{t('work')}</Nav.Link>
           <Nav.Link href="#education">{t('education')}</Nav.Link>
-          <Nav.Link href="#skills">{t('skills')}</Nav.Link>
           <Nav.Link href="#languages">{t('languages')}</Nav.Link>
         </Scrollspy>
       </Nav>
