@@ -31,15 +31,15 @@ const Header = ({person, basicsLogo}) => {
 
       <div className="d-flex flex-row align-items-center justify-content-center">
         <OverlayTrigger placement="auto" overlay={<Tooltip>{t('download_json')}</Tooltip>}>
-          <a className="me-4 download-icon" onClick={() => downloadJson(person, t, i18n)}><i className="fas fa-download"></i></a>
+          <a className="me-4 download-icon" href="" onClick={() => downloadJson(person, t, i18n)}><i className="fas fa-download"></i></a>
         </OverlayTrigger>
-        <Dropdown>
+        <Dropdown drop="start">
           <Dropdown.Toggle variant="secondary">
             {i18n.language === 'fr' ? t('i18n_fr') : t('i18n_en')}
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item as="button" onClick={() => changeLanguage('fr')}><img src="img/fr.png"></img>{t('i18n_fr')}</Dropdown.Item>
-            <Dropdown.Item as="button" onClick={() => changeLanguage('en')}><img src="img/fr.png"></img>{t('i18n_en')}</Dropdown.Item>
+            <Dropdown.Item className="d-flex flex-row align-items-center justify-content-start" as="button" onClick={() => changeLanguage('fr')}><div className="flag french"></div><b>&nbsp; {t('i18n_fr')}</b></Dropdown.Item>
+            <Dropdown.Item className="d-flex flex-row align-items-center justify-content-start" as="button" onClick={() => changeLanguage('en')}><div className="flag english"></div><b>&nbsp; {t('i18n_en')}</b></Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </div>

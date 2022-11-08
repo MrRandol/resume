@@ -104,14 +104,14 @@ a {
 
 .flag {
   background-repeat: no-repeat;
-  border-radius: 50%;
+  border-radius: 25%;
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
 }
 
 .flag.french {
-background: linear-gradient(to right, #002395 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #ED2939 calc(100% / 3 * 2));}
+  background: linear-gradient(to right, #002395 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #ED2939 calc(100% / 3 * 2));}
 
 .flag.english {
   background: #00247D;
@@ -124,8 +124,8 @@ background: linear-gradient(to right, #002395 calc(100% / 3), white calc(100% / 
   top: 0;
   left: 0;
   background: linear-gradient(to bottom, transparent 40%, #CC142B 40%, #CC142B 60%, transparent 60%), linear-gradient(to right, transparent 45%, #CC142B 45%, #CC142B 55%, transparent 55%), linear-gradient(to bottom, transparent 35%, white 35%, white 65%, transparent 65%), linear-gradient(to right, transparent 40%, white 40%, white 60%, transparent 60%), linear-gradient(146deg, transparent 50%, #CC142B 50%, #CC142B 53%, transparent 53%) -65px 45px, linear-gradient(146deg, transparent 50%, #CC142B 50%, #CC142B 53%, transparent 53%) 55px -45px, linear-gradient(34deg, transparent 50%, #CC142B 50%, #CC142B 53%, transparent 53%) -75px -43px, linear-gradient(34deg, transparent 50%, #CC142B 50%, #CC142B 53%, transparent 53%) 70px 46px, linear-gradient(146deg, transparent 45%, white 45%, white 55%, transparent 55%), linear-gradient(34deg, transparent 45%, white 45%, white 55%, transparent 55%);
-  width: 180px;
-  height: 120px;
+  width: 25px;
+  height: 25px;
   background-repeat: no-repeat; 
 }
 
