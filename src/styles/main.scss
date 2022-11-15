@@ -41,7 +41,7 @@ hr.small {
 }
 
 a {
-  color: $tertiary;
+  color: $secondary;
 
   &:hover {
     color: $secondary;
@@ -57,7 +57,7 @@ a {
 }
 
 .tertiary {
-  color: $tertiary;
+  color: $secondary;
 }
 
 .right-align {
@@ -75,7 +75,7 @@ a {
 }
 
 .download-icon:hover {
-  color: $tertiary;
+  color: $secondary;
 }
 
 /**********************
@@ -99,7 +99,7 @@ a {
   color: $text-color !important;
 }
 .nav-link:hover {
-  color: $tertiary !important;
+  color: $secondary !important;
 }
 
 .flag {
