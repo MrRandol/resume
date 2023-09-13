@@ -1,0 +1,138 @@
+{
+  "basics": {
+    "name": "Maxime CHOFFAT",
+    "label": "Product Owner",
+    "image": "profile.jpg",
+    "email": "maxime.choffat@gmail.com",
+    "phone": "+33 6 33 56 36 25",
+    "summary": "my_summary",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Montréal",
+      "countryCode": "CANADA",
+      "region": "Québec"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "MrRandol",
+        "url": "https://github.com/MrRandol"
+      },
+      {
+        "network": "Twitter",
+        "username": "Mr_Randol",
+        "url": "https://twitter.com/Mr_Randol"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "maxime-choffat",
+        "url": "https://www.linkedin.com/in/maxime-choffat-b2423a75/"
+      }
+    ]
+  },
+  "skills": [
+    { "name": "soft_skills", "keywords": ["agile", "devops", "product_management", "scrum", "kanban", "servant_leadership", "team_spirit", "user_experience", "priorities_management", "initiative_spirit", "organized", "detail_oriented", "continuous_improvement", "speaker", "trainer", "problem_solving", "analysis", "autonomous"]},
+    { "name": "tools", "keywords": ["Jira", "Confluence", "Jenkins", "Miro", "Gitlab", "Github", "Jenkins"]}
+  ],
+  "work": [
+    {
+      "organization": "Intact",
+      "logo": "intact.jpeg",
+      "position": "product_owner",
+      "url": "https://www.intact.ca/",
+      "startDate": "2023-01-04",
+      "endDate": null,
+      "summary": "intact_summary"
+    },
+    {
+      "organization": "Square Enix Montreal / Studio Onoma",
+      "logo": "onoma.jpeg",
+      "position": "product_owner",
+      "url": "https://square-enix-games.com/",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
+      "summary": "sem_summary"
+    },
+    {
+      "organization": "Ubisoft Montréal",
+      "logo": "ubisoft.jpeg",
+      "position": "online_sysops",
+      "url": "https://montreal.ubisoft.com/",
+      "startDate": "2019-06-01",
+      "endDate": "2022-01-01",
+      "summary": "ubisoft_summary"
+    },
+    {
+      "organization": "SII Canada",
+      "logo": "sii.jpeg",
+      "position": "devops_cata_inte",
+      "url": "https://www.siicanada.com/",
+      "startDate": "2019-01-01",
+      "endDate": "2019-06-01",
+      "summary": "sii_summary"
+    },
+    {
+      "organization": "Nalys",
+      "logo": "nalys.jpeg",
+      "position": "nalys_title",
+      "url": "https://www.nalys-group.com/en/home",
+      "startDate": "2017-02-01",
+      "endDate": "2018-08-01",
+      "summary": "nalys_summary"
+    },
+    {
+      "organization": "Worldline",
+      "logo": "worldline.jpeg",
+      "position": "worldline_title",
+      "url": "https://worldline.com/",
+      "startDate": "2012-02-01",
+      "endDate": "2016-12-01",
+      "summary": "worldline_summary"
+    },
+    {
+      "organization": "Captive Studio",
+      "logo": "captive.jpeg",
+      "position": "web_developer",
+      "url": "https://www.captive.fr/",
+      "startDate": "2010-08-01",
+      "endDate": "2011-02-01",
+      "summary": "captive_studio_summary"
+    }
+  ],
+  "education": [
+    {
+      "institution": "UTBM (Université de Technologie de Belfort Montbéliard), France",
+      "logo": "utbm.jpeg",
+      "website": "https://www.utbm.fr/",
+      "area": "utbm_area",
+      "studyType": "utbm_studytype",
+      "startDate": "2007-09-01",
+      "endDate": "2012-06-01",
+      "gpa": "0.0",
+      "courses": [
+        "education_english_course"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "issuer": "scrum.org",
+      "website": "https://www.scrum.org/",
+      "name": "pspo_name",
+      "date": "2021-07-01"
+    }
+  ],
+  "languages": [
+    {
+      "name": "french",
+      "level": "native_speaker",
+      "percent": 100
+    },
+    {
+      "name": "english",
+      "level": "fluent",
+      "percent": 90
+    }
+  ]
+}

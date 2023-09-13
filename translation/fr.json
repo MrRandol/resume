@@ -1,0 +1,328 @@
+{
+  "dateMonth": "{{date, MMMM}}",
+  "dateYear": "{{date, YYYY}}",
+  "Today": "Aujourd'hui",
+
+  "profile": "Profil",
+  "basics": "Profil",
+  "contact": "Contact",
+  "socials": "Réseaux sociaux",
+  "work": "Expérience",
+  "education": "Formation",
+  "interests": "Centres d'interêt",
+  "Training": "Formation",
+  
+  "skills": "Compétences",
+  "soft_skills": "Compétences douces",
+  
+  "tools": "Outils",
+  "tool": "Outils",
+  
+  "languages": "Langues",
+  "language": "Langue",
+  "french": "Français",
+  "english": "Anglais",
+  "fr": "Français",
+  "en": "Anglais",
+  "i18n_fr": "Français",
+  "i18n_en": "English",
+  "native_speaker": "Natif",
+  "fluent": "Courant",
+
+  "get_in_touch": "Entrer en contact",
+  "download_json": "Télécharger le JSON",
+  "contact_me": "Contact",
+  "powered_by" : "Cette page a été réalisée avec ",
+  "inspired_by": "Inspiré par ",
+  "based_on": "Respecte la norme ",
+  "link_to": "Lien vers ",
+  "source_code": "le code source",
+  "print": "Imprimer le CV",
+  "print_environment": "🌳 Pensez à la planète, n'imprimez que si nécessaire",
+  "pdf": "Télécharger le PDF",
+  "pdf_help": "Pour télécharger le CV au format PDF, simplement utiliser le bouton d'impression, puis 'Sauvegarder en PDF' en imprimante de destination",
+
+  "technologies": "Technologies",
+  "agile": "Agile", 
+  "devops": "DevOps", 
+  "product_management": "Management de produit", 
+  "scrum": "Scrum", 
+  "kanban": "Kanban",
+  "servant_leadership": "Leadership servant", 
+  "team_spirit": "Esprit d'équipe", 
+  "user_experience": "Expérience utilisateur", 
+  "priorities_management": "Gestion des priorités", 
+  "initiative_spirit": "Esprit d'initiative", 
+  "organized": "Organisé", 
+  "detail_oriented": "Sens du détail", 
+  "continuous_improvement": "Amélioration continue", 
+  "speaker": "Conférencier", 
+  "trainer": "Formateur", 
+  "problem_solving": "Régle les problèmes", 
+  "analysis": "Esprit d'analyse", 
+  "autonomous": "Autonome",
+  "software_dev_fullstack": "Développement logiciel (fullstack)",
+  "language_agnostic": "Agnostique des languages",
+  
+
+  "product_owner": "Product Owner",
+  "fullstack_developer": "Développeur fullstack",
+  "software_engineer": "Ingénieur d'étude et développement",
+  "devops_cata_inte": "Catalyste / Integrateur Devops",
+  "internal_cluster_build": "Architecte et développeur - forge de développement interne",
+  "developer_devops_coach": "Ingénieur de développement & coach DevOps",
+  "flex_developper": "Développeur Flex",
+  "application_manager": "Responsable d'application",
+  "project_manager": "Chef de projet",
+  "release_engineer": "Ingénieur build & release",
+  "web_developper": "Développeur web",
+  "online_sysops": "Spécialiste Système et Opération en ligne",
+  "nalys_title": "Ingénieur logiciel & Coach DevOps",
+  "worldline_title": "Responsable d'application",
+
+  "utbm_studytype": "**Diplôme d'ingénieur informatique**  \nBranche I2RV : Images, Interaction et Réalité Virtuelle  \nCours préparatoires réalisés en cursus anglophone",
+  "pspo_name": "Certification PSPO 1 (Professional Scrum Product Owner).  \n [Lien de vérification](https://www.scrum.org/certificates/683202) (entrer maxime.choffat@gmail.com comme compte a vérifier)",
+
+  "my_summary": [ 
+    "Mon expérience en tant que développeur m'a d'abord dirigé vers l'Agile, puis vers le Devops. Aujourd'hui, je souhaite combiner mon expérience technique et mes valeurs pour aider au mieux les équipes au sein d'un projet passionnant et d'une vision engageante. J'aime comprendre les besoins des utilisateurs et les convertir en un produit simple, performant et évolutif. A l'inverse, je suis capable de simplifier les concepts complexes afin de communiquer au mieux avec les acteurs du produit tout en gardant le focus sur les informations clés.  \n  \n",
+    "✅ PSPO • 🚀 Adepte DevOps & Agile • 🎮 Développeur de jeux vidéos • 🌍 SIG"
+  ],
+  
+  "my_summary_fullstack": [ 
+    "Mon voyage au travers de l'industrie tech m'a permis d'évoluer d'un rôle de développeur logiciel à celui de product owner. Mon expérience de gestion de produit m'a offert une nouvelle perspective centrée sur les utilisateurs et les méthodes agiles, me permettant comprendre les complexités de transposer des besoins d'affaire en solutions techniques. A présent que je possède cette position polyvalente, je suis enthousiaste à l'idée de revenir à mes racines de développeur, apportant avec moi une compréhension plus complète du développemnent d'un produit. Je suis convaincu que cette perspective sera d'une grande valeur pour n'importe quelle équipe de développement.  \n  \n",
+    "🚀 Adepte DevOps & Agile • 🎮 Développeur de jeux vidéos • ✅ PSPO • 🌍 SIG"
+  ],
+
+  "intact_summary": [
+    "### Intact Lab \n",
+    "Je participe à la création d'une plateforme de développement interne au sein d'Intact Lab. \n",
+    "- Discussions avec les différents utilisateurs et acteurs pour obtenir leurs commentaires et leurs besoins \n",
+    "- Mise en place et application de plans de communication pour partager nos progrès \n",
+    "- Création d'une roadmap avec une vision produit claire et études de viabilité pour aider le leadership à comprendre et adopter notre vision \n",
+    "- Définition claire des besoin pour aider l'équipe de développement à retrouver du focus \n",
+    "- Apporter de la structure dans nos outils pour permettre un meilleur suivi \n",
+    "- Accélérer la livraison de valeur tout en préservant la qualité par la définition d'objectifs SMART \n",
+    "- Amélioration de la communication et du travail d'équipe en partageant les bonnes pratiques de l'Agile et du Lean"
+  ],
+
+  "intact_summary_fullstack": [
+    "### Intact Lab \n",
+    "Je participe à la création d'une plateforme de développement interne au sein d'Intact Lab. \n",
+    "Au sein de l'équipe DevOps, je travaille sur des fonctionnalités et sujets techniques pour livrer le meilleur produit possible aux équipes de développement. \n",
+    "- Discussions avec les différents utilisateurs et acteurs pour obtenir leurs commentaires et leurs besoins \n",
+    "- Mise en place et application de plans de communication pour partager nos progrès \n",
+    "- Création d'une roadmap avec une vision produit claire et études de viabilité pour aider le leadership à comprendre et adopter notre vision \n",
+    "- Définition claire des besoin pour aider l'équipe de développement à retrouver du focus \n",
+    "- Apporter de la structure dans nos outils pour permettre un meilleur suivi \n",
+    "- Accélérer la livraison de valeur tout en préservant la qualité par la définition d'objectifs SMART \n",
+    "- Amélioration de la communication et du travail d'équipe en partageant les bonnes pratiques de l'Agile et du Lean \n",
+    "- <u><b>Outils</b></u> : Github, Jira, Confluence"
+  ],
+
+  "sem_summary": [
+    "### Armory  \n",  
+    "Notre objectif au sein d'Armory était d'offrir aux équipes de jeu une plateforme pour les aider à développer leurs opérations en ligne. ",
+    "En tant que product owner, j'ai supervisé le produit de gestion des campagnes et évènements. \n",
+    "- Construction de la vision, basée sur la flexibilité, la modularité et l'accessibilité pour les managers LiveOps \n",
+    "- Conduite du produit au travers de sa phase de MVP prédéterminée \n",
+    "- Adaptation du scope au fil des commentaires des utilisateurs \n",
+    "- Etablissement d'une vision long terme au travers de recherche UX et de conversations avec les acteurs du produit"
+  ],
+
+  "sem_summary_fullstack": [
+    "### Armory  \n",  
+    "Notre objectif au sein d'Armory était d'offrir aux équipes de jeu une plateforme pour les aider à développer leurs opérations en ligne. ",
+    "En tant que product owner, j'ai supervisé le produit de gestion des campagnes et évènements. \n",
+    "- Construction de la vision, basée sur la flexibilité, la modularité et l'accessibilité pour les managers LiveOps \n",
+    "- Conduite du produit au travers de sa phase de MVP prédéterminée \n",
+    "- Adaptation du scope au fil des commentaires des utilisateurs \n",
+    "- Etablissement d'une vision long terme au travers de recherche UX et de conversations avec les acteurs du produit \n",
+    "- <u><b>Outils</b></u> : Gitlab, Jira, Confluence"
+  ],
+
+  "ubisoft_summary": [
+    "### Rainbow Six Mobile  \n",  
+    "Dans le cadre de ce développement, j'ai participé a la construction d'une solution générique de gestion des opérations live en tant que développeur fullstack. \n",
+    "- Développement de fonctionnalités du backoffice \n",
+    "- Partage de bonnes pratiques pour la maintenance de la solution sur le long terme. \n",
+    "- Analyses pour identifier des points d'optimisation, tant sur le plan des process que des performances applicatives \n",
+    "- <u><b>Technologies</b></u> : Angular, C#, Docker \n",
+    "- <u><b>Outils</b></u> :  Gitlab, Jira, Confluence \n",
+    "### Hyperscape  \n",
+    "Au sein du projet Hyperscape, J'ai participé à la création du backoffice d'administration des systèmes de jeu en ligne. ",
+    "Mon travail s'est concentré sur la gestion du contenu saisonnier du jeu afin d'offrir aux membre de l'équipe un solution pour créer et gérer leur contenu facilement tout en garantissant la cohérence des données. \n",
+    "- Communication avec l'équipe monétisation pour comprendre les besoins et les implémenter \n",
+    "- Développement de fonctionnalités du backoffice \n",
+    "- Maintenance du CI/CD \n",
+    "- Déploiement des microservices \n",
+    "- <u><b>Technologies</b></u> : Angular, C#, Python, Kubernetes, Docker \n",
+    "- <u><b>Tools</b></u> :  Gitlab, Jira, Confluence"
+  ],
+
+  "ubisoft_summary_fullstack": [
+    "### Rainbow Six Mobile  \n",  
+    "Dans le cadre de ce développement, j'ai participé a la construction d'une solution générique de gestion des opérations live en tant que développeur fullstack. \n",
+    "- Développement de fonctionnalités du backoffice \n",
+    "- Partage de bonnes pratiques pour la maintenance de la solution sur le long terme. \n",
+    "- Analyses pour identifier des points d'optimisation, tant sur le plan des process que des performances applicatives \n",
+    "### Hyperscape  \n",
+    "Au sein du projet Hyperscape, J'ai participé à la création du backoffice d'administration des systèmes de jeu en ligne. ",
+    "Mon travail s'est concentré sur la gestion du contenu saisonnier du jeu afin d'offrir aux membre de l'équipe un solution pour créer et gérer leur contenu facilement tout en garantissant la cohérence des données. \n",
+    "- Communication avec l'équipe monétisation pour comprendre les besoins et les implémenter \n",
+    "- Développement de fonctionnalités du backoffice \n",
+    "- Maintenance du CI/CD \n",
+    "- Déploiement des microservices \n",
+    "- <u><b>Technologies</b></u> : Angular, C#, Python, Kubernetes, Docker \n",
+    "- <u><b>Outils</b></u> :  Gitlab, Jira, Confluence"
+  ],
+
+  "sii_summary": [
+    "### BNC  \n",
+    "Mon rôle à la [BNC](https://www.bnc.ca) a été un hybride de 2 postes existants :  \n",
+    "- En tant que catalyste, j'ai apporté la culture et la philosophie DevOps au sein des équipes, tout en les accompagnant sur les choix et les technologies les plus adaptées à leur besoin. \n",
+    "- En tant qu'intégrateur j'ai implémenté les pipelines, les configurations, et les processus pour soulager l'équipe de développement et amener mon expertise sur l'utilisation des outils. \n",
+    "J'ai pu renforcer mes connaissances sur les outils DevOps, tout en améliorant mon coaching et ma pédagogie. \n",
+    "### Forge Interne \n",
+    "Avant de rejoindre les équipes de la DevOps Squad au sein de la BNC, j'ai travaillé à l'architecture et la mise en place de bases d'une platforme de développement interne. \n",
+    "- Implémentation d'une « Proof of Concept » de plateforme de développeurs interne \n",
+    "- Définition des besoins en ressources pour déterminer le meilleur hébergement \n",
+    "- Présentation au leadership pour leur faire adopter la vision construite"
+  ],
+
+  "sii_summary_fullstack": [
+    "### BNC  \n",
+    "Mon rôle à la [BNC](https://www.bnc.ca) a été un hybride de 2 postes existants :  \n",
+    "- En tant que catalyste, j'ai apporté la culture et la philosophie DevOps au sein des équipes, tout en les accompagnant sur les choix et les technologies les plus adaptées à leur besoin. \n",
+    "- En tant qu'intégrateur j'ai implémenté les pipelines, les configurations, et les processus pour soulager l'équipe de développement et amener mon expertise sur l'utilisation des outils. \n",
+    "J'ai pu renforcer mes connaissances sur les outils DevOps, tout en améliorant mon coaching et ma pédagogie. \n",
+    "- <u><b>Technologies</b></u> : Jenkins, SonarQube, Nexus, Jira, Confluence, Git, Gradle \n",
+    "### Forge Interne \n",
+    "Avant de rejoindre les équipes de la DevOps Squad au sein de la BNC, j'ai travaillé à l'architecture et la mise en place de bases d'une platforme de développement interne. \n",
+    "- Implémentation d'une « Proof of Concept » \n",
+    "- Définition des besoins en ressources pour déterminer le meilleur hébergement \n",
+    "- Présentation au leadership pour leur faire adopter la vision construite \n",
+    "- <u><b>Technologies</b></u> : Jenkins, SonarQube, Nexus, Jira, Confluence, Git, Maven, Nginx"
+  ],
+
+  "nalys_summary": [
+    "### Infrastructure cloud interne *(Juin 2018 à Aout 2018)* \n",
+    "Ma dernière mission chez Nalys a été de concevoir une « Proof of Concept » autour d'un cluster kubernetes hébergé sur site. ",
+    "L'objectif du cluster était de faciliter l'hébergement des applications internes tout en améliorant les pipelines, la stabilité, les performances et l'observabilité. ",
+    "La première version du cluster a servi à héberger la refonte de la forge de développement que j'ai implémenté. \n",
+
+    "### Nalys Graduate Program *(Septembre 2017)*  \n",
+    "En parallèle de ma mission chez ING, j'ai effectué une journée de formation autour de l'Agile et du DevOps lors du *Nalys Graduate Program*, une formation interne pour les nouveaux arrivants. \n",
+    "- Conception du cours et formation des élèves \n",
+    "- Cours via supports théoriques et ludification \n",
+    "- Réalisation d'un atelier pratique avec exercice technique \n",
+
+    "### ING *(Juin 2017 à Juin 2018)*  \n",
+    "Mon rôle chez [ING](https://www.ing.be) était d'aider deux équipes dans leurs processus de release et déploiement. \n",
+    "- Assurer la disponibilité et la stabilité des environnements \n",
+    "- Amélioration des performances et la facilité d'utilisation des pipelines de CI/CD \n",
+    "- Optimisation les pipelines pour améliorer la stabilité des livraisons, améliorer le feedback, etc... \n",
+    "- Formation des équipes de développement aux pratiques Agiles et DevOps pour leurs offrir plus d'autonomie \n",
+
+    "### GIM *(Février 2017 à Mai 2017)*  \n",
+    "Ma mission chez [GIM](https://www.gim.be) était d'aider leur équipe de développement dans le cadre d'un produit de coordination des travaux pour la Wallonie. \n",
+    "- Aide à l'équipe pour terminer ses développement sur le produit cartographique \n",
+    "- Coaching Agile et DevOps pour aider l'équipe à s'autogérer et accélérer ses déploiements \n",
+    "- Consolidation des processus CI/CD pour permettre aux développeurs de se concentrer sur les fonctionnalités, la qualité et la rapidité"
+  ],
+
+  "nalys_summary_fullstack": [
+    "### Infrastructure cloud interne *(Juin 2018 à Aout 2018)* \n",
+    "Ma dernière mission chez Nalys a été de concevoir une « Proof of Concept » autour d'un cluster kubernetes hébergé sur site. ",
+    "L'objectif du cluster était de faciliter l'hébergement des applications internes tout en améliorant les pipelines, la stabilité, les performances et l'observabilité. ",
+    "La première version du cluster a servi à héberger la refonte de la forge de développement que j'ai implémenté.  \n",
+    "- <u><b>Technologies</b></u> : Jenkins, SonarQube, Nexus, Gitlab, Jira, Kubernetes, Docker, Git, Maven \n",
+
+    "### Nalys Graduate Program *(Septembre 2017)*  \n",
+    "En parallèle de ma mission chez ING, j'ai effectué une journée de formation autour de l'Agile et du DevOps lors du *Nalys Graduate Program*, une formation interne pour les nouveaux arrivants. \n",
+    "- Conception du cours et formation des élèves \n",
+    "- Cours via supports théoriques et ludification \n",
+    "- Réalisation d'un atelier pratique avec exercice technique \n",
+
+    "### ING *(Juin 2017 à Juin 2018)*  \n",
+    "Mon rôle chez [ING](https://www.ing.be) était d'aider deux équipes dans leurs processus de release et déploiement. \n",
+    "- Assurer la disponibilité et la stabilité des environnements \n",
+    "- Amélioration des performances et la facilité d'utilisation des pipelines de CI/CD \n",
+    "- Optimisation les pipelines pour améliorer la stabilité des livraisons, améliorer le feedback, etc... \n",
+    "- Formation des équipes de développement aux pratiques Agiles et DevOps pour leurs offrir plus d'autonomie \n",
+    "- <u><b>Technologies</b></u> : Java, Jenkins, SonarQube, Artifactory, Gitlab, TFS, Jira, Confluence, Git, Maven, Gradle, \n",
+
+    "### GIM *(Février 2017 à Mai 2017)*  \n",
+    "Ma mission chez [GIM](https://www.gim.be) était d'aider leur équipe de développement dans le cadre d'un produit de coordination des travaux pour la Wallonie. \n",
+    "- Aide à l'équipe pour terminer ses développement sur le produit cartographique \n",
+    "- Coaching Agile et DevOps pour aider l'équipe à s'autogérer et accélérer ses déploiements \n",
+    "- Consolidation des processus CI/CD pour permettre aux développeurs de se concentrer sur les fonctionnalités, la qualité et la rapidité  \n",
+    "- <u><b>Technologies</b></u> : JavaScript, Java, OpenLayers, AngularJs, Jenkins, Nexus, Gitlab, Git, Maven, Docker, Nginx, Wildfly, Geoserver"
+  ],
+
+  "worldline_summary": [
+    "### Chef de projet *(Juillet 2015 à Décembre 2016)*  \n",
+    "Lors de ma dernière année sur le projet [Géoportail](https://www.geoportail.gouv.fr), j'ai pu valider mes connaissance et mon expérience en évoluant au rôle de chef de projet sur les sujets d'évolutions. ",
+    "Chez Worldline, le chef de projet est à mi-chemin entre la gestion de projet traditionnelle et l'équipe de développement. \n",
+    "J'ai donc continué les mêmes activités que précédemment à hauteur de 50%, tout en découvrant la gestion de projet, temps, budget et priorité. \n",
+    "- Revue de l'organisation et des process de suivi dans Jira en accord avec l'équipe \n",
+    "- Consolidation de la position de partenaire que nous entretenions avec le client \n",
+    "- Identification des besoins et priorités réelles du client pour construire un plan et une vision de réalisation des évolutions vendues  \n",
+
+    "### Responsable d'application *(Septembre 2012 à Juin 2015)*  \n",
+    "Lors du passage en production du projet, j'ai intégré l'équipe d'exploitation. ",
+    "Lors de cette période, nous avons itérativement appliqué et essayé des items tirés des méthodes Agiles ou des pratiques DevOps. ",
+    "Au fil des mois, j'ai pu prendre un rôle de référant sur l'architecture et les concepts métiers du projet, me permettant de participer plus activement à la conception des nouvelles fonctionnalités lors des phases d'avant-vente. \n",
+    "- Correction de bugs \n",
+    "- Gestion des incidents \n",
+    "- Finition des fonctionnalités restantes en collaboration avec le client \n",
+    "- Kanban et Sprints (essais et adaptation des méthodes avec l'équipe) \n",
+    "- Normalisation et automatisation des releases et livraisons \n",
+    "- Automatisation du feedback et de la correction en cas d'incidents mineurs \n",
+
+    "### Stagiaire en développement SIG *(Février 2012 à Août 2012)*  \n",
+    "J'ai débuté mon expérience sur le [Géoportail](https://www.geoportail.gouv.fr) en tant que développeur Flex pour le composant de visualisation cartographique. \n",
+    "- Compréhension des normes et implications d'une implémentation de la géographie en informatique \n",
+    "- Participation au développement de nouvelles fonctionnalités pour le Géoportail \n",
+    "- Réalisation 2 applications pour la boutique de notre client permettant la conception de cartes papier personnalisées"
+  ],
+
+  "worldline_summary_fullstack": [
+    "### Chef de projet *(Juillet 2015 à Décembre 2016)*  \n",
+    "Lors de ma dernière année sur le projet [Géoportail](https://www.geoportail.gouv.fr), j'ai pu valider mes connaissance et mon expérience en évoluant au rôle de chef de projet sur les sujets d'évolutions. ",
+    "Chez Worldline, le chef de projet est à mi-chemin entre la gestion de projet traditionnelle et l'équipe de développement. \n",
+    "J'ai donc continué les mêmes activités que précédemment à hauteur de 50%, tout en découvrant la gestion de projet, temps, budget et priorité. \n",
+    "- Revue de l'organisation et des process de suivi dans Jira en accord avec l'équipe \n",
+    "- Consolidation de la position de partenaire que nous entretenions avec le client \n",
+    "- Identification des besoins et priorités réelles du client pour construire un plan et une vision de réalisation des évolutions vendues  \n",
+
+    "### Responsable d'application *(Septembre 2012 à Juin 2015)*  \n",
+    "Lors du passage en production du projet, j'ai intégré l'équipe d'exploitation. ",
+    "Lors de cette période, nous avons itérativement appliqué et essayé des items tirés des méthodes Agiles ou des pratiques DevOps. ",
+    "Au fil des mois, j'ai pu prendre un rôle de référant sur l'architecture et les concepts métiers du projet, me permettant de participer plus activement à la conception des nouvelles fonctionnalités lors des phases d'avant-vente. \n",
+    "- Correction de bugs \n",
+    "- Gestion des incidents \n",
+    "- Finition des fonctionnalités restantes en collaboration avec le client \n",
+    "- Kanban et Sprints (essais et adaptation des méthodes avec l'équipe) \n",
+    "- Normalisation et automatisation des releases et livraisons \n",
+    "- Automatisation du feedback et de la correction en cas d'incidents mineurs  \n",
+    "- <u><b>Technologies</b></u> : JavaScript, Java, Bash, Nginx, Tomcat, NodeJs, Geoserver, Rok4, OpenScales, ReactJs, Cucumber, PostgreSQL (PostGIS), MySQL, Redis, ElasticSearch, Mercurial, Git, Maven, Docker, Vagrant, Jenkins, Nexus, Jira \n",
+
+    "### Stagiaire en développement SIG *(Février 2012 à Août 2012)*  \n",
+    "J'ai débuté mon expérience sur le [Géoportail](https://www.geoportail.gouv.fr) en tant que développeur Flex pour le composant de visualisation cartographique. \n",
+    "- Compréhension des normes et implications d'une implémentation de la géographie en informatique \n",
+    "- Participation au développement de nouvelles fonctionnalités pour le Géoportail \n",
+    "- Réalisation 2 applications pour la boutique de notre client permettant la conception de cartes papier personnalisées \n",
+    "- <u><b>Technologies</b></u> : Flex, JavaScript, Java, Bash, Nginx, Tomcat, OpenScales, Mercurial, Maven, Jenkins, Jira, Nexus"
+  ],
+
+  "captive_studio_summary": [
+    "### Stage de développement web \n",
+    "Au sein de l'équipe de développement de cette agence de communication, j'ai pu réaliser divers projets web en Ruby on Rails, et participer à leur conception dans le cas de nouveaux projets."
+  ],
+
+  "captive_studio_summary_fullstack": [
+    "### Stage de développement web \n",
+    "Au sein de l'équipe de développement de cette agence de communication, j'ai pu réaliser divers projets web en Ruby on Rails, et participer à leur conception dans le cas de nouveaux projets."
+  ]
+}
+
