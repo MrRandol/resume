@@ -1,0 +1,30 @@
+<div class="footer">
+  <div class="container">
+    <div class="row centered">
+
+      <div class="left-footer col-md-3">
+
+      </div>
+
+      <div class="col-md-6 flex column center-footer">
+        <h3>{{ 'get_in_touch' | translate }}</h3>
+        <div class="flex row centered">
+          <a class="profile-email" target="_blank" href="mailto:{{basics.email}}"><fa-icon [icon]="faEnvelope"></fa-icon></a>
+          <a *ngFor="let profile of basics.profiles" [href]=profile.url target="_blank" rel="noopener noreferrer">
+            <fa-icon [icon]="icons[profile.network.toLowerCase()]"></fa-icon>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-3 flex column right-footer">
+        <div>
+          {{ 'powered_by' | translate }} <a href="https://angular.io">Angular</a>&nbsp; <fa-icon [icon]="faAngular"></fa-icon>
+        </div>
+        <div>
+          {{ 'based_on' | translate }} <a href="https://jsonresume.org/">JSON Resume</a>&nbsp; <fa-icon [icon]="faCode"></fa-icon>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

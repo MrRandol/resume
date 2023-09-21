@@ -1,0 +1,12 @@
+<div appScrollSection="education" class="container">
+  <h2 class="category">{{ 'education' | translate }}</h2>
+  <app-experience *ngFor="let experience of education"
+    [displayMonth]="false"
+    [startDate]="experience.startDate"
+    [endDate]="experience.endDate"
+    [logo]="experience.logo"
+    [place]="experience.institution"
+    [summary]="experience.studyType"
+    [url]="experience.url"
+  ></app-experience>
+</div>

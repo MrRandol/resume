@@ -1,0 +1,14 @@
+<div  appScrollSection="work" class="container">
+  <h2 class="category">{{ 'experience' | translate }}</h2>
+
+  <app-experience *ngFor="let experience of work"
+    [startDate]="experience.startDate"
+    [endDate]="experience.endDate"
+    [logo]="experience.logo"
+    [place]="experience.organization"
+    [title]="experience.position"
+    [summary]="experience.summary"
+    [url]="experience.url"
+  ></app-experience>
+
+</div>

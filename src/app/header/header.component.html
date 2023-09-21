@@ -1,0 +1,27 @@
+<nav class="navbar flex centered row">
+  <button appScrollAnchor="basics">Basics</button>
+  <button appScrollAnchor="skills">Skills</button>
+  <button appScrollAnchor="work">Work</button>
+  <button appScrollAnchor="education">Education</button>
+  <button appScrollAnchor="certificates">Certifications</button>
+
+
+
+
+  <div class="theme-toggle">
+    <button *ngIf="isLightTheme()"
+      (click)="switchToDarkTheme()"
+    >
+      <fa-icon class="hide-hover" [icon]="faSunSolid"></fa-icon>
+      <fa-icon class="show-hover" [icon]="faMoonLine"></fa-icon>
+    </button>
+
+    <button *ngIf="isDarkTheme()"
+      (click)="switchToLightTheme()"
+    >
+      <fa-icon class="hide-hover" [icon]="faMoonSolid"></fa-icon>
+      <fa-icon class="show-hover" [icon]="faSunLine"></fa-icon>
+    </button>
+  </div>
+
+</nav>

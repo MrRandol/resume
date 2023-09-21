@@ -1,0 +1,51 @@
+.experience-row {
+  border-bottom: 1px solid rgba(233,236,239,.25);
+  margin: 2em 0;
+  padding-bottom: 2em;
+}
+
+.experience-right-col {
+  border-left: 1px solid rgba(233,236,239,.25);
+  padding-left: 2em;
+}
+
+.experience-logo {
+  height: 25px;
+}
+
+.experience-date {
+  color: var(--secondary);
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: 0.25em;
+  padding-bottom: 0.25em;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.experience-date>span {
+  display: inline-block;
+}
+
+.experience-date .small {
+  color: #e9ecef;
+  font-size: .4em;
+  font-style: italic;
+  position: absolute;
+  top: -10px;
+}
+
+.experience-place {
+  font-weight: 700;
+  text-align: right;
+}
+
+.experience-title {
+  font-style: italic;
+  text-align: right;
+}
+
+.today {
+  font-size: .8em;
+}

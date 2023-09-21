@@ -1,0 +1,12 @@
+<div  appScrollSection="certificates"  class="container">
+  <h2 class="category">{{ 'certificates' | translate }}</h2>
+
+  <app-experience *ngFor="let certificate of certificates"
+    [displayLogo]="false"
+    [displayEndDate]="false"
+    [startDate]="certificate.date"
+    [place]="certificate.issuer"
+    [summary]="certificate.name"
+  ></app-experience>
+
+</div>

@@ -1,0 +1,19 @@
+<section appScrollManager class="app">
+
+  <!-- todo : 1 resume | async avec loader du reste -->
+  <app-header></app-header>
+
+  <ng-container *ngIf="(resume | async) as resume; else loader">
+
+    <app-basics [basics]="resume.basics"></app-basics>
+    <app-skills [skills]="resume.skills"></app-skills>
+    <app-work [work]="resume.work"></app-work>
+    <app-education [education]="resume.education"></app-education>
+    <app-certificates [certificates]="resume.certificates"></app-certificates>
+
+    <app-footer [basics]="resume.basics"></app-footer>
+
+  </ng-container>
+</section>
+
+<ng-template #loader><app-spinner></app-spinner></ng-template>
