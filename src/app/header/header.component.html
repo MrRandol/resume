@@ -1,26 +1,35 @@
 <nav class="navbar flex centered row">
-  <button appScrollAnchor="basics">Basics</button>
-  <button appScrollAnchor="skills">Skills</button>
-  <button appScrollAnchor="work">Work</button>
-  <button appScrollAnchor="education">Education</button>
-  <button appScrollAnchor="certificates">Certifications</button>
+
+  <div class="col-md-1"></div>
 
 
+  <div class="nav-links col-md-10">
+    <button class="header-link" appScrollAnchor="basics">Basics</button>
+    <button class="header-link" appScrollAnchor="skills">Skills</button>
+    <button class="header-link" appScrollAnchor="work">Work</button>
+    <button class="header-link" appScrollAnchor="education">Education</button>
+    <button class="header-link" appScrollAnchor="certificates">Certifications</button>
+  </div>
 
-
-  <div class="theme-toggle">
-    <button *ngIf="isLightTheme()"
-      (click)="switchToDarkTheme()"
-    >
-      <fa-icon class="hide-hover" [icon]="faSunSolid"></fa-icon>
-      <fa-icon class="show-hover" [icon]="faMoonLine"></fa-icon>
-    </button>
-
-    <button *ngIf="isDarkTheme()"
-      (click)="switchToLightTheme()"
-    >
-      <fa-icon class="hide-hover" [icon]="faMoonSolid"></fa-icon>
-      <fa-icon class="show-hover" [icon]="faSunLine"></fa-icon>
+  <div class="theme-toggle col-md-1">
+    <button (click)="toggleTheme()" class="current-theme-{{currentTheme}}">
+      <svg #themeIcon class="sun-and-moon" width="24" height="24"  viewBox="0 0 24 24">
+        <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" />
+        <g class="sun-beams">
+          <line x1="12" y1="1" x2="12" y2="3" />
+          <line x1="12" y1="21" x2="12" y2="23" />
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+          <line x1="1" y1="12" x2="3" y2="12" />
+          <line x1="21" y1="12" x2="23" y2="12" />
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </g>
+        <mask class="moon" id="moon-mask">
+          <rect x="0" y="0" width="100%" height="100%" />
+          <circle cx="24" cy="10" r="6" />
+        </mask>
+      </svg>
     </button>
   </div>
 

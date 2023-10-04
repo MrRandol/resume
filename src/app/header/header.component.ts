@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import { faSun as faSunReg, faMoon as faMoonReg } from '@fortawesome/free-regular-svg-icons';
 import { Theme } from 'src/models/theme';
@@ -11,6 +11,9 @@ import { ThemeService } from 'src/services/theme.service';
 })
 export class HeaderComponent {
 
+  @ViewChild("themeIcon", {read: ElementRef, static: true}) themeIcon: ElementRef;
+
+
   faSunSolid = faSun;
   faSunLine = faSunReg;
   faMoonSolid = faMoon;
@@ -18,28 +21,13 @@ export class HeaderComponent {
 
   constructor(protected themeService: ThemeService) {}
 
-  ngOnInit(): void {
-    this.themeService.set(Theme.light)
+  toggleTheme() {
+    this.themeService.toggle();
   }
 
-  availableThemes(): string[] {
-    return Object.keys(Theme)
+  get currentTheme() {
+    return this.themeService.activeTheme;
   }
 
-  isLightTheme(): boolean {
-    return this.themeService.activeTheme === Theme.light;
-  }
-
-  isDarkTheme(): boolean {
-    return !this.isLightTheme();
-  }
-
-  switchToLightTheme() {
-    this.themeService.set(Theme.light)
-  }
-
-  switchToDarkTheme() {
-    this.themeService.set(Theme.dark)
-  }
 
 }
