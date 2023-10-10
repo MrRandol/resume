@@ -7,13 +7,13 @@
   z-index: 999;
   background-color: var(--primary);
   margin: auto;
-  justify-content: space-between;
+
+  & > div {
+    margin-left: auto;
+  }
 }
 
-.nav-links {
-  justify-self: center;
-}
-
+// ANCHOR LNKS
 button.header-link {
   background: none;
   color: var(--text-color);
@@ -28,7 +28,42 @@ button.header-link {
   }
 }
 
+// LANGUAGE SELECTION
+.language-picker {
+  cursor: pointer;
+  align-items: stretch;
+  justify-content: center;
+  height: 100%;
+  padding: 0 15p 0 0x;
 
+  .language-button {
+    padding: 0;
+    margin: 0 3px;
+
+      &:hover {
+        background: rgba(var(--secondary), .5);
+        font-weight: bold;
+      }
+
+      .language-flag {
+        font-size: 30px;
+        line-height: 28px;
+      }
+
+      .language-name {
+        font-size: 12px;
+      }
+
+      &.active-language {
+        .language-name {
+          font-weight: bold;
+        }
+        border-bottom: 1px solid var(--secondary);
+      }
+  }
+}
+
+// THEME SELECTION
 .theme-toggle {
   justify-self: flex-end;
 
