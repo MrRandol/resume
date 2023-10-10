@@ -14,10 +14,10 @@
     <div class="profile col-md-8">
       <h1 class="intro-title pixel-border">{{basics.name}}</h1>
       <h2>{{ basics.label | translate}}</h2>
-      <markdown [data]="basics.summary | translate | joinStringArray"></markdown>
+      <div class="job-summary"><markdown [data]="basics.summary | translate | joinStringArray"></markdown></div>
 
       <div class="flex column centered">
-        <h3 class="category">{{ 'contact' | translate }}</h3>
+        <!-- <h3 class="category">{{ 'contact' | translate }}</h3> -->
 
         <div class="contact flex row">
           <div class="flex column centered email">

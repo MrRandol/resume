@@ -11,7 +11,11 @@
   <div class="flex row centered">
 
     <div class="language-picker flex row">
-      <div *ngFor="let lang of availableLanguages" class="language-button flex column centered" (click)="toggleLanguage(lang.key)" [class.active-language]="currentLanguage === lang.key">
+      <div *ngFor="let lang of availableLanguages"
+        class="language-button flex column centered"
+        (click)="setLanguage(lang.key)"
+        [class.active-language]="currentLanguage === lang.key"
+      >
         <span class="language-flag">{{ lang.flag }}</span>
         <span class="language-name">{{ lang.name }}</span>
       </div>

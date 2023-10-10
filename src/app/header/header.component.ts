@@ -3,6 +3,7 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import { faSun as faSunReg, faMoon as faMoonReg } from '@fortawesome/free-regular-svg-icons';
 import { ThemeService } from 'src/services/theme.service';
+import { TranslationService } from 'src/services/translation.service';
 
 @Component({
   selector: 'app-header',
@@ -23,7 +24,7 @@ export class HeaderComponent {
   faMoonSolid = faMoon;
   faMoonLine = faMoonReg;
 
-  constructor(protected themeService: ThemeService, protected i18nService: TranslateService) {}
+  constructor(protected themeService: ThemeService, protected i18nService: TranslationService) {}
 
   toggleTheme() {
     this.themeService.toggle();
@@ -33,11 +34,11 @@ export class HeaderComponent {
     return this.themeService.activeTheme;
   }
 
-  toggleLanguage(lang: string) {
-    this.i18nService.use(lang)
+  setLanguage(lang: string) {
+    this.i18nService.set(lang)
   }
 
   get currentLanguage(): string {
-    return this.i18nService.currentLang;
+    return this.i18nService.activeTranslation;
   }
 }

@@ -41,7 +41,7 @@ button.header-link {
     margin: 0 3px;
 
       &:hover {
-        background: rgba(var(--secondary), .5);
+        color: var(--secondary-hover);
         font-weight: bold;
       }
 
