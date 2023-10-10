@@ -13,10 +13,8 @@ import { GithubDataService } from 'src/services/githubData.service';
 export class JoinStringArrayPipe implements PipeTransform {
   transform(value: string[] | string): string {
     if (Array.isArray(value)) {
-      console.log('value is array')
       return value.join(" ");
     }
-    console.log('value is string')
     return value;
   }
 }

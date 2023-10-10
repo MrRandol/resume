@@ -2,14 +2,21 @@
   position: sticky;
   top: 0;
   overflow: hidden;
-  padding: .5rem 1rem;
+  padding: .5rem 0ß;
   width: 100%;
   z-index: 999;
   background-color: var(--primary);
   margin: auto;
 
-  & > div {
-    margin-left: auto;
+  .navbar-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .right-menu {
+    position: absolute;
+    right: 0;
+    padding: 0;
   }
 }
 
