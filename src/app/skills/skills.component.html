@@ -1,11 +1,11 @@
-<div  appScrollSection="skills" class="container">
+<div appScrollSection="skills" class="container">
   <h2 class="category">{{ 'skills' | translate }}</h2>
 
-  <div class="skillSet align-items-center justify-content-left row" *ngFor="let skillSet of skills">
+  <div class="skillSet flex column centered" *ngFor="let skillSet of skills">
     <h3 class="category secondary">{{ skillSet.name | translate }}</h3>
-    <div class="skills">
-      <span class="me-2 skill-badge badge rounded-pill" *ngFor="let skill of skillSet.keywords">{{ skill  | translate }}</span>
-    </div>
+    <mat-chip-set>
+      <mat-chip *ngFor="let skill of skillSet.keywords">{{ skill  | translate }}</mat-chip>
+    </mat-chip-set>
   </div>
 
 </div>

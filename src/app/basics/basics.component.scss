@@ -60,15 +60,45 @@
   }
 }
 
-.contact {
-  width: 100%;
-  justify-content: space-evenly;
+.summary-contact {
+  justify-content: space-between;
+}
+
+.contacts {
+  align-items: flex-end;
+}
+
+.email-icon {
+  color: var(--primary);
+  background-color: var(--secondary);
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  margin: 15px 3px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 30px !important;
 }
 
 .email a {
   font-size: 1.25em;
 }
 
-.socials a{
-  font-size: 2em;
+.socials a {
+  font-size: 1.8rem;
+}
+
+.socials .github:hover {
+  color: black;
+}
+
+.socials .twitter:hover {
+  color: black;
+}
+
+.socials .linkedin:hover {
+  color: #0a66c2;
 }

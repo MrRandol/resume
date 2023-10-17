@@ -23,6 +23,7 @@ import { SpinnerComponent } from './spinner/spinner.component';
 import { TranslationFlagPipe } from 'src/pipes/translationFlag';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatChipsModule} from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
   ],
   imports: [
     MatTooltipModule,
+    MatChipsModule,
     BrowserModule,
     HttpClientModule,
     FontAwesomeModule,

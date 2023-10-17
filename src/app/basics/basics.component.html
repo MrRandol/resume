@@ -14,28 +14,37 @@
     <div class="profile col-md-8">
       <h1 class="intro-title pixel-border">{{basics.name}}</h1>
       <h2>{{ basics.label | translate}}</h2>
-      <div class="job-summary"><markdown [data]="basics.summary | translate | joinStringArray"></markdown></div>
+      
+      
+      <div class="flex row summary-contact">
+      
+        <!-- Summary -->
+        <div class="job-summary"><markdown [data]="basics.summary | translate | joinStringArray"></markdown></div>
+        
+        <div class="flex column contacts">
 
-      <div class="flex column centered">
-        <!-- <h3 class="category">{{ 'contact' | translate }}</h3> -->
-
-        <div class="contact flex row">
-          <div class="flex column centered email">
-            <h3><fa-icon [icon]="faEnveloppe"></fa-icon> Email</h3>
-            <a class="profile-email" target="_blank" href="mailto:{{basics.email}}">
+          <!-- Email contact -->
+          <div class="email">
+            <fa-icon class="email-icon" [icon]="faEnveloppe"></fa-icon> 
+            <a target="_blank" href="mailto:{{basics.email}}">
               {{ basics.email }}
             </a>
           </div>
 
-          <div class="flex column centered socials">
-            <h3>{{ 'socials' | translate }}</h3>
-            <div class="flex row centered">
-              <a *ngFor="let profile of basics.profiles" [href]=profile.url target="_blank" rel="noopener noreferrer">
-                <fa-icon [icon]="icons[profile.network.toLowerCase()]"></fa-icon>
-              </a>
-            </div>
+          <!-- Socials contact -->
+          <div class="socials flex row">
+            <a *ngFor="let profile of basics.profiles" 
+              [href]=profile.url 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              matTooltip="{{profile.network}}"
+              class="{{profile.network | lowercase}}">
+              <fa-icon [icon]="icons[profile.network | lowercase]"></fa-icon>
+            </a>
           </div>
+
         </div>
+
       </div>
     </div>
 

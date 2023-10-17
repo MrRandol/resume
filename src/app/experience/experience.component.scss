@@ -5,8 +5,8 @@
 }
 
 .experience-right-col {
-  border-left: 1px solid rgba(233,236,239,.25);
-  padding-left: 2em;
+  // border-left: 1px solid rgba(233,236,239,.25);
+  // padding-left: 2em;
 }
 
 .experience-logo {
@@ -49,3 +49,24 @@
 .today {
   font-size: .8em;
 }
+
+
+.experience-timeline {
+  position: relative;
+  background: linear-gradient(var(--secondary), var(--secondary)) no-repeat center/2px 100%;
+}
+
+
+.experience-timeline::before {
+  content: "";
+  background-color: var(--secondary);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translatex(-12px);
+}
+
