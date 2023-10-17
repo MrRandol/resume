@@ -16,17 +16,17 @@
       <h2>{{ basics.label | translate}}</h2>
       
       
-      <div class="flex row summary-contact">
+      <div class="flex column centered summary-contact">
       
         <!-- Summary -->
         <div class="job-summary"><markdown [data]="basics.summary | translate | joinStringArray"></markdown></div>
         
-        <div class="flex column contacts">
+        <div class="flex column centered contacts">
 
           <!-- Email contact -->
           <div class="email">
-            <fa-icon class="email-icon" [icon]="faEnveloppe"></fa-icon> 
             <a target="_blank" href="mailto:{{basics.email}}">
+              <fa-icon class="email-icon" [icon]="faEnveloppe"></fa-icon> 
               {{ basics.email }}
             </a>
           </div>
