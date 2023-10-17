@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
 import { Observable } from 'rxjs';
 import { FetchHelper } from 'src/helpers/fetch.helper';
 import { Resume } from 'src/models/resume';
@@ -8,27 +7,27 @@ import { Resume } from 'src/models/resume';
   providedIn: 'root'
 })
 export class GithubDataService {
+  
+  constructor() { }
 
-  constructor(private translate: TranslateService) { }
-
-  static readonly JSON_DATA_DIR_URL: string = 'https://raw.githubusercontent.com/MrRandol/resume/data/resume.json';
-  static readonly ERROR_MESSAGE: string = 'Something went wrong during static json data fetch: ';
+  private static readonly githubRoot = "https://raw.githubusercontent.com/";
+  private static readonly repositoryReference = "MrRandol/resume";
+  private static readonly jsonDataUrl = "https://raw.githubusercontent.com/MrRandol/resume/data/resume.json";
 
   getResumeJson(): Observable<Resume> {
-      const jsonDataUrl: string = `${GithubDataService.JSON_DATA_DIR_URL}`;
-      return FetchHelper.getObservableFromFetch<Resume>(jsonDataUrl);
+    return FetchHelper.getObservableFromFetch<Resume>(GithubDataService.jsonDataUrl);
   }
 
-  static getImagePath(fileName: string) {
-    return "https://github.com/MrRandol/resume/blob/data/images/" + fileName + "?raw=true";
+  getImagePath(fileName: string) {
+    return GithubDataService.githubRoot + "/" + GithubDataService.repositoryReference + "/data/images/" + fileName;
   }
 
   static getTranslationFile(lang: string): Observable<any> {
-    return FetchHelper.getObservableFromFetch<any>("https://raw.githubusercontent.com/MrRandol/resume/data/translation/" + lang + ".json")
+    return FetchHelper.getObservableFromFetch<any>(GithubDataService.githubRoot + "/" + GithubDataService.repositoryReference + "/data/translation/" + lang + ".json")
   }
 
-  static getTranslationFlagLink(lang: string): string {
-    return "https://raw.githubusercontent.com/MrRandol/resume/data/translation/" + lang + ".svg"
+  getTranslationFlagLink(lang: string): string {
+    return GithubDataService.githubRoot + "/" + GithubDataService.repositoryReference + "/data/translation/" + lang + ".svg"
   }
 
 }

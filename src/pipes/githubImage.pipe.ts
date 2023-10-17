@@ -11,7 +11,9 @@ import { GithubDataService } from 'src/services/githubData.service';
 */
 @Pipe({name: 'githubImage'})
 export class GithubImagePipe implements PipeTransform {
+  constructor(private githubDataService: GithubDataService) { }
+
   transform(value: string): string {
-    return GithubDataService.getImagePath(value)
+    return this.githubDataService.getImagePath(value)
   }
 }

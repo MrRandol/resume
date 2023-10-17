@@ -12,7 +12,9 @@ import { GithubDataService } from 'src/services/githubData.service';
 */
 @Pipe({name: 'translationFlag'})
 export class TranslationFlagPipe implements PipeTransform {
+  constructor(private githubDataService: GithubDataService) { }
+
   transform(value: string): string {
-    return GithubDataService.getTranslationFlagLink(value)
+    return this.githubDataService.getTranslationFlagLink(value)
   }
 }
