@@ -11,15 +11,13 @@
 
     <div class="right-menu flex row centered">
 
-      <div class="language-picker flex row">
-        <div *ngFor="let lang of availableLanguages"
-          class="language-button flex column centered"
-          (click)="setLanguage(lang.key)"
+      <div class="languages flex row">
+        <img *ngFor="let lang of availableLanguages"
+          class="language-selector"
           [class.active-language]="currentLanguage === lang.key"
-        >
-          <span class="language-flag">{{ lang.flag }}</span>
-          <span class="language-name">{{ lang.name }}</span>
-        </div>
+          (click)="setLanguage(lang.key)"
+          src="{{lang.key | translationFlag}}" 
+          matTooltip="{{ lang.name }}"/>
       </div>
 
       <div class="theme-toggle">

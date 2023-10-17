@@ -20,6 +20,9 @@ import { MarkdownModule } from 'ngx-markdown';
 import { JoinStringArrayPipe } from 'src/pipes/joinStringArray.pipe';
 import { ExperienceComponent } from './experience/experience.component';
 import { SpinnerComponent } from './spinner/spinner.component';
+import { TranslationFlagPipe } from 'src/pipes/translationFlag';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -36,17 +39,20 @@ import { SpinnerComponent } from './spinner/spinner.component';
     ScrollSectionDirective,
     ScrollManagerDirective,
     ScrollAnchorDirective,
+    TranslationFlagPipe,
     GithubImagePipe,
     JoinStringArrayPipe
   ],
   imports: [
+    MatTooltipModule,
     BrowserModule,
     HttpClientModule,
     FontAwesomeModule,
     MarkdownModule.forRoot(),
     TranslateModule.forRoot({
       loader: {provide: TranslateLoader, useClass: ResumeTranslationLoader}
-  })
+  }),
+    BrowserAnimationsModule
   ],
   providers: [
   ],

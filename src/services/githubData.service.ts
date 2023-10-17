@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { Observable, of, lastValueFrom, async } from 'rxjs';
+import { Observable } from 'rxjs';
 import { FetchHelper } from 'src/helpers/fetch.helper';
 import { Resume } from 'src/models/resume';
 
@@ -25,6 +25,10 @@ export class GithubDataService {
 
   static getTranslationFile(lang: string): Observable<any> {
     return FetchHelper.getObservableFromFetch<any>("https://raw.githubusercontent.com/MrRandol/resume/data/translation/" + lang + ".json")
+  }
+
+  static getTranslationFlagLink(lang: string): string {
+    return "https://raw.githubusercontent.com/MrRandol/resume/data/translation/" + lang + ".svg"
   }
 
 }

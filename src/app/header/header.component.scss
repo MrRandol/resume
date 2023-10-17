@@ -36,37 +36,31 @@ button.header-link {
 }
 
 // LANGUAGE SELECTION
-.language-picker {
-  cursor: pointer;
+.languages {
   align-items: stretch;
   justify-content: center;
   height: 100%;
-  padding: 0 15p 0 0x;
-
-  .language-button {
-    padding: 0;
+  padding: 0 15px 0 0;
+  
+  .language-selector {
+    padding: 3px;
+    cursor: pointer;
     margin: 0 3px;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    filter: grayscale(1);
+    transition: all 0.35s ease;
 
-      &:hover {
-        color: var(--secondary-hover);
-        font-weight: bold;
-      }
+    &:hover {
+      background-color: var(--secondary);
+      border-radius: 50%;
+      font-weight: bold;
+    }
 
-      .language-flag {
-        font-size: 30px;
-        line-height: 28px;
-      }
-
-      .language-name {
-        font-size: 12px;
-      }
-
-      &.active-language {
-        .language-name {
-          font-weight: bold;
-        }
-        border-bottom: 1px solid var(--secondary);
-      }
+    &.active-language {
+      filter: grayscale(0);
+    }
   }
 }
 
