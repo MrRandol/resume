@@ -1,6 +1,7 @@
 # Randol resume
 
-A static Angular one pager using [JSON resume](https://jsonresume.org) as a data structure
+A static Angular one pager using [JSON resume](https://jsonresume.org) as a data structure.
+Live version is [here](https://mrrandol.github.io/resume/) !
 
 # Local development
 
@@ -11,9 +12,4 @@ You may also see any lint errors in the console.
 
 ### Deployment
 
-TODO gh-pages
-
-
-Inspiration a check : 
-https://react-resume-rho.vercel.app/#home
-https://vincent-cotro.welovedevs.com/
+`npm run deploy`

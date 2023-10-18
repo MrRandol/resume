@@ -5,10 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "buildGhPage": "ng build --base-href \"https://MrRandol.github.io/resume/\"",
+    "buildGhPage": "ng build --base-href \"https://mrrandol.github.io/resume/\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "npm runbuildGhPage && ngh --dir=dist/resume"
+    "deploy": "npm run buildGhPage && ngh --dir=dist/resume"
   },
   "private": true,
   "dependencies": {
