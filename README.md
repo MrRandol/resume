@@ -1,6 +1,6 @@
 # Randol resume
 
-A static Angular one pager using [JSON resume](https://jsonresume.org) as a data structure.
+A static Angular one pager using [JSON resume](https://jsonresume.org) as a data structure.  
 Live version is [here](https://mrrandol.github.io/resume/) !
 
 # Local development
