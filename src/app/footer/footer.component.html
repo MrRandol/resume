@@ -10,8 +10,8 @@
         <h3>{{ 'get_in_touch' | translate }}</h3>
         <div class="flex row centered">
           <a class="profile-email" target="_blank" href="mailto:{{basics.email}}"><fa-icon [icon]="faEnvelope"></fa-icon></a>
-          <a *ngFor="let profile of basics.profiles" [href]=profile.url target="_blank" rel="noopener noreferrer">
-            <fa-icon [icon]="icons[profile.network.toLowerCase()]"></fa-icon>
+          <a *ngFor="let profile of basics.profiles" [href]=profile.url target="_blank" class="socials" rel="noopener noreferrer">
+            <fa-icon [icon]="icons[profile.network | lowercase]"></fa-icon>
           </a>
         </div>
       </div>
