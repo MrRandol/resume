@@ -18,10 +18,13 @@
 
       <div class="col-md-4 flex column right-footer">
         <div>
-          {{ 'powered_by' | translate }} <a href="https://angular.io">Angular</a>&nbsp; <fa-icon [icon]="faAngular"></fa-icon>
+          {{ 'powered_by' | translate }} <a href="https://angular.io" target="_blank">Angular</a>&nbsp; <fa-icon [icon]="faAngular"></fa-icon>
         </div>
         <div>
-          {{ 'based_on' | translate }} <a href="https://jsonresume.org/">JSON Resume</a>&nbsp; <fa-icon [icon]="faCode"></fa-icon>
+          {{ 'based_on' | translate }} <a href="https://jsonresume.org/" target="_blank">JSON Resume</a>&nbsp; <fa-icon [icon]="faCode"></fa-icon>
+        </div>
+        <div>
+          {{ 'link_to' | translate }} <a href="https://github.com/MrRandol/resume" target="_blank">{{ "source_code" | translate }}</a>&nbsp; <fa-icon [icon]="icons['github']"></fa-icon>
         </div>
       </div>
 
