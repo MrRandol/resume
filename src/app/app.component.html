@@ -1,7 +1,7 @@
 <section appScrollManager class="app">
 
   <!-- todo : 1 resume | async avec loader du reste -->
-  <app-header></app-header>
+  <app-header class="d-print-none"></app-header>
 
   <ng-container *ngIf="(resume | async) as resume; else loader">
 
@@ -11,7 +11,7 @@
     <app-education [education]="resume.education"></app-education>
     <app-certificates [certificates]="resume.certificates"></app-certificates>
 
-    <app-footer [basics]="resume.basics"></app-footer>
+    <app-footer class="d-print-none" [basics]="resume.basics"></app-footer>
 
   </ng-container>
 </section>

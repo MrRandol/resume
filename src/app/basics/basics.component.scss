@@ -51,10 +51,6 @@
     border-bottom: 0.1em solid var(--primary);
   }
 
-  .job-summary {
-    margin: 2.5rem 0;
-  }
-
   .job-summary p {
     margin: 0;
   }
@@ -85,6 +81,10 @@
 
 .email a {
   font-size: 1.25em;
+}
+
+.socials {
+  margin-bottom: 1em;
 }
 
 .socials a {

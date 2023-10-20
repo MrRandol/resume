@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { Basics } from 'src/models/resume';
 import { faAngular, faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faCircleQuestion, faCode, faEnvelope, faFilePdf, faPrint } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-footer',
@@ -13,6 +13,9 @@ export class FooterComponent {
   faAngular = faAngular;
   faCode = faCode;
   faEnvelope = faEnvelope
+  faPrinter = faPrint;
+  faQuestion = faCircleQuestion;
+  faPdf = faFilePdf;
 
   icons = {
     "twitter": faXTwitter,

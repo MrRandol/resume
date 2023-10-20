@@ -58,6 +58,7 @@ $resume-theme: mat.define-light-theme((
   --background-color  : #cdcdcd;
   --tertiary : #de38c8;
   --text-color : #222222;
+  --border-color: rgba(108, 109, 110, 0.25);
   --font-family: 'Raleway';
 }
 
@@ -73,6 +74,7 @@ $resume-theme: mat.define-light-theme((
   --background-color : #1b1d1e;
   --tertiary : #de38c8;
   --text-color: #e9ecef;
+  --border-color: rgba(233,236,239,.25);
   --font-family: 'Raleway';
 }
 
@@ -148,5 +150,66 @@ a {
   }
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/****************************
+***     PRINT SPECIFIC    ***
+*****************************/
+@media print {
+
+  @page { 
+    margin-top: 1.5em; 
+    margin-bottom: 1.5em; 
+} 
+body { 
+    padding-top: 0; 
+    padding-bottom: 0 ; 
+} 
+  .light, .dark {
+    --primary  : black;
+    --secondary: black;
+    --secondary-hover: black;
+    --success  : #198754;
+    --info     : #6c757d;
+    --warning  : #ffc107;
+    --danger   : #dc3545;
+    // randol custom
+    --background-color  : white;
+    --tertiary : black;
+    --text-color : black;
+    --border-color: rgba(108, 109, 110, 0.25);
+    --font-family: 'Raleway';
+  }
+
+  body {
+    font-size: 11.5px;
+    line-height: 1;
+  }
+
+  h1 {
+    border-bottom: 0.1em solid var(--primary);
+    font-size: 38px;
+    font-weight: 600;
+    margin: 0 0 0.25rem 0;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+  }
+
+  h2.category {
+    font-size: 2em;
+  }
+  
+  h3 {
+    font-size: 15px;
+  }
+  
+  a {
+    color: unset;
+  }
+  
+}

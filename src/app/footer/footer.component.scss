@@ -41,3 +41,33 @@
 .profile-email:hover, .socials:hover {
   color: var(--secondary-hover);
 }
+
+.print-wrapper {
+  padding-top: 1em;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.print {
+  background-color: var(--secondary);
+  padding: 5px 8px;
+}
+.print:hover {
+  background-color: var(--secondary-hover);
+}
+
+.print-help {
+  color: var(--secondary);
+  font-size: 30px;
+  cursor: help;
+}
+
+.pdf {
+  background-color: var(--secondary);
+  padding: 5px 8px;
+  cursor: help;
+}
+
+.pdf:hover {
+  background-color: var(--secondary-hover);
+}
