@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { Basics } from 'src/models/resume';
 
 @Component({
@@ -12,6 +13,7 @@ import { Basics } from 'src/models/resume';
 export class BasicsComponent {
   @Input('basics') basics: Basics;
   faEnveloppe = faEnvelope;
+  faMapPin = faLocationDot;
 
   icons = {
     "twitter": faXTwitter,
