@@ -43,15 +43,18 @@
 }
 
 .print-wrapper {
-  padding-top: 1em;
   justify-content: center;
   align-items: flex-start;
 }
 
-.print {
+.print, .pdf {
   background-color: var(--secondary);
+  color: var(--primary);
   padding: 5px 8px;
+  margin: 3px 0;
+  border: none;
 }
+
 .print:hover {
   background-color: var(--secondary-hover);
 }
@@ -63,8 +66,6 @@
 }
 
 .pdf {
-  background-color: var(--secondary);
-  padding: 5px 8px;
   cursor: help;
 }
 

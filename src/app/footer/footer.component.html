@@ -3,12 +3,11 @@
     <div class="row centered">
 
       <div class="left-footer col-md-4 flex column centered">
+        <div class="flex row"><button class="pdf" matTooltip="{{ 'pdf_help' | translate }}"> <fa-icon [icon]="faPdf"></fa-icon> {{ "pdf" | translate }}</button></div>
         <div class="print-wrapper flex row">
           <button class="print" onClick="window.print()"> <fa-icon [icon]="faPrinter"></fa-icon> {{ "print" | translate }}</button>
           <fa-icon class="print-help" [icon]="faQuestion" matTooltip="{{ 'print_environment' | translate }}"></fa-icon>
         </div>
-        <div class="flex row"><button class="pdf" matTooltip="{{ 'pdf_help' | translate }}"> <fa-icon [icon]="faPdf"></fa-icon> {{ "pdf" | translate }}</button></div>
-
       </div>
 
       <div class="col-md-4 flex column center-footer">
