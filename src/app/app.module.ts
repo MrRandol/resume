@@ -46,7 +46,6 @@ import {MatChipsModule} from '@angular/material/chips';
   ],
   imports: [
     MatTooltipModule,
-    MatChipsModule,
     BrowserModule,
     HttpClientModule,
     FontAwesomeModule,

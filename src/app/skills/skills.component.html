@@ -1,11 +1,12 @@
 <div appScrollSection="skills" class="container">
   <h2 class="category">{{ 'skills' | translate }}</h2>
 
-  <div class="skillSet flex row" *ngFor="let skillSet of skills">
+  <div class="skillSet" *ngFor="let skillSet of skills">
     <h4 class="category secondary">{{ skillSet.name | translate }}</h4>
-    <mat-chip-set>
-      <mat-chip *ngFor="let skill of skillSet.keywords">{{ skill  | translate }}</mat-chip>
-    </mat-chip-set>
+
+      <div class="flex row centered">
+        <ng-container *ngFor="let skill of skillSet.keywords; let last = last">{{ skill  | translate }}<span class="skill-separator" *ngIf="!last"> • </span></ng-container>
+      </div>
   </div>
 
 </div>
