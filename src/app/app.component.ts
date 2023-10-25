@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
-import { Observable } from 'rxjs';
+import { ActivatedRoute, ParamMap } from '@angular/router';
+import { Observable, filter, map, switchMap } from 'rxjs';
 import { Resume } from 'src/models/resume';
 import { GithubDataService } from 'src/services/githubData.service';
 
@@ -12,17 +12,19 @@ import { GithubDataService } from 'src/services/githubData.service';
 
 export class AppComponent {
 
-  resume: Observable<Resume>;
+  resume$: Observable<Resume>;
 
-  constructor(private service: GithubDataService, private translate: TranslateService) {
-    // // this language will be used as a fallback when a translation isn't found in the current language
-    // translate.setDefaultLang('en');
-
-    // // the lang to use, if the lang isn't available, it will use the current loader to get them
-    // translate.use('en');
-  }
+  constructor(
+    private service: GithubDataService,
+    private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.resume = this.service.getResumeJson();
+
+    this.resume$ = this.route.queryParamMap.pipe(
+      map((params: ParamMap) => params.get('position')),
+      map(p => this.service.getResumeJson(p)),
+      switchMap(r => r.pipe(r => r))
+    )
+
   }
 }

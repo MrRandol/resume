@@ -23,7 +23,7 @@ import { SpinnerComponent } from './spinner/spinner.component';
 import { TranslationFlagPipe } from 'src/pipes/translationFlag';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTooltipModule} from '@angular/material/tooltip';
-import {MatChipsModule} from '@angular/material/chips';
+import { AppRoutingModule } from './app.route';
 
 @NgModule({
   declarations: [
@@ -49,6 +49,7 @@ import {MatChipsModule} from '@angular/material/chips';
     BrowserModule,
     HttpClientModule,
     FontAwesomeModule,
+    AppRoutingModule,
     MarkdownModule.forRoot(),
     TranslateModule.forRoot({
       loader: {provide: TranslateLoader, useClass: ResumeTranslationLoader}

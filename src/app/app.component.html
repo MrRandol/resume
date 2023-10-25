@@ -3,7 +3,7 @@
   <!-- todo : 1 resume | async avec loader du reste -->
   <app-header class="d-print-none"></app-header>
 
-  <ng-container *ngIf="(resume | async) as resume; else loader">
+  <ng-container *ngIf="(resume$ | async) as resume; else loader">
 
     <app-basics [basics]="resume.basics"></app-basics>
     <app-skills [skills]="resume.skills"></app-skills>

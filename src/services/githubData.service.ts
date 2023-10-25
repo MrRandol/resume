@@ -1,4 +1,5 @@
-import { Injectable } from '@angular/core';
+import { Injectable, SecurityContext } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 import { Observable } from 'rxjs';
 import { FetchHelper } from 'src/helpers/fetch.helper';
 import { Resume } from 'src/models/resume';
@@ -7,15 +8,20 @@ import { Resume } from 'src/models/resume';
   providedIn: 'root'
 })
 export class GithubDataService {
-  
-  constructor() { }
+
+  constructor(private sanitizer: DomSanitizer) { }
 
   private static readonly githubRoot = "https://raw.githubusercontent.com/";
   private static readonly repositoryReference = "MrRandol/resume";
-  private static readonly jsonDataUrl = "https://raw.githubusercontent.com/MrRandol/resume/data/resume.json";
+  private readonly defaultPosition = 'po';
 
-  getResumeJson(): Observable<Resume> {
-    return FetchHelper.getObservableFromFetch<Resume>(GithubDataService.jsonDataUrl);
+  getResumeJson(position: string): Observable<Resume> {
+    var positionSuffix = '';
+    var p = position ? this.sanitizer.sanitize(SecurityContext.URL, position.toLowerCase()) : '';
+    if (p !== '' && p != this.defaultPosition)
+      positionSuffix = "-" + position;
+
+    return FetchHelper.getObservableFromFetch<Resume>(GithubDataService.githubRoot + "/" + GithubDataService.repositoryReference + "/data/" + "resume" + positionSuffix + ".json");
   }
 
   getImagePath(fileName: string) {
