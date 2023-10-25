@@ -90,6 +90,7 @@ body {
   line-height: 1.42857143;
   color: var(--text-color);
   background-color: var(--background-color);
+  transition: all 0.25s ease;
 }
 
 h3.category, h2.category {
@@ -156,14 +157,16 @@ a {
 *****************************/
 @media print {
 
-  @page { 
-    margin-top: 1.5em; 
-    margin-bottom: 1.5em; 
-} 
-body { 
-    padding-top: 0; 
-    padding-bottom: 0 ; 
-} 
+  @page {
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
+  }
+
+  body {
+      padding-top: 0;
+      padding-bottom: 0 ;
+  }
+
   .light, .dark {
     --primary  : black;
     --secondary: black;
@@ -191,7 +194,7 @@ body {
     font-weight: 600;
     margin: 0 0 0.25rem 0;
   }
-  
+
   h2 {
     font-size: 20px;
     font-weight: 500;
@@ -203,13 +206,13 @@ body {
   h2.category {
     font-size: 2em;
   }
-  
+
   h3 {
     font-size: 15px;
   }
-  
+
   a {
     color: unset;
   }
-  
+
 }
