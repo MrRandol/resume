@@ -4,12 +4,12 @@
 
     <div class="experience-date">
       <span>
-        <div class="small" *ngIf="displayMonth">{{ startDate | date:'MMMM' | translate }}</div>{{ startDate | date:'yyyy' }}
+        <div class="small" *ngIf="displayMonth">{{ startDate | date:'MMMM' | lowercase | translate }}</div>{{ startDate | date:'yyyy' }}
       </span>
       <ng-container *ngIf="displayEndDate">
         <span class="experience-date-splitter"> - </span>
         <span>
-          <div class="small" *ngIf="displayMonth">{{ endDate | date:'MMMM' | translate }}</div><span *ngIf="!endDate" class="today">{{ 'today' | translate }}</span>{{ (endDate | date:'yyyy') }}
+          <div class="small" *ngIf="displayMonth">{{ endDate | date:'MMMM' | lowercase | translate }}</div><span *ngIf="!endDate" class="today">{{ 'today' | translate }}</span>{{ (endDate | date:'yyyy') }}
         </span>
       </ng-container>
     </div>
