@@ -17,6 +17,19 @@
   
   "tools": "Outils",
   "tool": "Outils",
+
+  "january": "janvier",
+  "february": "février",
+  "march": "mars",
+  "april": "avril",
+  "may": "mai",
+  "june": "juin",
+  "july": "juillet",
+  "august": "aout",
+  "september": "septembre",
+  "october": "octobre",
+  "november": "novembre",
+  "december": "decembre",
   
   "languages": "Langues",
   "language": "Langue",
@@ -156,7 +169,7 @@
     "- Maintenance du CI/CD \n",
     "- Déploiement des microservices \n",
     "- <u><b>Technologies</b></u> : Angular, C#, Python, Kubernetes, Docker \n",
-    "- <u><b>Tools</b></u> :  Gitlab, Jira, Confluence"
+    "- <u><b>Outils</b></u> :  Gitlab, Jira, Confluence"
   ],
 
   "ubisoft_summary_fullstack": [
