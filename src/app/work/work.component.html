@@ -1,7 +1,7 @@
-<div  appScrollSection="work" class="container">
+<div  appScrollSection="work" class="work container">
   <h2 class="category">{{ 'experience' | translate }}</h2>
 
-  <app-experience *ngFor="let experience of work"
+  <app-experience *ngFor="let experience of work; let isLast = last"
     [startDate]="experience.startDate"
     [endDate]="experience.endDate"
     [logo]="experience.logo"
@@ -9,6 +9,7 @@
     [title]="experience.position"
     [summary]="experience.summary"
     [url]="experience.url"
+    [isLast]="isLast"
   ></app-experience>
 
 </div>

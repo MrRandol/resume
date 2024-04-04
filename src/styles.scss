@@ -151,62 +151,67 @@ a {
   }
 }
 
-
 /****************************
 ***     PRINT SPECIFIC    ***
 *****************************/
 @media print {
 
   @page {
-      margin-top: 1.5em;
-      margin-bottom: 1.5em;
-      margin-left: 1em;
-      margin-right: 1em;
+      margin: 1.5em;
   }
 
   body {
       padding-top: 0;
-      padding-bottom: 0 ;
+      padding-bottom: 0;
   }
 
   .light, .dark {
-    --primary  : black;
-    --secondary: black;
-    --secondary-hover: black;
+    --primary  : #332b00;
+    --secondary: #332b00;
+    --secondary-hover: #332b00;
     --success  : #198754;
     --info     : #6c757d;
     --warning  : #ffc107;
     --danger   : #dc3545;
     // randol custom
     --background-color  : white;
-    --tertiary : black;
-    --text-color : black;
-    --border-color: rgba(108, 109, 110, 0.25);
+    --tertiary : #5e4f05;
+    --text-color : #222222;
+    --border-color: #5e4f05;
+    --light-border-color: rgba(82, 70, 14, 0.15);
     --font-family: 'Raleway';
   }
 
   body {
-    font-size: 11.5px;
+    font-size: 11px;
     line-height: 1;
+  }
+
+  .container {
+    max-width: unset;
   }
 
   h1 {
     border-bottom: 0.1em solid var(--primary);
-    font-size: 38px;
+    font-size: 30px;
     font-weight: 600;
     margin: 0 0 0.25rem 0;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1;
     margin-bottom: 0.5rem;
     margin-top: 0;
   }
 
+  .work .row:not(.last)  {
+    border-bottom: 1px solid var(--light-border-color) !important;
+  }
+
   h2.category {
-    font-size: 2em;
+    font-size: 18px;
   }
 
   h3 {

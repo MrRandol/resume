@@ -102,3 +102,66 @@
 .socials .linkedin:hover {
   color: #0a66c2;
 }
+
+
+@media print {
+  .profile-picture {
+    width: 20%;
+  }
+  .profile {
+    width: 80%;
+  }
+
+  .profile-picture img {
+    width: 100px !important;
+  }
+
+  .contacts {
+    align-items: flex-start !important;
+    width: 100%;
+    font-size: 12px;
+    line-height: 12px;
+    .email-icon {
+      background: none !important;
+      margin: 0 0 .5em 0 !important;
+    }
+  }
+  
+  .image-skeleton {
+    width: 100px;
+    height: 100px;
+    background-color: var(--background-color);
+  }
+  
+  .profile-picture {
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-start;
+    padding-right: 5%;
+  
+    .picture-wrapper {
+      margin: 7px 0;
+      position: relative;
+  
+      .offset-border {
+        border: 1px solid;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+  
+      .offset-border.front {
+        border-color: var(--primary);
+        right: -7px;
+        top: -7px;
+      }
+  
+      .offset-border.back {
+        border-color: var(--secondary);
+        bottom: -7px;
+        left: -7px;
+        z-index: -1;
+      }
+    }
+  }
+}

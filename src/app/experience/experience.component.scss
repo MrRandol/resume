@@ -48,7 +48,6 @@
   font-size: .8em;
 }
 
-
 .experience-timeline {
   position: relative;
   background: linear-gradient(var(--secondary), var(--secondary)) no-repeat center/2px 100%;
@@ -70,11 +69,11 @@
 
 @media print {
   .experience-right-col {
-    width: 77%;
+    width: 82%;
   }
   .experience-left-col {
-    border-right: 1px solid var(--border-color);
-    width: 23%;
+    border-right: 1px solid var(--light-border-color);
+    width: 18%;
   }
 
   .experience-date {

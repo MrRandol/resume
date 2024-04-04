@@ -1,7 +1,7 @@
 <div appScrollSection="basics" class="container" *ngIf="basics">
   <div class="basics row">
 
-    <div class="profile-picture d-print-none col-md-4">
+    <div class="profile-picture col-md-4">
       <div class="picture-wrapper">
         <div class="offset-border back"></div>
         <img [src]="basics.image| githubImage" (load)="hideLoader()"/>

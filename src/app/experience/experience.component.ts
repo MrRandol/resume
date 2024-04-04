@@ -22,4 +22,6 @@ export class ExperienceComponent {
 
   @Input('url') url: string;
 
+  @Input('isLast') isLast: boolean;
+
 }
