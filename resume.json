@@ -32,8 +32,8 @@
     ]
   },
   "skills": [
-    { "name": "soft_skills", "keywords": ["agile", "devops", "product_management", "scrum", "kanban", "servant_leadership", "team_spirit", "user_experience", "priorities_management", "initiative_spirit", "organized", "detail_oriented", "continuous_improvement", "speaker", "trainer", "problem_solving", "analysis", "autonomous"]},
-    { "name": "tools", "keywords": ["Jira", "Confluence", "Jenkins", "Miro", "Gitlab", "Github", "Jenkins"]}
+    { "name": "soft_skills", "keywords": ["agile", "devops", "product_management", "scrum", "kanban", "servant_leadership", "team_spirit", "user_experience", "priorities_management", "initiative_spirit", "organized", "detail_oriented", "continuous_improvement", "speaker", "collaboration", "problem_solving", "analysis", "planification"]},
+    { "name": "tools", "keywords": ["Jira", "Confluence", "Jenkins", "Miro", "Gitlab", "Github"]}
   ],
   "work": [
     {

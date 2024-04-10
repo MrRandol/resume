@@ -36,7 +36,7 @@
   "link_to": "Link to ",
   "source_code": "source code",
   "print": "Print resume",
-  "print_environment": "🌳 Think green, only print if necessary",
+  "print_environment": "🌳 Only print if necessary",
   "pdf": "Download PDF",
   "pdf_help": "To download the PDF, simply use the print button then 'Save as PDF' as printer destination",
 
@@ -61,6 +61,8 @@
   "autonomous": "Autonomous",
   "software_dev_fullstack": "Software development (fullstack)",
   "language_agnostic": "Language agnostic",
+  "collaboration": "Collaboration transversale",
+  "planification": "Planification stratégique",
 
   "product_owner": "Product Owner",
   "fullstack_developer": "Fullstack developer",
@@ -82,12 +84,12 @@
 
   "my_summary": [
     "My experience as a developer gave me the chance to first learn about Agile and subsequently DevOps. Today, I want to use my technological expertise and my principles to assist teams in becoming great by creating passionate products and captivating visions. Understanding user demands and converting them into a straightforward, effective, and appealing product is a process I love and enjoy. I am skilled at taking difficult ideas and making them understandable to all parties involved while maintaining the main points I want to convey.  \n  \n",
-    "✅ PSPO • 🚀 DevOps & Agile enthousiast • 🎮 Gamedev • 🌍 GIS"
+    "✅ PSPO • 🚀 DevOps & Agile enthousiast • 🎮 Gamedev"
   ],
 
   "my_summary_fullstack": [
     "My journey through the tech industry allowed me to evolve from software developer to product owner. My experience in product ownership has given me a profound appreciation for user-centered design and agile methodologies, enabling me to comprehend the intricacies of translating business needs into technical solutions. Now that I have this diversified viewpoint, I am excited to go back to my roots as a developer and bring with me a comprehensive understanding of product development that I believe will be a valuable asset to any team.  \n  \n",
-    "🚀 DevOps & Agile enthousiast • 🎮 Gamedev • ✅ PSPO • 🌍 GIS"
+    "🚀 DevOps & Agile enthousiast • 🎮 Gamedev • ✅ PSPO"
   ],
 
   "intact_summary": [

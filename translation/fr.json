@@ -51,7 +51,7 @@
   "link_to": "Lien vers ",
   "source_code": "le code source",
   "print": "Imprimer le CV",
-  "print_environment": "🌳 Pensez à la planète, n'imprimez que si nécessaire",
+  "print_environment": "🌳 N'imprimez que si nécessaire",
   "pdf": "Télécharger le PDF",
   "pdf_help": "Pour télécharger le CV au format PDF, simplement utiliser le bouton d'impression, puis 'Sauvegarder en PDF' en imprimante de destination",
 
@@ -76,6 +76,8 @@
   "autonomous": "Autonome",
   "software_dev_fullstack": "Développement logiciel (fullstack)",
   "language_agnostic": "Agnostique des languages",
+  "collaboration": "Collaboration transversale",
+  "planification": "Planification stratégique",
   
 
   "product_owner": "Product Owner",
@@ -93,28 +95,33 @@
   "nalys_title": "Ingénieur logiciel & Coach DevOps",
   "worldline_title": "Responsable d'application",
 
-  "utbm_studytype": "**Diplôme d'ingénieur informatique**  \nBranche I2RV : Images, Interaction et Réalité Virtuelle  \nCours préparatoires réalisés en cursus anglophone",
+  "utbm_studytype": "**Diplôme d'ingénieur informatique**  \nBranche I2RV : Images, Interaction et Réalité Virtuelle  \nCursus anglophone : environ 50% des cours on été suivis en anglais",
   "pspo_name": "Certification PSPO 1 (Professional Scrum Product Owner).  \n [Lien de vérification](https://www.scrum.org/certificates/683202) (entrer maxime.choffat@gmail.com comme compte a vérifier)",
 
   "my_summary": [ 
-    "Mon expérience en tant que développeur m'a d'abord dirigé vers l'Agile, puis vers le Devops. Aujourd'hui, je souhaite combiner mon expérience technique et mes valeurs pour aider au mieux les équipes au sein d'un projet passionnant et d'une vision engageante. J'aime comprendre les besoins des utilisateurs et les convertir en un produit simple, performant et évolutif. A l'inverse, je suis capable de simplifier les concepts complexes afin de communiquer au mieux avec les acteurs du produit tout en gardant le focus sur les informations clés.  \n  \n",
-    "✅ PSPO • 🚀 Adepte DevOps & Agile • 🎮 Développeur de jeux vidéos • 🌍 SIG"
+    "Mon parcours professionnel, initialement axé sur le développement, m'a conduit à explorer les méthodologies Agile et DevOps. ",
+    "Aujourd'hui, je suis animé par la volonté de mettre à profit mon expertise technique pour accompagner les équipes dans la concrétisation de projets stimulants et porteurs de sens. ",
+    "J'ai à coeur de comprendre les besoins des utilisateurs pour concevoir des produits simples, performants et évolutifs. ",
+    "Parallèlement, je sais simplifier les concepts les plus complexes pour communiquer efficacement avec les parties prenantes, en mettant en lumière les points essentiels. \n \n",
+    
+    "✅ PSPO • 🚀 Expert en Agile & DevOps • 🎮 Passionné par le développement de jeux vidéos"
   ],
   
   "my_summary_fullstack": [ 
     "Mon voyage au travers de l'industrie tech m'a permis d'évoluer d'un rôle de développeur logiciel à celui de product owner. Mon expérience de gestion de produit m'a offert une nouvelle perspective centrée sur les utilisateurs et les méthodes agiles, me permettant comprendre les complexités de transposer des besoins d'affaire en solutions techniques. A présent que je possède cette position polyvalente, je suis enthousiaste à l'idée de revenir à mes racines de développeur, apportant avec moi une compréhension plus complète du développement d'un produit. Je suis convaincu que cette perspective sera d'une grande valeur pour n'importe quelle équipe de développement.  \n  \n",
-    "🚀 Adepte DevOps & Agile • 🎮 Développeur de jeux vidéos • ✅ PSPO • 🌍 SIG"
+    "🚀 Adepte DevOps & Agile • 🎮 Développeur de jeux vidéos • ✅ PSPO"
   ],
 
   "intact_summary": [
     "### Intact Lab \n",
     "Je participe à la création d'une plateforme de développement interne au sein d'Intact Lab. \n",
-    "- Discussions avec les différents utilisateurs et acteurs pour obtenir leurs commentaires et leurs besoins \n",
+    "- Etablissement d'une vision claire pour répondre aux besoins clients et respecter les bonnes pratiques de l'industrie \n",
+    "- Création d'une roadmap pour aider le leadership à comprendre et adopter notre vision \n",
+    "- Discussions avec les différents utilisateurs et parties prenantes pour obtenir leurs commentaires et leurs attentes \n",
     "- Mise en place et application de plans de communication pour partager nos progrès \n",
-    "- Création d'une roadmap avec une vision produit claire et études de viabilité pour aider le leadership à comprendre et adopter notre vision \n",
-    "- Définition claire des besoin pour aider l'équipe de développement à retrouver du focus \n",
-    "- Apporter de la structure dans nos outils pour permettre un meilleur suivi \n",
-    "- Accélérer la livraison de valeur tout en préservant la qualité par la définition d'objectifs SMART \n",
+    "- Restructuration de la vision et de la communication avec l'équipe pour redonner du focus \n",
+    "- Élaboration de métriques et de tableaux de bord pour un suivi optimal \n",
+    "- Accélération de la livraison de valeur tout en préservant la qualité grâce à la définition d'objectifs SMART \n",
     "- Amélioration de la communication et du travail d'équipe en partageant les bonnes pratiques de l'Agile et du Lean"
   ],
 
@@ -135,11 +142,12 @@
   "sem_summary": [
     "### Armory  \n",  
     "Notre objectif au sein d'Armory était d'offrir aux équipes de jeu une plateforme pour les aider à développer leurs opérations en ligne. ",
-    "En tant que product owner, j'ai supervisé le produit de gestion des campagnes et évènements. \n",
+    "En tant que Product Owner, j'ai supervisé le développement du produit de gestion des campagnes et des événements \n",
     "- Construction de la vision, basée sur la flexibilité, la modularité et l'accessibilité pour les managers LiveOps \n",
     "- Conduite du produit au travers de sa phase de MVP prédéterminée \n",
-    "- Adaptation du scope au fil des commentaires des utilisateurs \n",
-    "- Etablissement d'une vision long terme au travers de recherche UX et de conversations avec les acteurs du produit"
+    "- Echanges réguliers avec les utilisateurs et parties prenantes pour obtenir leur feedback et ajuster la roadmap \n",
+    "- Etablissement d'une vision long terme au travers de recherche UX et de conversations avec les acteurs du produit \n",
+    "- Alignement des équipes de développement de jeux avec la stratégie produit par une communication transparente et une gestion des attentes "
   ],
 
   "sem_summary_fullstack": [
@@ -150,13 +158,14 @@
     "- Conduite du produit au travers de sa phase de MVP prédéterminée \n",
     "- Adaptation du scope au fil des commentaires des utilisateurs \n",
     "- Etablissement d'une vision long terme au travers de recherche UX et de conversations avec les acteurs du produit \n",
+    "- Apport de nouvelles fonctionnalités pour les équipes live telles que l'intégration de messages aux campagnes ou encore une meilleure gestion des évènements \n",
     "- <u><b>Outils</b></u> : Gitlab, Jira, Confluence"
   ],
 
   "ubisoft_summary": [
     "### Rainbow Six Mobile  \n",  
     "Dans le cadre de ce développement, j'ai participé a la construction d'une solution générique de gestion des opérations live en tant que développeur fullstack. \n",
-    "- Développement de fonctionnalités du backoffice \n",
+    "- Développement de fonctionnalités pour le backoffice \n",
     "- Partage de bonnes pratiques pour la maintenance de la solution sur le long terme. \n",
     "- Analyses pour identifier des points d'optimisation, tant sur le plan des process que des performances applicatives \n",
     "- <u><b>Technologies</b></u> : Angular, C#, Docker \n",
@@ -164,12 +173,13 @@
     "### Hyperscape  \n",
     "Au sein du projet Hyperscape, J'ai participé à la création du backoffice d'administration des systèmes de jeu en ligne. ",
     "Mon travail s'est concentré sur la gestion du contenu saisonnier du jeu afin d'offrir aux membre de l'équipe un solution pour créer et gérer leur contenu facilement tout en garantissant la cohérence des données. \n",
+    "- Projet de grand envergure nécessitant une collaboration étroite avec des équipes multidisciplincaires \n",
     "- Communication avec l'équipe monétisation pour comprendre les besoins et les implémenter \n",
-    "- Développement de fonctionnalités du backoffice \n",
+    "- Développement de fonctionnalités pour le backoffice \n",
     "- Maintenance du CI/CD \n",
     "- Déploiement des microservices \n",
-    "- <u><b>Technologies</b></u> : Angular, C#, Python, Kubernetes, Docker \n",
-    "- <u><b>Outils</b></u> :  Gitlab, Jira, Confluence"
+    "- Amélioration des pipelines au travers de l'automatisation, feedback et de la préservation des données pour fluidifier et accélérer les livraisons de contenu LiveOps \n",
+    "- Préparation et participation au Go Live du jeu et aux opérations de maintenances liées au premier afflux de joueurs"
   ],
 
   "ubisoft_summary_fullstack": [
@@ -180,7 +190,7 @@
     "- Analyses pour identifier des points d'optimisation, tant sur le plan des process que des performances applicatives \n",
     "### Hyperscape  \n",
     "Au sein du projet Hyperscape, J'ai participé à la création du backoffice d'administration des systèmes de jeu en ligne. ",
-    "Mon travail s'est concentré sur la gestion du contenu saisonnier du jeu afin d'offrir aux membre de l'équipe un solution pour créer et gérer leur contenu facilement tout en garantissant la cohérence des données. \n",
+    "Mon travail s'est concentré sur la gestion du contenu saisonnier du jeu afin d'offrir aux membres de l'équipe un solution pour créer et gérer leur contenu facilement tout en garantissant la cohérence des données. \n",
     "- Communication avec l'équipe monétisation pour comprendre les besoins et les implémenter \n",
     "- Développement de fonctionnalités du backoffice \n",
     "- Maintenance du CI/CD \n",
