@@ -37,12 +37,21 @@
   ],
   "work": [
     {
+      "organization": "Big Fish",
+      "logo": "bigfish.jpg",
+      "position": "product_owner",
+      "url": "https://bigfishgames.com/",
+      "startDate": "2023-06-10",
+      "endDate": null,
+      "summary": "bigfish_summary"
+    },
+    {
       "organization": "Intact",
       "logo": "intact.jpeg",
       "position": "product_owner",
       "url": "https://www.intact.ca/",
       "startDate": "2023-01-04",
-      "endDate": null,
+      "endDate": "2024-05-31",
       "summary": "intact_summary"
     },
     {

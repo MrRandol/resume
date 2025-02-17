@@ -112,9 +112,39 @@
     "🚀 Adepte DevOps & Agile • 🎮 Développeur de jeux vidéos • ✅ PSPO"
   ],
 
+  "bigfish_summary": [
+    "### Plateforme de publication BigFish Games \n",
+    "Je dirige la conception et la réalisation de la plateforme de publication de jeux mobiles au sein de BigFish Games. \n",
+    "- Découverte des besoins des producteurs, équipes de développements et acteurs de la chaine de publication de jeux mobiles \n",
+    "- Rationalisation des requis en vue de créer une vision court et long terme pour la plateforme de publication \n",
+    "- Identification de besoins et opportunités court terme pour apporter une valeur immédiate et de fonctionnalités plus long terme pour répondre aux objectifs de l'entreprise \n",
+    "- Intégration d'éléments de mesurabilité dès la conception pour s'assurer d'avoir de la visibilité sur le produit \n",
+    "- Synchronisations régulières avec le CTO pour s'assurer de la direction technique du produit \n",
+    "- Planification des trimestres pour réaliser le plan, découpé en jalons et objectifs SMART pour guider l'équipe de développement et communiquer efficacement \n",
+    "- Réorganisation de l'équipe autour des valeurs Scrum et Kanban pour offrir plus de focus et d'efficacité \n",
+    "- Réorganisation des sprints et du backlog autour d'initiative, epics et stories clairs pour éviter le scope creep et transmettre la vision \n",
+    "- Favorisation de la communication autour de backlog refinements avec planning poker pour que chacun puisse donner son avis \n",
+    "- <u><b>Outils</b></u> : Jira, Confluence, Google Docs, Slack, Miro, Github"
+  ],
+
+  "bigfish_summary_fullstack": [
+    "### Plateforme de publication BigFish Games \n",
+    "Je dirige la conception et la réalisation de la plateforme de publication de jeux mobiles au sein de BigFish Games. \n",
+    "- Découverte des besoins des producteurs, équipes de développements et acteurs de la chaine de publication de jeux mobiles \n",
+    "- Rationalisation des requis en vue de créer une vision court et long terme pour la plateforme de publication \n",
+    "- Identification de besoins et opportunités court terme pour apporter une valeur immédiate et de fonctionnalités plus long terme pour répondre aux objectifs de l'entreprise \n",
+    "- Intégration d'éléments de mesurabilité dès la conception pour s'assurer d'avoir de la visibilité sur le produit \n",
+    "- Synchronisations régulières avec le CTO pour s'assurer de la direction technique du produit \n",
+    "- Planification des trimestres pour réaliser le plan, découpé en jalons et objectifs mesurables pour guider l'équipe de développement et communiquer efficacement \n",
+    "- Réorganisation de l'équipe autour des valeurs Scrum et Kanban pour offrir plus de focus et d'efficacité \n",
+    "- Réorganisation des sprints et du backlog autour d'initiative, epics et stories clairs pour éviter le scope creep et transmettre la vision \n",
+    "- Favorisation de la communication autour de backlog refinements avec planning poker pour que chacun puisse donner son avis \n",
+    "- <u><b>Outils</b></u> : Jira, Confluence, Google Docs, Slack, Miro, Github"
+  ],
+
   "intact_summary": [
     "### Intact Lab \n",
-    "Je participe à la création d'une plateforme de développement interne au sein d'Intact Lab. \n",
+    "J'ai participé à la création d'une plateforme de développement interne au sein d'Intact Lab. \n",
     "- Etablissement d'une vision claire pour répondre aux besoins clients et respecter les bonnes pratiques de l'industrie \n",
     "- Création d'une roadmap pour aider le leadership à comprendre et adopter notre vision \n",
     "- Discussions avec les différents utilisateurs et parties prenantes pour obtenir leurs commentaires et leurs attentes \n",
@@ -127,7 +157,7 @@
 
   "intact_summary_fullstack": [
     "### Intact Lab \n",
-    "Je participe à la création d'une plateforme de développement interne au sein d'Intact Lab. \n",
+    "J'ai participé à la création d'une plateforme de développement interne au sein d'Intact Lab. \n",
     "Au sein de l'équipe DevOps, je travaille sur des fonctionnalités et sujets techniques pour livrer le meilleur produit possible aux équipes de développement. \n",
     "- Discussions avec les différents utilisateurs et acteurs pour obtenir leurs commentaires et leurs besoins \n",
     "- Mise en place et application de plans de communication pour partager nos progrès \n",
