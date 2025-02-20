@@ -126,15 +126,19 @@
   ],
 
   "intact_summary": [
-    "### Intact Lab Developer Platform  \n",
-    "I am contributing to the creation of an internal developer platform at Intact Lab. Working in the DevOps team, I am closely linked to technical topics to ensure we deliver the best product for development teams.\n",
-    "- Consult with our users to learn about their needs and feedback, as well as to update them on our progress \n",
-    "- Develop and implement of a communication strategy to share our achievements \n",
-    "- Create of the product roadmap, which articulates a distinct vision and includes business cases to support leadership understanding and engagement \n",
-    "- Clearly defined requirements to assist the team in regaining focus \n",
-    "- Bring structure in our tools to allow for a better product follow-up \n",
-    "- Using SMART goals to accelerate value delivery while maintaining quality \n",
-    "- Increase team productivity and communication through the sharing of Agile and Lean best practices"
+    "#### **IntactLab developer platform** \n",
+    "- Worked within the DevOps team, aligning with the lab's development teams to help accelerate their value delivery. \n",
+    "- Created the vision and roadmap for an internal developer platform, aligning developer needs, leadership expectations, and industry best practices. \n",
+    "- Regularly consulted with users and directors to gather requirements, collect feedback, and communicate progress. \n",
+    "- Measured, structured and showcased our achievements through different communication channels (Teams channels, SAFe syncs, quarterly planning) \n",
+    "- Restructured the team around product vision, sprint goals and clear stories to improve focus and eliminate waste. \n \n",
+    "#### Key Achievements \n",
+    "- Successfully launched the internal developer platform, aligning user needs with company objectives. \n",
+    "- Increased the sprint achievement rate from 30% to ~80% by introducing Agile and Lean best practices. \n",
+    "- Established quarterly and sprint SMART goals, ensuring measurable success while preserving high product quality. \n",
+    "- Created a clear product roadmap, backed by business cases, to engage leadership. \n",
+    "- Implemented a strong communication strategy, fostering transparency and reducing support requests related to information gaps by 60%. \n \n",
+    " \n**Tools**: Jira, Confluence, Teams, Miro, Gitlab"
   ],
 
   "intact_summary_fullstack": [
@@ -152,13 +156,18 @@
   ],
 
   "sem_summary": [
-    "### Armory  \n",
-    "Our objective in developing Armory was to provide game teams with a platform that would help in the growth of their live operations. ",
-    "As a Product Owner, I was in charge of the campaigns and events system. \n",
-    "- Formulation of a vision that emphasizes accessibility, modularity, and flexibility for LiveOps managers \n",
-    "- Product guidance during its planned MVP phase \n",
-    "- Adjusted the scope based on ongoing user feedback  \n",
-    "- Created a long-term vision via stakeholder workshops and UX research"
+    "#### **Armory** \n",
+    "- Led the development of the LiveOps system within Armory, a platform designed to support game teams in their online operations. \n",
+    "- Ensured the product provided easy-to-use, modular, and flexible tools for LiveOps managers. \n",
+    "- Provided product guidance during the MVP phase, setting clear objectives while maintaining flexibility for adaptations. \n",
+    "- Continuously adjusted scope and priorities based on ongoing user feedback and team progress, ensuring consistent value delivery. \n",
+    "- Conducted stakeholder workshops with UX research support to establish a long-term vision. \n \n",
+    "#### Key Achievements \n",
+    "- Successfully delivered the LiveOps campaigns and events system, enabling game teams to efficiently manage live content. \n",
+    "- Improved LiveOps workflow, reducing manual actions and increasing adoption. \n",
+    "- Enhanced usability through UX-driven improvements, making the system more intuitive for LiveOps managers. \n",
+    "- Established short feedback loops with the users, ensuring continuous improvement. \n \n",
+    " \n**Tools**: Jira, Confluence, Gitlab, Slack, Miro, Figma"
   ],
 
   "sem_summary_fullstack": [
