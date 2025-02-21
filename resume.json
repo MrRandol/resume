@@ -32,8 +32,10 @@
     ]
   },
   "skills": [
-    { "name": "soft_skills", "keywords": ["Agile", "DevOps", "Product Management", "Scrum", "Kanban", "Servant Leadership", "Team Spirit", "Strategic Planning", "Prioritization", "Continuous Improvement", "User Experience", "Problem Solving", "Analysis", "Organized", "Detail-Oriented", "Speaker", "Cross-Team Collaboration", "CI/CD"]},
-    { "name": "tools", "keywords": ["Jira", "Confluence", "Miro", "Gitlab", "Github", "Figma", "Penpot", "Teams", "Slack"]}
+    { "name": "Product Management", "keywords": ["Product Strategy", "Roadmapping", "Backlog Management", "Prioritization", "Iterative Development", "Agile", "Lean ", "Scrum", "Kanban", "SAFe", "Stakeholder Engagement", "Cross-Team Collaboration", "Data-Driven", "Strategic Planning", "User Experience"]},
+    { "name": "Process & Workflow", "keywords": ["Sprint Planning", "Feature Discovery", "Requirement Gathering", "UX Research", "Tooling Strategy", "CI/CD", "DevOps", "Continuous Improvement ", "Organized", "Detail-Oriented"]},
+    { "name": "Leadership & Communication", "keywords": ["Servant Leadership", "Team Empowerment", "Problem Solving", "Critical Thinking", "Workshop Facilitation", "Coaching", "Change Management", "Process Improvement", "Speaker", "Adaptability"]},
+    { "name": "tools", "keywords": ["Jira", "Confluence", "Miro", "Slack", "Teams", "Google Docs", "GitLab", "GitHub", "Figma", "Penpot"]}
   ],
   "work": [
     {
