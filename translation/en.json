@@ -106,23 +106,7 @@
     "- Delivered measurable results, increasing stakeholder involvement and cross-team collaboration. \n",
     "- Integrated data and measurement into product design, enabling the team to measure success and control costs. \n",
     "- Reorganized team around Scrum and Kanban, improving communication and collaboration, leading to faster delivery times while improving focus and quality. \n",
-    "- Eliminated untracked sprint work and sprint inflation by clearly defining sprint goals and stories. \n",
-    " \n**Tools**: Jira, Confluence, Google Docs, Slack, Miro, Github, Penpot"
-  ],
-
-  "bigfish_summary_fullstack": [
-    "### BigFish publication platform \n",
-    "I lead the conception and making of BigFish mobile game publication platform \n",
-    "- Discovery of needs from producers, game developers, and stakeholders of the publication chain \n",
-    "- Group and sort requirements to create a dhort and long term vision for the platform \n",
-    "- Identify short term needs and opportunities to bring immediate value while planning to answer company needs on the long run \n",
-    "- Integrate measurability at the design phase to ensure we have visibility on the product \n",
-    "- Regular syncs with the CTO to ensure the product follows the technical direction of the company \n",
-    "- Quarterly plannings to lay ou the plan, then split into milestones and SMART objectives to guide the team and communicate efficiently \n",
-    "- Team reorganisation around Scrum and Kanban to ensure more focus and efficiency \n",
-    "- Reorder sprints and backlog around clear initiative, epics and stories to avoid scope creep and ensure the vision is shared \n",
-    "- Foster communication through backlog refinements with poker planning to ensure everyone have a space to talk and share their opinions \n",
-    "- <u><b>Tools</b></u> : Jira, Confluence, Google Docs, Slack, Miro, Github"
+    "- Eliminated untracked sprint work and sprint inflation by clearly defining sprint goals and stories. \n"
   ],
 
   "intact_summary": [
@@ -137,22 +121,7 @@
     "- Increased the sprint achievement rate from 30% to ~80% by introducing Agile and Lean best practices. \n",
     "- Established quarterly and sprint SMART goals, ensuring measurable success while preserving high product quality. \n",
     "- Created a clear product roadmap, backed by business cases, to engage leadership. \n",
-    "- Implemented a strong communication strategy, fostering transparency and reducing support requests related to information gaps by 60%. \n \n",
-    " \n**Tools**: Jira, Confluence, Teams, Miro, Gitlab"
-  ],
-
-  "intact_summary_fullstack": [
-    "### Intact Lab Developer Platform  \n",
-    "I am contributing to the creation of an internal developer platform at Intact Lab. \n",
-    "Working in the DevOps team, I am closely linked to technical topics to ensure we deliver the best product for development teams.\n",
-    "- Consult with our users to learn about their needs and feedback, as well as to update them on our progress \n",
-    "- Develop and implement of a communication strategy to share our achievements \n",
-    "- Create of the product roadmap, which articulates a distinct vision and includes business cases to support leadership understanding and engagement \n",
-    "- Clearly defined requirements to assist the team in regaining focus \n",
-    "- Bring structure in our tools to allow for a better product follow-up \n",
-    "- Using SMART goals to accelerate value delivery while maintaining quality \n",
-    "- Increase team productivity and communication through the sharing of Agile and Lean best practices \n",
-    "- <u><b>Tools</b></u> : Github, Jira, Confluence"
+    "- Implemented a strong communication strategy, fostering transparency and reducing support requests related to information gaps by 60%. \n \n"
   ],
 
   "sem_summary": [
@@ -166,197 +135,65 @@
     "- Successfully delivered the LiveOps campaigns and events system, enabling game teams to efficiently manage live content. \n",
     "- Improved LiveOps workflow, reducing manual actions and increasing adoption. \n",
     "- Enhanced usability through UX-driven improvements, making the system more intuitive for LiveOps managers. \n",
-    "- Established short feedback loops with the users, ensuring continuous improvement. \n \n",
-    " \n**Tools**: Jira, Confluence, Gitlab, Slack, Miro, Figma"
-  ],
-
-  "sem_summary_fullstack": [
-    "### Armory  \n",
-    "As part of the Armory teams, our goal was to provide game teams with a platform that would help in the growth of their live operations. ",
-    "As a Product Owner, I was in charge of the campaigns and events system. \n",
-    "- Formulation of a vision that emphasizes accessibility, modularity, and flexibility for LiveOps managers \n",
-    "- Product guidance during its planned MVP phase \n",
-    "- Adjusted the scope based on ongoing user feedback  \n",
-    "- Created a long-term vision via stakeholder workshops and UX research \n",
-    "- <u><b>Tools</b></u> : Gitlab, Jira, Confluence"
+    "- Established short feedback loops with the users, ensuring continuous improvement. \n \n"
   ],
 
   "ubisoft_summary": [
-    "### Rainbow six mobile  \n",  
-    "As a fullstack developer, I contributed to the development of a generic solution to supply live content and game configurations for the game. \n",
-    "- Backoffice features development \n",
-    "- Shared good practices for long term maintenance \n",
-    "- Analysis to identify the best candidates for optimisations, both for processes and product performances \n",
-    "### *Hyperscape*  \n",
-    "As part of the Hyperscape team, I worked on the game admin backoffice for online management. ",
-    "My main objective was to build the season data management section in order to provide the team members with a quick and simple solution to create and manage content while preserving data coherence. \n",
-    "- Interaction with the monetization team to comprehend and carry out the specifications \n",
-    "- Creation of back office functionalities \n",
-    "- CI/CD maintenance \n",
-    "- Microservices deployment"
-  ],
-
-  "ubisoft_summary_fullstack": [
-    "### Rainbow six mobile  \n",  
-    "As a fullstack developer, I contributed to the development of a generic solution to supply live content and game configurations. \n",
-    "- Backoffice features development \n",
-    "- Shared good practices for long term maintenance \n",
-    "- Analysis to identify the best candidates for optimisations, both for processes and product performances \n",
-    "- <u><b>Technologies</b></u> : Angular, C#, Docker, Gitlab, Jira, Confluence \n",
-    "### *Hyperscape*  \n",
-    "As part of the Hyperscape team, I worked on the game admin backoffice for online management. ",
-    "My main objective was to build the season data management section in order to provide the team members with a quick and simple solution to create and manage content while preserving data coherence. \n",
-    "- Interaction with the monetization team to comprehend and carry out the specifications \n",
-    "- Creation of back office functionalities \n",
-    "- CI/CD maintenance \n",
-    "- Microservices deployment \n",
-    "- <u><b>Technologies</b></u> : Angular, C#, Python, Kubernetes, Docker, Gitlab, Jira, Confluence"
+    "#### **Rainbow six mobile** \n",
+    "*Developed and optimized a generic LiveOps solution to optimize game content and build management.* \n",
+    "- Designed and implemented back-office features. \n",
+    "- Promoted best practices for long-term maintenance and operations. \n",
+    "- Conducted analysis to identify opportunities for process and performance optimization. \n \n",
+    "#### **Hyper Scape** \n",
+    "*Developed and maintained the game admin back-office, with a focus on seasonal content operations.* \n",
+    "- Collaborated with the monetization team to translate business requirements into technical solutions. \n",
+    "- Optimized workflows, improving usability while ensuring data integrity. \n",
+    "- Maintained and enhanced CI/CD pipelines, increasing deployment efficiency and application reliability."
   ],
 
   "sii_summary": [
-    "### BNC  \n",
-    "Entering the [BNC](https://www.bnc.ca), I took a hybrid role, mix of the catalyst and the integrator roles. \n",
-    "- As a Catalyst, I coached and advised teams regarding their processes, technologies or priorities for the development and release processes \n",
-    "- As an integrator, I actively helped them implementing those changes and bring an expertise on technologies, accelerating the adoption of the DevOps mindset \n",
-    "I had the opportunity to strengthen my knowledge of DevOps tools, while improving my coaching and training skillsets.\n",
-    "### Internal forge \n",
-    "Before joining the DevOps Squad at the BNC, I had the opportunity to build the basis of a new development platform internally. \n",
-    "- Implement of a Proof of Concept \n",
-    "- Define ressources needs to extrapolate the best hosting \n",
-    "- Presentation to the leadership to help adopt the proposed vision"
-  ],
-
-  "sii_summary_fullstack": [
-    "### BNC  \n",
-    "Entering the [BNC](https://www.bnc.ca), I took a hybrid role, mix of the catalyst and the integrator roles. \n",
-    "- As a Catalyst, I coached and advised teams regarding their processes, technologies or priorities for the development and release processes \n",
-    "- As an integrator, I actively helped them implementing those changes and bring an expertise on technologies, accelerating the adoption of the DevOps mindset \n",
-    "I had the opportunity to strengthen my knowledge of DevOps tools, while improving my coaching and training skillsets.\n",
-    "- <u><b>Technologies</b></u> : Jenkins, SonarQube, Nexus, Jira, Confluence, Git, Gradle \n",
-    "### Internal forge \n",
-    "Before joining the DevOps Squad at the BNC, I had the opportunity to build the basis of a new development platform internally. \n",
-    "- Implement Proof of Concept\n",
-    "- Define ressources needs to extrapolate the best hosting \n",
-    "- Presentation to the leadership to help adopt the proposed vision \n",
-    "- <u><b>Technologies</b></u> : Jenkins, SonarQube, Nexus, Jira, Confluence, Git, Maven, Nginx"
+    "#### **Banque Nationale du Canada (BNC)** \n",
+    "*Promoted DevOps transformation across the organization, combining coaching and implementation to accelerate adoption.* \n",
+    "- Coached & advised teams on Agile & DevOps best practices and tools, improving their development and release processes. \n",
+    "- Implemented tooling, accelerating adoption of the practices. \n",
+    "#### **Internal Development Platform** \n",
+    "*Designed and initiated a new internal development platform (forge), helping internal developments through their lifecycle.* \n",
+    "- Developed a Proof of Concept, demonstrating the feasibility and impact of the project. \n",
+    "- Defined infrastructure strategy, centered around cost and resource optimization."
   ],
 
   "nalys_summary": [
-    "### Internal cloud Infrastructure *(June 2018 - August 2018)*  \n",
-    "My last mission with Nalys was to design an internal Proof of Concept of an on premise kubernetes cluster.",
-    "The goal was to centralize and facilitate hosting, while improving the pipelines, stability, performances and observability. ",
-    "The first version of this cluster was used to deploy the rewamp of the internal development forge that I did. \n",
-
-    "### Nalys Graduate Program *(September 2017)*  \n",
-    "While being at ING, I gave a 1 day training around Agile and DevOps during the *Nalys Graduate Program*, an internal training for newcommers. \n",
-    "- Course design and students training \n",
-    "- Theory and gamified support courses \n",
-    "- Practical workshop implementation with technical exercises \n", 
-
-    "### ING *(June 2017 - June 2018)*  \n",
-    "My role in the [ING](https://www.ing.be) organization was to support 2 teams in their development and release processes. \n",
-    "- Ensure environments are available and stable \n",
-    "- Improve performances and usability of CI/CD pipelines \n",
-    "- Development teams training around Agile and DevOps practices to offer them more autonomy \n",
-
-    "### GIM *(February 2017 - May 2017)*  \n",
-    "My mission at [GIM](https://www.gim.be) was to help their development team build a product to coordinate constructions around Wallonia. \n",
-    "- Help the team in place finish developing their cartographic product \n",
-    "- Provide agile and DevOps coaching to help the team become more autonomous and accelerate their deployments \n",
-    "- Consolidate the CI/CD pipelines to allow developers to focus on features, quality, and speed."
-  ],
-
-  "nalys_summary_fullstack": [
-    "### Internal cloud Infrastructure *(June 2018 - August 2018)*  \n",
-    "My last mission with Nalys was to design an internal Proof of Concept of an on premise kubernetes cluster.",
-    "The goal was to centralize and facilitate hosting, while improving the pipelines, stability, performances and observability.",
-    "The first version of this cluster was used to deploy the rewamp of the internal development forge that I did.  \n",
-    "- <u><b>Technologies</b></u> : Jenkins, SonarQube, Nexus, Gitlab, Jira, Kubernetes, Docker, Git, Maven \n",
-
-    "### Nalys Graduate Program *(September 2017)*  \n",
-    "While being at ING, I gave a 1 day training around Agile and DevOps during the *Nalys Graduate Program*, an internal training for newcommers. \n",
-    "- Course design and students training \n",
-    "- Theory and gamified support courses \n",
-    "- Practical workshop implementation with technical exercises \n", 
-
-    "### ING *(June 2017 - June 2018)*  \n",
-    "My role in the [ING](https://www.ing.be) organization was to support 2 teams in their development and release processes. \n",
-    "- Ensure environments are available and stable \n",
-    "- Improve performances and usability of CI/CD pipelines \n",
-    "- Development teams training around Agile and DevOps practices to offer them more autonomy \n",
-    "- <u><b>Technologies</b></u> : Java, Jenkins, SonarQube, Artifactory, Gitlab, TFS, Jira, Confluence, Git, Maven, Gradle, \n",
-
-    "### GIM *(February 2017 - May 2017)*  \n",
-    "My mission at [GIM](https://www.gim.be) was to help their development team build a product to coordinate constructions around Wallonia. \n",
-    "- Help the team in place finish developing their cartographic product \n",
-    "- Provide agile and DevOps coaching to help the team become more autonomous and accelerate their deployments \n",
-    "- Consolidate the CI/CD pipelines to allow developers to focus on features, quality, and speed. \n",
-    "- <u><b>Technologies</b></u> : JavaScript, Java, OpenLayers, AngularJs, Jenkins, Nexus, Gitlab, Git, Maven, Docker, Nginx, Wildfly, Geoservers"
+    "#### **Internal Cloud Infrastructure** \n",
+    "- Designed and deployed a Proof of Concept for an on-prem Kubernetes cluster, CI/CD, hosting and observability. \n",
+    "- Leveraged the new cluster to deploy the internal development forge, enhancing developer workflows. \n \n",
+    "#### **Training & Coaching** \n",
+    "- Delivered Agile & DevOps training as part of the Nalys Graduate Program, an onboarding program for junior employees. \n",
+    "- Designed and facilitated interactive workshops, including gamified learning and real-world scenarios. \n",
+    "- Created and delivered two meetups on DevOps concepts and tools. \n \n",
+    "#### **Software Development & Release Optimization** \n",
+    "- Supported two development teams at ING, focusing on CI/CD and environments stability. \n",
+    "- Implemented pipelines automation and Docker infrastructure at GIM, release process and site reliability. \n",
+    "- Coached multiple teams on Agile & DevOps, development lidecycle."
   ],
 
   "worldline_summary": [
-    "### Project Manager *(July 2015 - December 2016)*  \n",
-    "In my final year working on the [Géoportail](https://www.geoportail.gouv.fr) project, I was able to demonstrate my expertise and experience by transitioning to the position of project manager for the evolution-related topics. ",
-    "The project manager at Worldline is between both the development team and traditional project management. ",
-    "Therefore, I continued my previous activities to an extent of 50% while learning about project, time, money, and priority management. \n",
-    "- Review of the organization and tracking procedures in Jira in accordance with the team \n",
-    "- Consolidation of the partner position we had with the client \n",
-    "- Determining the client's actual requirements and priorities in order to create a strategy and vision to implement the changes sold \n",
-
-    "### Application manager *(September 2012 - June 2015)*  \n",
-    "I integrated the operations team during the project's transition into production. ",
-    "During this time, we have iteratively applied and tested items from Agile methodologies or DevOps practices. ",
-    "I grew to become a reference around architecture and business needs, allowing me to be more actively involved in the development of new features during the pre-sale phases. \n",
-    "- Bug fixing \n",
-    "- Incidents management \n",
-    "- Completion of remaining features in cooperation with the client \n",
-    "- Kanban and sprints (team-based experiments and method adoptions) \n",
-    "- Normalization and automation of releases and deliveries \n",
-    "- Automation of feedback and auto-fix in the event of minor incidents \n",
-
-    "### GIS developer internship *(February 2012 - August 2012)*  \n",
-    "I started my experience on the [Géoportail](https://www.geoportail.gouv.fr) as a Flex developer for the map visualisation component. \n",
-    "- Understanding the standards and implications of implementing geography in IT \n",
-    "- Taking part in the development of new Geoportal functionalities \n",
-    "- Development of two applications for our client's store to order fully customized printed maps"
-  ],
-
-  "worldline_summary_fullstack": [
-    "### Project Manager *(July 2015 - December 2016)*  \n",
-    "In my final year working on the [Géoportail](https://www.geoportail.gouv.fr) project, I was able to demonstrate my expertise and experience by transitioning to the position of project manager for the evolution-related topics. ",
-    "The project manager at Worldline is between both the development team and traditional project management. ",
-    "Therefore, I continued my previous activities to an extent of 50% while learning about project, time, money, and priority management. \n",
-    "- Review of the organization and tracking procedures in Jira in accordance with the team \n",
-    "- Consolidation of the partner position we had with the client \n",
-    "- Determining the client's actual requirements and priorities in order to create a strategy and vision to implement the changes sold \n",
-
-    "### Application manager *(September 2012 - June 2015)*  \n",
-    "I integrated the operations team during the project's transition into production. ",
-    "During this time, we have iteratively applied and tested items from Agile methodologies or DevOps practices. ",
-    "I grew to become a reference around architecture and business needs, allowing me to be more actively involved in the development of new features during the pre-sale phases. \n",
-    "- Bug fixing \n",
-    "- Incidents management \n",
-    "- Completion of remaining features in cooperation with the client \n",
-    "- Kanban and sprints (team-based experiments and method adoptions) \n",
-    "- Normalization and automation of releases and deliveries \n",
-    "- Automation of feedback and auto-fix in the event of minor incidents \n",
-    "- <u><b>Technologies</b></u> : JavaScript, Java, Bash, Nginx, Tomcat, NodeJs, Geoserver, Rok4, OpenScales, ReactJs, Cucumber, PostgreSQL (PostGIS), MySQL, Redis, ElasticSearch, Mercurial, Git, Maven, Docker, Vagrant, Jenkins, Nexus, Jira \n",
-
-    "### GIS developer internship *(February 2012 - August 2012)*  \n",
-    "I started my experience on the [Géoportail](https://www.geoportail.gouv.fr) as a Flex developer for the map visualisation component. \n",
-    "- Understanding the standards and implications of implementing geography in IT \n",
-    "- Taking part in the development of new Geoportal functionalities \n",
-    "- Development of two applications for our client's store to order fully customized printed maps \n",
-    "- <u><b>Technologies</b></u> : Flex, JavaScript, Java, Bash, Nginx, Tomcat, OpenScales, Mercurial, Maven, Jenkins, Jira, Nexus"
+    "#### **Project Manager (2015-2016)** \n",
+    "- Took on additional project management responsibilities alongside technical work \n",
+    "- Managed project execution and client reporting, ensuring alignment between developers and stakeholders. \n",
+    "- Defined client requirements and priorities, resulting in a clear strategy and roadmap. \n",
+    "- Optimized workflow management in Jira, improving collaboration and tracking. \n \n",
+    "#### **Application Manager (2012-2015)** \n",
+    "- Acted as a technical reference for architecture and business needs, contributing to feature definition and pre-sales discussions. \n",
+    "- Led automation work for releases and incident detection, improving platform reliability and deployment efficiency. \n",
+    "- Introduced Agile experimentation within the team, increasing adaptability and delivery speed. \n",
+    "- Developed GIS-based applications for geoportail.fr \n",
+    "- Designed and built a customized map printing service."
   ],
 
   "captive_studio_summary": [
-    "### Web development internship \n",
-    "In the development team of this communication agency, I developed several Ruby On Rails projects, either from the beginning or to continue developing existing ones."
-  ],
-
-  "captive_studio_summary_fullstack": [
-    "### Web development internship \n",
-    "In the development team of this communication agency, I developed several Ruby On Rails projects, either from the beginning or to continue developing existing ones."
+    "#### **Captive Studio – Web Developer (Internship, 2010-2011)** \n",
+    "- Developed and maintained Ruby on Rails web applications, building new features and improving existing ones. \n",
+    "- Gained hands-on experience in full-stack development, working from front-end to data management."
   ]
+
 }
