@@ -11,6 +11,7 @@
   border-radius: 50%;
   width: 12px;
   height: 12px;
+  margin-top: 3px;
 }
 .timeline-line {
   background-color: var(--secondary);
@@ -20,6 +21,7 @@
 
 .experience-content {
   width: calc(100% - 12px);
+  padding-bottom: 5px;
 }
 
 h3 {
@@ -32,11 +34,6 @@ h4 {
   margin-bottom: 1px;
 }
 
-h2.category {
-    font-size: 15px !important;
-    margin: 5px 0;
-}
-
 .experience-infos {
   align-items: center;
   justify-content: space-between;
@@ -47,16 +44,6 @@ h2.category {
 }
 
 .dates {
-  font-size: 13px;
+  font-size: 11px;
   font-weight: bold;
-}
-
-hr {
-  width: 100%;
-  border-top: 0.5px solid var(--border-color);
-  margin: 7px 0;
-}
-
-hr.last {
-  display: none;
 }
