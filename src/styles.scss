@@ -179,6 +179,9 @@ a {
     padding: 10px;
     background: none;
   }
+  html, body {
+    height: 99%;
+  }
 
   .print-wrapper, .light, .dark {
     --primary  : #e9ecef;
