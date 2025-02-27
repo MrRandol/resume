@@ -154,27 +154,40 @@ a {
 /****************************
 ***     PRINT SPECIFIC    ***
 *****************************/
+.d-print-only {
+  display: none !important;
+}
+.d-print-none {
+  display: block !important;
+}
+
 @media print {
+  .d-print-only {
+    display: block !important;
+  }
+  .d-print-none {
+    display: none !important;
+  }
 
   @page {
-      margin: 1.5em;
+    size: auto;
+    margin: 3mm;
   }
 
   body {
-      padding-top: 0;
-      padding-bottom: 0;
+      padding: 0;
   }
 
-  .light, .dark {
-    --primary  : #332b00;
-    --secondary: #332b00;
+  .print-wrapper, .light, .dark {
+    --primary  : #e9ecef;
+    --secondary: #5e4f05;
     --secondary-hover: #332b00;
     --success  : #198754;
     --info     : #6c757d;
     --warning  : #ffc107;
     --danger   : #dc3545;
     // randol custom
-    --background-color  : white;
+    --background-color : cdcdcd;
     --tertiary : #5e4f05;
     --text-color : #222222;
     --border-color: #5e4f05;
@@ -182,44 +195,15 @@ a {
     --font-family: 'Raleway';
   }
 
-  body {
+}
+
+.printed-summary {
+  h4 {
+    font-size: 13px !important;
+    padding: 0 0 3px 0;
+    margin-bottom: 0 !important;
+  }
+  p, ul {
     font-size: 11px;
-    line-height: 1;
   }
-
-  .container {
-    max-width: unset;
-  }
-
-  h1 {
-    border-bottom: 0.1em solid var(--primary);
-    font-size: 30px;
-    font-weight: 600;
-    margin: 0 0 0.25rem 0;
-  }
-
-  h2 {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1;
-    margin-bottom: 0.5rem;
-    margin-top: 0;
-  }
-
-  .work .row:not(.last)  {
-    border-bottom: 1px solid var(--light-border-color) !important;
-  }
-
-  h2.category {
-    font-size: 18px;
-  }
-
-  h3 {
-    font-size: 15px;
-  }
-
-  a {
-    color: unset;
-  }
-
 }

@@ -1,0 +1,30 @@
+<div class="print-body">
+    <h2 class="category">{{ 'summary' | translate }}</h2>
+    
+    <div class="job-summary"><markdown [data]="resume.basics.summary | translate | joinStringArray"></markdown></div>
+    
+    <h2 class="category">{{ 'work' | translate }}</h2>
+
+    <app-printed-experience *ngFor="let experience of resume.work; let isLast = last"
+    [startDate]="experience.startDate"
+    [endDate]="experience.endDate"
+    [logo]="experience.logo"
+    [place]="experience.organization"
+    [title]="experience.position"
+    [summary]="experience.summary"
+    [url]="experience.url"
+    [isLast]="isLast"
+    ></app-printed-experience>
+
+    <h2 class="category">{{ 'education' | translate }}</h2>
+
+    <app-printed-experience *ngFor="let experience of resume.education; let isLast = last"
+    [displayMonth]="false"
+    [startDate]="experience.startDate"
+    [endDate]="experience.endDate"
+    [logo]="experience.logo"
+    [place]="experience.institution"
+    [summary]="experience.studyType"
+    [url]="experience.url"
+    ></app-printed-experience>
+</div>

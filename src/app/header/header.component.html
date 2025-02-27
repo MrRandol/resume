@@ -11,6 +11,12 @@
 
     <div class="right-menu flex row centered">
 
+      <div class="actions flex row">
+        <fa-icon class="action-button download-icon" [icon]="faDownload"
+          onClick="window.print()"
+          matTooltip="{{ 'download' | translate}}"></fa-icon> 
+      </div>
+      
       <div class="languages flex row">
         <img *ngFor="let lang of availableLanguages"
           class="language-selector"

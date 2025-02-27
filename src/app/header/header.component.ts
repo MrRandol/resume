@@ -3,6 +3,7 @@ import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import { faSun as faSunReg, faMoon as faMoonReg } from '@fortawesome/free-regular-svg-icons';
 import { ThemeService } from 'src/services/theme.service';
 import { TranslationService } from 'src/services/translation.service';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -11,8 +12,9 @@ import { TranslationService } from 'src/services/translation.service';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-
   @ViewChild("themeIcon", {read: ElementRef, static: true}) themeIcon: ElementRef;
+
+  faDownload = faDownload;
 
   availableLanguages = [
     {name: "Français", key: "fr"},

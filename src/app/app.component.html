@@ -1,18 +1,25 @@
 <section appScrollManager class="app">
-
-  <!-- todo : 1 resume | async avec loader du reste -->
-  <app-header class="d-print-none"></app-header>
-
   <ng-container *ngIf="(resume$ | async) as resume; else loader">
 
-    <app-basics [basics]="resume.basics"></app-basics>
-    <app-skills [skills]="resume.skills"></app-skills>
-    <app-work [work]="resume.work"></app-work>
-    <app-education [education]="resume.education"></app-education>
-    <app-certificates [certificates]="resume.certificates"></app-certificates>
-
-    <app-footer class="d-print-none" [basics]="resume.basics"></app-footer>
-
+    <!-- HTML -->
+    <div class="d-print-none">
+      <app-header></app-header>
+      <app-basics [basics]="resume.basics"></app-basics>
+      <app-skills [skills]="resume.skills"></app-skills>
+      <app-work [work]="resume.work"></app-work>
+      <app-education [education]="resume.education"></app-education>
+      <app-certificates [certificates]="resume.certificates"></app-certificates>
+      <app-footer [basics]="resume.basics"></app-footer>
+    </div>
+      
+    <!-- PDF -->
+    <div class="d-print-only print-wrapper">
+      <div class="row">
+        <app-sidebar class="col-4" [basics]="resume.basics" [skills]="resume.skills" [certifications]="resume.certificates"></app-sidebar>
+        <app-resumebody class="col-8" [resume]="resume"></app-resumebody>
+      </div>
+    </div>
+    
   </ng-container>
 </section>
 

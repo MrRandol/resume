@@ -17,15 +17,15 @@
     <div class="d-flex flex-column justify-content-center align-items-end">
       <div class="experience-title">{{ title | translate }}</div>
       <div class="experience-place">{{ place }}</div>
-      <a class="d-print-none" *ngIf="url && url !== ''; else experienceLogo" [href]="url"><ng-container *ngTemplateOutlet="experienceLogo"></ng-container></a>
+      <a *ngIf="url && url !== ''; else experienceLogo" [href]="url"><ng-container *ngTemplateOutlet="experienceLogo"></ng-container></a>
     </div>
   </div>
 
-  <div class="experience-timeline d-print-none col-md-1"></div>
+  <div class="experience-timeline col-md-1"></div>
   
   <div class="experience-right-col col-md-9"><markdown [data]="summary | translate | joinStringArray"></markdown></div>
 
 </div>
 
 
-<ng-template #experienceLogo><img *ngIf="displayLogo" class="d-print-none experience-logo" [src]="logo | githubImage"></ng-template>
+<ng-template #experienceLogo><img *ngIf="displayLogo" class="experience-logo" [src]="logo | githubImage"></ng-template>

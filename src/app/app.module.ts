@@ -24,6 +24,9 @@ import { TranslationFlagPipe } from 'src/pipes/translationFlag';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import { AppRoutingModule } from './app.route';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { ResumebodyComponent } from './resumebody/resumebody.component';
+import { PrintedExperienceComponent } from './printed-experience/printed-experience.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +45,10 @@ import { AppRoutingModule } from './app.route';
     ScrollAnchorDirective,
     TranslationFlagPipe,
     GithubImagePipe,
-    JoinStringArrayPipe
+    JoinStringArrayPipe,
+    SidebarComponent,
+    ResumebodyComponent,
+    PrintedExperienceComponent
   ],
   imports: [
     MatTooltipModule,

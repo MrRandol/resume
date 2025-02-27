@@ -1,0 +1,52 @@
+.experience-timeline {
+  position: relative;
+  background: linear-gradient(var(--secondary), var(--secondary)) no-repeat center/2px 100%;
+  width: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 6px;
+}
+  
+.timeline-pin {
+  background-color: var(--secondary);
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}
+.timeline-line {
+  background-color: var(--secondary);
+  width: 2px;
+  height: 100%;
+}
+
+.experience-content {
+  width: calc(100% - 12px);
+}
+
+h3 {
+  font-size: 13px;
+}
+
+h4 {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+h2.category {
+    font-size: 15px !important;
+    margin: 5px 0;
+}
+
+.experience-infos {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.place {
+  color: var(--secondary);
+}
+
+.dates {
+  font-size: 13px;
+  font-weight: bold;
+}

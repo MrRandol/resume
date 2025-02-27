@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { Observable, filter, map, switchMap } from 'rxjs';
+import { Observable, map, switchMap } from 'rxjs';
 import { Resume } from 'src/models/resume';
 import { GithubDataService } from 'src/services/githubData.service';
 

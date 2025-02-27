@@ -1,0 +1,44 @@
+<div class="sidebar">
+    <div class="profile">
+        <h1 class="intro-title">{{basics.name}}</h1>
+        <h2 class="job-title">{{ basics.label | translate}}</h2>
+        
+        <div class="flex column contacts">
+            <span><fa-icon class="location-icon" [icon]="faMapPin"></fa-icon>  {{ basics.location.city }}</span>
+            <span class="email">
+                <a target="_blank" href="mailto:{{basics.email}}">
+                    <fa-icon class="email-icon" [icon]="faEnveloppe"></fa-icon> 
+                    {{ basics.email }}
+                </a>
+            </span>
+            <span><fa-icon [icon]="faLink"></fa-icon> {{ basics.url }}</span>
+        </div>
+    </div>
+
+    <div class="skills container">
+        <h2 class="category">{{ 'skills' | translate }}</h2>
+        <hr />
+        <div class="skillSet" *ngFor="let skillSet of skills">
+            <h4 class="category secondary">{{ skillSet.name | translate }}</h4>
+            <div class="progress" role="progressbar">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+            <div class="skills">
+            <ng-container *ngFor="let skill of skillSet.keywords; let last = last">{{ skill  | translate }}<span class="skill-separator" *ngIf="!last"> • </span></ng-container>
+            </div>
+        </div>
+    </div>
+
+    <div class="certifications container">
+        <h2 class="category">{{ 'certifications' | translate }}</h2>
+        <hr />
+        <div class="certifications" *ngFor="let certification of certifications">
+            <h4 class="category secondary">{{ certification.name | translate }}</h4>
+            <p class="issuer">{{ certification.issuer }}</p>
+            <p class="date">{{ certification.date | date:'MMMM yyyy' | lowercase | translate }}</p>
+            
+        </div>
+    </div>
+
+</div>
+  

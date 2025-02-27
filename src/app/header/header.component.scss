@@ -35,6 +35,20 @@ button.header-link {
   }
 }
 
+// ACTIONS
+.actions {
+  margin-right: 1em;
+}
+
+.action-button {
+  cursor: pointer;
+  color: var(--secondary);
+
+  &:hover {
+    color: var(--secondary-hover);
+  }
+}
+
 // LANGUAGE SELECTION
 .languages {
   align-items: stretch;
