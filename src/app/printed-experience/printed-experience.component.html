@@ -1,6 +1,6 @@
-<ng-container>
+<ng-container >
 
-  <div class="flex row experience" [ngClass]="{'last': isLast}">
+  <div [ngClass]="{'last': isLast}" class="flex row experience" >
     
     <div class="experience-timeline flex column">
       <div class="timeline-pin"></div>
@@ -9,43 +9,43 @@
       
     <div class="flex column experience-content">
 
-      <div class="experience-infos flex row space-between">
-        <div class="flex column flex-start">
-          <h4 class="place">{{ place }}</h4>
-          <h3 class="title">{{ title | translate }}</h3>
-        </div>
-        <div class="flex column">
-          <span class="dates">
-            <span *ngIf="displayMonth">
-              {{ startDate | date:'MMMM yyyy' | lowercase | translate }}
-              <ng-container *ngIf="displayEndDate"> - 
-                <ng-container *ngIf="endDate">
-                  {{ endDate | date:'MMMM yyyy' | lowercase | translate }}
+        <div class="experience-infos flex row space-between">
+          <div class="flex column flex-start">
+            <h4 class="place">{{ place }}</h4>
+            <h3 class="title">{{ title | translate }}</h3>
+          </div>
+          <div class="flex column">
+            <span class="dates">
+              <span *ngIf="displayMonth">
+                {{ startDate | date:'MMMM yyyy' | lowercase | translate }}
+                <ng-container *ngIf="displayEndDate"> - 
+                  <ng-container *ngIf="endDate">
+                    {{ endDate | date:'MMMM yyyy' | lowercase | translate }}
+                  </ng-container>
+                  <ng-container *ngIf="!endDate">
+                    {{ 'today' | translate }}
+                  </ng-container>
                 </ng-container>
-                <ng-container *ngIf="!endDate">
-                  {{ 'today' | translate }}
+              </span>
+              <span *ngIf="!displayMonth">
+                {{ startDate | date:'yyyy' | lowercase | translate }}
+                <ng-container *ngIf="displayEndDate"> - 
+                  <ng-container *ngIf="endDate">
+                    {{ endDate | date:'yyyy' | lowercase | translate }}
+                  </ng-container>
+                  <ng-container *ngIf="!endDate">
+                    {{ 'today' | translate }}
+                  </ng-container>
                 </ng-container>
-              </ng-container>
+              </span>
             </span>
-            <span *ngIf="!displayMonth">
-              {{ startDate | date:'yyyy' | lowercase | translate }}
-              <ng-container *ngIf="displayEndDate"> - 
-                <ng-container *ngIf="endDate">
-                  {{ endDate | date:'yyyy' | lowercase | translate }}
-                </ng-container>
-                <ng-container *ngIf="!endDate">
-                  {{ 'today' | translate }}
-                </ng-container>
-              </ng-container>
-            </span>
-          </span>
-          <h3>{{ location }}</h3>
+            <h3>{{ location }}</h3>
+          </div>
         </div>
+    
+        <div class="printed-summary"><markdown [data]="summary | translate | joinStringArray"></markdown></div>
       </div>
-  
-      <div class="printed-summary"><markdown [data]="summary | translate | joinStringArray"></markdown></div>
     </div>
-  </div>
       
-  <hr />
+  <hr [ngClass]="{'last': isLast}" />
 </ng-container>

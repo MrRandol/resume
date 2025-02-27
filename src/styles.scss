@@ -172,10 +172,11 @@ a {
   @page {
     size: auto;
     margin: 3mm;
+    padding: 1mm 0;
   }
 
   body {
-      padding: 0;
+    padding: 10px;
   }
 
   .print-wrapper, .light, .dark {
@@ -205,5 +206,11 @@ a {
   }
   p, ul {
     font-size: 11px;
+  }
+  p {
+    margin-bottom: 3px;
+  }
+  ul {
+    padding-left: 1rem;
   }
 }

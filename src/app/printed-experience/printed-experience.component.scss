@@ -1,6 +1,5 @@
 .experience-timeline {
   position: relative;
-  background: linear-gradient(var(--secondary), var(--secondary)) no-repeat center/2px 100%;
   width: 12px;
   align-items: center;
   justify-content: flex-start;
@@ -53,8 +52,10 @@ h2.category {
 
 hr {
   width: 100%;
+  border-top: 0.5px solid var(--border-color);
+  margin: 7px 0;
 }
 
-.last hr {
+hr.last {
   display: none;
 }
