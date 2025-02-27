@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Maxime CHOFFAT",
-    "label": "Product Owner",
+    "label": "senior_product_owner",
     "image": "profile.jpg",
+    "url": "https://mrrandol.github.io/resume/",
     "email": "maxime.choffat@gmail.com",
-    "phone": "+33 6 33 56 36 25",
     "summary": "my_summary",
     "location": {
       "address": "",
@@ -20,11 +20,6 @@
         "url": "https://github.com/MrRandol"
       },
       {
-        "network": "Twitter",
-        "username": "Mr_Randol",
-        "url": "https://twitter.com/Mr_Randol"
-      },
-      {
         "network": "LinkedIn",
         "username": "maxime-choffat",
         "url": "https://www.linkedin.com/in/maxime-choffat-b2423a75/"
@@ -32,10 +27,10 @@
     ]
   },
   "skills": [
-    { "name": "Product Management", "keywords": ["Product Strategy", "Roadmapping", "Backlog Management", "Prioritization", "Iterative Development", "Agile", "Lean ", "Scrum", "Kanban", "SAFe", "Stakeholder Engagement", "Cross-Team Collaboration", "Data-Driven", "Strategic Planning", "User Experience"]},
-    { "name": "Process & Workflow", "keywords": ["Sprint Planning", "Feature Discovery", "Requirement Gathering", "UX Research", "Tooling Strategy", "CI/CD", "DevOps", "Continuous Improvement ", "Organized", "Detail-Oriented"]},
-    { "name": "Leadership & Communication", "keywords": ["Servant Leadership", "Team Empowerment", "Problem Solving", "Critical Thinking", "Workshop Facilitation", "Coaching", "Change Management", "Process Improvement", "Speaker", "Adaptability"]},
-    { "name": "tools", "keywords": ["Jira", "Confluence", "Miro", "Slack", "Teams", "Google Docs", "GitLab", "GitHub", "Figma", "Penpot"]}
+    { "name": "product_management", "level": "80", "keywords": ["product_strategy", "roadmapping", "backlog_management", "prioritization", "iterative_development", "stakeholder_engagement", "crossteam_collaboration", "data_driver", "strategic_planning", "user_experience"]},
+    { "name": "process_workflow", "level": "80", "keywords": ["sprint_planning", "feature_discovery", "requirement_gathering", "ux_research", "tooling_strategy", "continuous_improvement", "organized", "detail_oriented"]},
+    { "name": "leadership_communication", "level": "100", "keywords": ["servant_leadership", "team_empowerment", "problem_solving", "critical_thinking", "workshop_facilitation", "coaching", "change_management", "process_improvement", "speaker", "adaptability"]},
+    { "name": "tools", "level": "80", "keywords": ["Jira", "Confluence", "Miro", "Slack", "Teams", "Google Docs", "GitLab", "GitHub", "Figma", "Penpot"]}
   ],
   "work": [
     {
