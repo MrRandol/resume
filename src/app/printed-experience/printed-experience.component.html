@@ -1,11 +1,13 @@
-<div class="flex row experience" [ngClass]="{'last': isLast}">
-  
-  <div class="experience-timeline flex column">
-    <div class="timeline-pin"></div>
-    <div class="timeline-line"></div>
-  </div>
+<ng-container>
+
+  <div class="flex row experience" [ngClass]="{'last': isLast}">
     
-  <div class="flex column experience-content">
+    <div class="experience-timeline flex column">
+      <div class="timeline-pin"></div>
+      <div class="timeline-line"></div>
+    </div>
+      
+    <div class="flex column experience-content">
 
       <div class="experience-infos flex row space-between">
         <div class="flex column flex-start">
@@ -43,7 +45,7 @@
   
       <div class="printed-summary"><markdown [data]="summary | translate | joinStringArray"></markdown></div>
     </div>
-  
-    
-  
   </div>
+      
+  <hr />
+</ng-container>

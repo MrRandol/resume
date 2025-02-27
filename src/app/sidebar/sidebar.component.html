@@ -21,7 +21,7 @@
         <div class="skillSet" *ngFor="let skillSet of skills">
             <h4 class="category secondary">{{ skillSet.name | translate }}</h4>
             <div class="progress" role="progressbar">
-                <div class="progress-bar" style="width: 80%"></div>
+                <div class="progress-bar" style="width: {{ skillSet.level }}%"></div>
               </div>
             <div class="skills">
             <ng-container *ngFor="let skill of skillSet.keywords; let last = last">{{ skill  | translate }}<span class="skill-separator" *ngIf="!last"> • </span></ng-container>

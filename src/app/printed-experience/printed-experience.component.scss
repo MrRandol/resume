@@ -50,3 +50,11 @@ h2.category {
   font-size: 13px;
   font-weight: bold;
 }
+
+hr {
+  width: 100%;
+}
+
+.last hr {
+  display: none;
+}

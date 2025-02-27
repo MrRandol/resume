@@ -5,7 +5,7 @@
 
 .profile {
     text-align: center;
-    padding: 20px;
+    padding: 20px 15px;
 }
 
 .intro-title {
@@ -20,10 +20,10 @@
 
 .contacts {
     color: var(--text-color) !important;
-    font-size: 13px;
+    font-size: 11px;
     border: 1px solid var(--border-color);
     text-align: left;
-    padding: 5px 13px;
+    padding: 5px 8px;
     a {text-decoration: none !important;}
     span {padding: 3px 0;}
 }
@@ -35,6 +35,7 @@
 .category.secondary {
     font-size: 13px;
     font-weight: bold;
+    margin: 8px 0 2px 0;
 }
 
 .skills {
@@ -48,7 +49,7 @@
 
 .progress {
     --bs-progress-border-radius: 0;
-    height: 10px;
+    height: 5px;
     margin: 5px 0;
 }
 
@@ -56,8 +57,16 @@
     background-color: var(--secondary);
 }
 
+.certifications {
+    font-size: 12px;
+}
+
 .certifications h2 {
     margin-top: 30px;
+}
+
+.certifications h4 {
+    margin-bottom: 3px;
 }
 
 .certifications p {
