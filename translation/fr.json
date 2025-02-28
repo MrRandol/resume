@@ -134,10 +134,10 @@
     "- Consultation régulière des utilisateurs et des directeurs pour recueillir leurs besoins et retours, ainsi que communiquer nos progrès. \n",
     "- Mesure, structuration et communication des réussites via différents canaux de communication (Teams, SAFe syncs et planifications trimestrielles). \n",
     "- Réorganisation de l'équipe autour d'une vision produit claire, de sprints structurés et de stories détaillées, améliorant le focus et éliminant les travail non suivi. \n",
-    "- Augmentation du taux de réussite des sprints de **30 % à ~80 %** via l'adoption des meilleures pratiques Agile et Lean. \n",
+    "- Augmentation du taux de réussite des sprints de 30 % à ~80 % via l'adoption des meilleures pratiques Agile et Lean. \n",
     "- Mise en place d'objectifs SMART pour assurer la qualité et le suivi du succès produit. \n",
     "- Création d'études d'opportunité pour soutenir la roadmap et aligner le leadershio \n",
-    "- Stratégie de communication robuste basée sur la transparence et la proactivité, réduisant de **60 %** les demandes de support liées à un manque d'informations."  
+    "- Stratégie de communication robuste basée sur la transparence et la proactivité, réduisant de 60 % les demandes de support liées à un manque d'informations."  
   ],
 
   "sem_summary": [
@@ -160,7 +160,7 @@
     "- Promotion des bonnes pratiques pour assurer la maintenabilité et les opérations sur le long terme. \n",
     "- Analyse et identification des opportunités d'optimisation des processus et des performances. \n",
     "#### **Hyper Scape** \n",
-    "*Développement et maintenance du back-office d'administration, avec un focus sur la gestion du contenu saisonnier.* \n",
+    "*Développement et maintenance du back-office du jeu, avec un focus sur la gestion du contenu saisonnier.* \n",
     "- Collaboration avec l'équipe monétisation pour transformer les besoins business en solutions techniques. \n",
     "- Optimisation des workflows pour améliorer l'expérience utilisateur et garantir la cohérence des données. \n",
     "- Maintenance et amélioration des pipelines CI/CD, augmentant l'efficacité des déploiements."  
@@ -172,7 +172,7 @@
     "- Coaching des équipes sur les outils et méthodes DevOps/Agile pour améliorer les processus de développement et de livraison. \n",
     "- Mise en place d'outils pour accélérer l'adoption des pratiques DevOps. \n",
     "#### **Plateforme de Développement Interne** \n",
-    "*Conception et mise en place d'une plateforme de développement (forge) pour accompagner les efforts de développement internes.* \n",
+    "*Conception et mise en place d'une plateforme pour accompagner les efforts de développement internes.* \n",
     "- Développement d'une PoC pour démontrer la faisabilité et l'impact du projet. \n",
     "- Définition de la stratégie d'infrastructure, centrée sur l'optimisation des coûts et ressources."  
   ],
@@ -194,12 +194,12 @@
   "worldline_summary": [
     "#### **Chef de Projet (2015-2016)** \n",
     "- Prise en charge de responsabilités en gestion de projet en parallèle du travail technique. \n",
-    "- Supervision de l'exécution du projet et synchronisations clients, assurant l'alignement avec les parties prenantes. \n",
+    "- Supervision de l'exécution du projet et synchronisations clients, assurant l'alignement des parties prenantes. \n",
     "- Définition des besoins et des priorités pour établir une stratégie claire et un plan d'éxécution. \n",
     "- Optimisation des processus dans Jira, améliorant la collaboration et le suivi. \n\n",
     "#### **Responsable d'Application (2012-2015)** \n",
-    "- Référent technique pour l'architecture et les besoins, participant à la définition des fonctionnalités et aux préventes. \n",
-    "- Pilotage de l'automatisation des opérations sur la plateforme, améliorant la fiabilité et l'efficacité des déploiements. \n",
+    "- Référent technique pour l'architecture, participant à la définition des fonctionnalités et aux préventes. \n",
+    "- Pilotage de l'automatisation des opérations sur la plateforme, améliorant la fiabilité et les déploiements. \n",
     "- Introduction de pratiques Agile au sein de l'équipe, améliorant l'adaptabilité et la rapidité de livraison. \n",
     "- Développement d'applications SIG pour **Geoportail.fr**. \n",
     "- Conception et mise en place d'un service d'impression de cartes sur mesure."  
