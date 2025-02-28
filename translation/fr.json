@@ -180,21 +180,21 @@
   "nalys_summary": [
     "#### **Infrastructure Cloud Interne** \n",
     "- Conception et déploiement d'une PoC pour un cluster Kubernetes on-premise, visant à améliorer CI/CD, hébergement et observabilité. \n",
-    "- Utilisation du cluster pour déployer la forge de développement interne, améliorant les workflows développeurs. \n\n",
+    "- Utilisation du cluster pour déployer la forge de développement, améliorant les workflows développeurs. \n\n",
     "#### **Formation & Coaching** \n",
     "- Animation de formations Agile & DevOps pour le programme d'intégration des nouveaux employés juniors (Nalys Graduate Program). \n",
     "- Conception et animation d'ateliers interactifs, mêlant apprentissage gamifié et scénarios réels. \n",
     "- Présentation et animation de deux meetups sur les concepts et outils DevOps. \n\n",
     "#### **Développement logiciel & Optimisation des livraisons** \n",
     "- Support des équipes ING sur la stabilité des environnements et l'optimisation des pipelines CI/CD. \n",
-    "- Automatisation des pipelines et infrastructure Docker chez GIM, améliorant les processus de release et la fiabilité des sites. \n",
+    "- Automatisation du CI/CD chez GIM, améliorant les processus de release et la fiabilité des sites. \n",
     "- Coaching des équipes sur Agile & DevOps, améliorant leur cycle de développement."  
   ],
 
   "worldline_summary": [
     "#### **Chef de Projet (2015-2016)** \n",
     "- Prise en charge de responsabilités en gestion de projet en parallèle du travail technique. \n",
-    "- Supervision de l'exécution du projet et synchronisations clients, assurant l'alignement des parties prenantes. \n",
+    "- Pilotage de l'exécution du projet et synchronisations clients, assurant l'alignement des parties prenantes. \n",
     "- Définition des besoins et des priorités pour établir une stratégie claire et un plan d'éxécution. \n",
     "- Optimisation des processus dans Jira, améliorant la collaboration et le suivi. \n\n",
     "#### **Responsable d'Application (2012-2015)** \n",
