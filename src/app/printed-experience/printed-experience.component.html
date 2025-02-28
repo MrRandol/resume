@@ -17,10 +17,10 @@
           <div class="flex column">
             <span class="dates">
               <span *ngIf="displayMonth">
-                {{ startDate | date:'MMMM yyyy' | lowercase | translate }}
+                {{ startDate | date:'MMMM yyyy' | lowercase | translate | titlecase }}
                 <ng-container *ngIf="displayEndDate"> - 
                   <ng-container *ngIf="endDate">
-                    {{ endDate | date:'MMMM yyyy' | lowercase | translate }}
+                    {{ endDate | date:'MMMM yyyy' | lowercase | translate | titlecase }}
                   </ng-container>
                   <ng-container *ngIf="!endDate">
                     {{ 'today' | translate }}
