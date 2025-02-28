@@ -122,7 +122,6 @@
     "- Managed quarterly planning sessions to lay out clear objectives, breaking them down into actionable milestones and SMART goals to guide team efforts. \n",
     "- Drove sprint planning, backlog grooming, and backlog management to share the vision with the development team and create a strong product roadmap. \n",
     "- Designed UI components to showcase and communicate the vision. \n",
-    "- Successfully aligned product vision with company goals through quarterly planning and SMART objectives. \n",
     "- Delivered measurable results, increasing stakeholder involvement and cross-team collaboration. \n",
     "- Integrated metrics into product design, enabling the team to measure success and control costs. \n",
     "- Reorganized team around Scrum and Kanban, improving communication and collaboration, leading to faster delivery times while improving focus and quality. \n",
@@ -136,7 +135,6 @@
     "- Regularly consulted with users and directors to gather requirements and feedback, and communicate progress. \n",
     "- Measured, structured, and showcased our achievements through different communication channels (Teams channels, SAFe syncs, quarterly planning) \n",
     "- Restructured the team around product vision, sprint goals and stories to improve focus and eliminate waste. \n",
-    "- Successfully launched the internal developer platform, aligning user needs with company objectives. \n",
     "- Increased the sprint achievement rate from 30% to ~80% by introducing Agile and Lean best practices. \n",
     "- Established quarterly and sprint SMART goals, ensuring measurable success while preserving high product quality. \n",
     "- Created a clear product roadmap, backed by business cases, to engage leadership. \n",
@@ -146,11 +144,11 @@
   "sem_summary": [
     "#### **Armory - LiveOps System** \n",
     "*Led the development of the LiveOps system within Armory, a platform designed to support game teams in their online operations.* \n",
+    "- Successfully delivered the LiveOps campaigns and events system, enabling game teams to efficiently manage live content. \n",
     "- Ensured the product provided easy-to-use, modular, and flexible tools for LiveOps managers. \n",
     "- Provided product vision during the MVP phase, setting clear objectives while maintaining flexibility. \n",
     "- Continuously adjusted scope and priorities based on feedback and progress, ensuring consistent value delivery. \n",
     "- Conducted stakeholder workshops with UX research support to establish a long-term vision. \n",
-    "- Successfully delivered the LiveOps campaigns and events system, enabling game teams to efficiently manage live content. \n",
     "- Improved LiveOps workflow, reducing manual actions and increasing adoption. \n",
     "- Enhanced usability through UX-driven changes, making the system more intuitive for LiveOps managers. \n",
     "- Established short feedback loops with the users, ensuring continuous improvement. \n"
@@ -175,7 +173,7 @@
     "- Coached teams on Agile & DevOps practices and tools, improving development and release processes. \n",
     "- Implemented tooling, accelerating adoption of the practices. \n",
     "#### **Internal Development Platform** \n",
-    "*Designed and initiated a new internal development platform (forge), helping internal developments through their lifecycle.* \n",
+    "*Designed and initiated a new internal development platform (forge), helping internal developments efforts.* \n",
     "- Developed a Proof of Concept, demonstrating the feasibility and impact of the project. \n",
     "- Defined infrastructure strategy, centered around cost and resource optimization."
   ],
