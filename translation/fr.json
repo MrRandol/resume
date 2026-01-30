@@ -91,6 +91,7 @@
 
   "product_owner": "Product Owner",
   "senior_product_owner": "Product Owner Senior",
+  "senior_technical_product_manager": "Chef de produit technique Senior",
   "fullstack_developer": "Développeur Fullstack",
   "software_engineer": "Ingénieur Logiciel",
   "devops_cata_inte": "Catalyseur/Intégrateur DevOps",
@@ -109,12 +110,23 @@
   "pspo_name": "PSPO",
 
   "my_summary": [
-    "Je suis un Product Owner avec un passé de développeur, expérimenté en Agile et DevOps. Transformant des défis complexes en stratégies claires et actionnables, j'aligne les équipes techniques et non techniques grâce à une prise de décision basée sur les données. Avec une expertise en roadmaps produit et en initiatives transverses, je génère des résultats concrets à travers l'excellence technique et la valeur métier dans le gaming, le SaaS et le développement de plateformes.  \n🎓 Certifié PSPO • 🚀 Passionné de DevOps & Agile • 🎮 Gamedev"
+    "Leader produit avec un solide bagage technique, spécialisé en Agile et DevOps. Je transforme des défis complexes en stratégies claires et actionnables, en alignant équipes techniques et non techniques grâce à une prise de décision pilotée par les données. Orienté roadmaps et initiatives transverses, je génère un impact concret par l’excellence technique et la valeur métier dans le jeu vidéo, le SaaS et les plateformes numériques. \nOuvert à des opportunités de management produit ou de gestion de projet technique senior. Intéressé également par des rôles de manager technique ou d’architecture de solutions. \n🎓 Certifié PSPO • 🚀 Passionné DevOps & Agile • 🎮 Gamedev"
+  ],
+
+  "bell_summary": [
+    "#### **Plateforme User Management Bell Media** \n",
+    "*Responsable de l'expertise produit technique sur le périmètre User Management en tant que Senior Technical Product Manager, avec un mandat temporaire de Product Owner sur la facturation. Capacité avérée à évoluer dans un environnement complexe et mouvant, en apportant un leadership pragmatique au service des besoins métiers et techniques.* \n",
+    "- Assuré la continuité et la création de valeur pour le domaine Billing en menant la gestion du backlog, l'animation des cérémonies agiles et la collaboration avec les parties prenantes techniques et métiers pour élaborer stratégies et roadmaps. \n",
+    "- Adaptation rapide et prise d'initiative sur des sujets transverses et techniques « orphelins », garantissant la résolution des obstacles critiques et le maintien du momentum inter-équipes. \n",
+    "- Support direct aux escalades clients et accompagnement des équipes clientes internes, renforçant la qualité de service et l'approche B2B2C. \n",
+    "- Apport d'une expertise technique pour soutenir la prise de décision, clarifier les besoins et fluidifier la communication entre le développement, le métier et l'exploitation. \n",
+    "- Mise en œuvre d'améliorations de processus et stabilisation des workflows dans des contextes de forte pression et de changements rapides, avec une implication directe dans la résolution des bloquants critiques. \n",
+    "- Résilience et efficacité démontrées en contexte de transition : intervention proactive pour soutenir les objectifs d'entreprise et les synergies des domaines User Management et Billing."
   ],
 
   "bigfish_summary": [
-    "#### **Plateforme de Publication Mobile** \n",
-    "*Pilotage de la conception et le développement de la plateforme de publication mobile de Big Fish Games, définissant la stratégie produit et son exécution.* \n",
+    "#### **Plateforme de Publication Mobile (pre-MVP)** \n",
+    "*Pilotage de la conception et du développement de la plateforme de publication mobile de Big Fish Games, définissant la stratégie produit et son exécution.* \n",
     "- Recueil des besoins auprès des producteurs, développeurs et directeurs, aboutissant en une roadmap produit. \n",
     "- Identification d'opportunités court terme pour générer de la valeur tout en planifiant la vision long terme. \n",
     "- Synchronisations régulières avec le CTO pour aligner le produit avec la direction technique de l'entreprise. \n",
@@ -147,10 +159,10 @@
     "- Conception d'un système modulaire, flexible et intuitif pour les équipes LiveOps. \n",
     "- Définition de la vision produit pendant la phase MVP, au travers d'objectifs clairs, tout en conservant une flexibilité d'adaptation. \n",
     "- Ajustement continu des priorités selon les retours utilisateurs et l'évolution des besoins pour assurer une livraison de valeur en continu. \n",
+    "- Promotion de la méthodologie Scrum afin d'itérer rapidement sur les incréments de valeur durant la phase MVP et d'assurer la prise en compte des retours des parties prenantes. \n",
     "- Animation d'ateliers avec les parties prenantes avec l'aide de designer UX pour structurer une vision long terme. \n",
     "- Optimisation des workflows LiveOps, réduisant la charge manuelle et favorisant l'adoption. \n",
-    "- Amélioration de l'ergonomie via des optimisations UX, rendant l'outil plus intuitif. \n",
-    "- Mise en place de boucles de feedback courtes, assurant une amélioration continue."  
+    "- Amélioration de l'ergonomie via des optimisations UX, rendant l'outil plus intuitif. \n"
   ],
 
   "ubisoft_summary": [

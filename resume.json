@@ -34,12 +34,21 @@
   ],
   "work": [
     {
+      "organization": "Bell Media",
+      "logo": "bell.png",
+      "position": "senior_technical_product_manager",
+      "url": "https://www.bellmedia.ca",
+      "startDate": "2025-06-15",
+      "endDate": null,
+      "summary": "bell_summary"
+    },
+    {
       "organization": "Big Fish Games",
       "logo": "bigfish.jpg",
       "position": "senior_product_owner",
       "url": "https://bigfishgames.com/",
       "startDate": "2024-06-10",
-      "endDate": null,
+      "endDate": "2025-03-31",
       "summary": "bigfish_summary"
     },
     {

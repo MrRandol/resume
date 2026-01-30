@@ -92,6 +92,7 @@
 
   "product_owner": "Product Owner",
   "senior_product_owner": "Senior Product Owner",
+  "senior_technical_product_manager": "Senior Technical Product Manager",
   "fullstack_developer": "Fullstack developer",
   "software_engineer": "Software Engineer",
   "devops_cata_inte": "Devops Catalyst/Integrator",
@@ -110,21 +111,33 @@
   "pspo_name": "PSPO",
 
   "my_summary": [
-    "I am a Product Owner with a development background, experienced in Agile and DevOps practices. Turning complex challenges into clear, actionable strategies, I align technical and non-technical teams through data-driven decision-making. With a strong focus on product roadmaps and cross-functional initiatives, I drive impactful results through technical excellence and business value in gaming, SaaS, and platform development.  \n🎓 PSPO Certified • 🚀 DevOps & Agile enthusiast • 🎮 Gamedev"
+    "Product leader with a technical background, specializing in Agile and DevOps. Turning complex challenges into clear, actionable strategies, I align technical and non-technical teams through data-driven decision-making. With a strong focus on product roadmaps and cross-functional initiatives, I drive impactful results through technical excellence and business value in gaming, SaaS, and platform development. \n Seeking senior technical product or project management opportunities. Open to technical manager or solution design roles. \n🎓 PSPO Certified • 🚀 DevOps & Agile enthusiast • 🎮 Gamedev"
   ],
 
+  "bell_summary": [
+    "#### **Bell Media User Management Platform** \n",
+    "*Entrusted with bringing technical product expertise to the User Management portfolio as a Senior Technical Product Manager, including an acting Product Owner mandate for Billing. Navigated a complex, evolving environment by providing pragmatic leadership and advancing critical business and technical needs.* \n",
+    "- Ensured continuity and value delivery for the Billing squad by leading backlog management, facilitating agile ceremonies, and collaborating across technical and business stakeholder groups to create aclear strategy and roadmap. \n",
+    "- Rapidly adapted by taking initiative on cross-functional tasks, addressing technical priorities, and resolving ownerless issues to maintain momentum across squads. \n",
+    "- Provided direct support for customer escalations and delivered solutions for internal client teams, strengthening relationships and driving B2B2C mindset. \n",
+    "- Applied strong technical insight to support decision-making, clarify requirements, and bridge communication between development, business, and operations teams. \n",
+    "- Delivered process improvements and workflow stabilization in high-pressure, frequently changing contexts, taking a hands-on approach to resolving blockers and critical issues. \n",
+    "- Demonstrated resilience and effectiveness in an environment of organizational transition, consistently stepping in to support business objectives and shared goals wherever needed within the User Management domains."
+  ],
+
+
   "bigfish_summary": [
-    "#### **Big Fish Games Mobile Publishing Platform** \n",
-    "*Led the design and development of Big Fish Games's mobile game publishing platform, driving product strategy and execution.* \n",
+    "#### **Big Fish Games Mobile Publishing Platform (pre-MVP)** \n",
+    "*Led the design and development of Big Fish Games's next-gen mobile game publishing platform, driving product strategy and execution.* \n",
     "- Gathered requirements and context from producers, developers, and directors, refining them into a product roadmap. \n",
     "- Identified short-term opportunities to create immediate value while planning the long-term vision. \n",
     "- Held regular syncs with the CTO to align the product with the company's technical direction and roadmap. \n",
     "- Managed quarterly planning sessions to lay out clear objectives, breaking them down into actionable milestones and SMART goals to guide team efforts. \n",
     "- Drove sprint planning, backlog grooming, and backlog management to share the vision with the development team and create a strong product roadmap. \n",
     "- Designed UI components to showcase and communicate the vision. \n",
-    "- Consistently delivered measurable results, increasing stakeholder involvement and cross-team collaboration. \n",
+    "- Consistently delivered measurable milestones, increasing stakeholder involvement and cross-team collaboration. \n",
     "- Integrated metrics into product design, enabling the team to measure success and control costs. \n",
-    "- Reorganized team around Scrum and Kanban, improving communication and collaboration, leading to faster delivery times while improving focus and quality. \n",
+    "- Reorganized team around Scrum and Kanban, improving communication, collaboration and predictability. \n",
     "- Eliminated untracked sprint work and sprint inflation by clearly defining sprint goals and stories. \n"
   ],
 
@@ -148,7 +161,7 @@
     "- Ensured the product provided easy-to-use, modular, and flexible tools for LiveOps managers. \n",
     "- Provided product vision during the MVP phase, setting clear objectives while maintaining flexibility. \n",
     "- Continuously adjusted scope and priorities based on feedback and progress, ensuring consistent and impactful value delivery. \n",
-    "- Conducted stakeholder workshops with UX research support to establish a long-term vision. \n",
+    "- Advocated for Scrum methodology to quickly iterate through value increments through the MVP phase and ensure stakeholders feedback. \n",
     "- Improved LiveOps workflow, reducing manual actions and increasing adoption. \n",
     "- Established short feedback loops with the users, ensuring continuous improvement. \n",
     "- Enhanced usability through UX-driven changes, making the system more intuitive and efficient for LiveOps managers. \n"
